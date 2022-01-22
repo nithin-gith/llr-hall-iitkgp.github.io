@@ -15,10 +15,7 @@ export default function Landing() {
       <TopNavbar /> 
       <Header />
       <Services />
-    
-     
-     <Team/>
-      
+      <Team/>
       <Footer />
     </>
   );

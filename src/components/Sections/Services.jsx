@@ -24,7 +24,7 @@ export default function Services() {
             <Advertising className="flexSpaceCenter">
               <AddLeft>
                
-                <h2 className="font40 extraBold">Events</h2>
+                <h2 className="font40 extraBold">Kite Festival</h2>
                 <p className="font12">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
                   diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
@@ -33,9 +33,9 @@ export default function Services() {
                   <div style={{ width: "190px" }}>
                     <FullButton title="Get Started" action={() => alert("clicked")} />
                   </div>
-                  <div style={{ width: "190px", marginLeft: "15px" }}>
+                  {/* <div style={{ width: "190px", marginLeft: "15px" }}>
                     <FullButton title="Contact Us" action={() => alert("clicked")} border />
-                  </div>
+                  </div> */}
                 </ButtonsRow>
               </AddLeft>
               <AddRight>

@@ -1,13 +1,7 @@
 
 
 import React from 'react';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-
-import Typography from '@mui/material/Typography';
-
+import contact from '../../assets/img/contact-1.png'
 
 
 
@@ -29,7 +23,7 @@ const Team = () => {
 
 <div className="card-group">
   <div className="card">
-    <img src="../../assets/img/contact-1.png" className="card-img-top" alt="football"/>
+                <img src={contact} className="card-img-top" alt="football"/>
     <div className="card-body">
       <h5 className="card-title">FootBall</h5>
       <p className="card-text">I like to Play as well  as Watch FootBall. I mainly follow the 'English Priemere League' , the favourite club being Manchester City,</p>
@@ -39,7 +33,7 @@ const Team = () => {
     </div>
   </div>
   <div className="card">
-    <img src="images/chess.jpg" className="card-img-top" alt="chess"/>
+    <img src={contact}  className="card-img-top" alt="chess"/>
     <div className="card-body">
       <h5 className="card-title">Chess</h5>
       <p className="card-text">I have been playing chess from a very early age. I have also participated in various competitions and tournaments. Nowdays, I regularly play Chess</p>
@@ -49,10 +43,10 @@ const Team = () => {
     </div>
   </div>
   <div className="card">
-    <img src="images/politics.jpg"className="card-img-top" alt="politics"/>
+    <img src={contact} className="card-img-top" alt="politics"/>
     <div className="card-body">
       <h5 className="card-title">Politics and Current Affairs</h5>
-      <p className="card-text">Very much interested in Day to Day happenings in the world and Follows all major Political Events happening around. </p>
+      <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis dicta animi repudiandae, quia quas doloremque molestias aliquam tempora ad ab distinctio commodi reprehenderit tempore molestiae blanditiis consectetur soluta atque. Consectetur.</p>
     </div>
     <div className="card-footer">
       <small className="text-muted">P.S. : Not a Leftist or Rightist</small>

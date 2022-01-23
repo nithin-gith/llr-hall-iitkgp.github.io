@@ -2,10 +2,15 @@ import React from "react";
 import styled from "styled-components";
 
 export default function FullButton({ title, action, border }) {
+   function btnclick(){
+    { window.open("https://www.youtube.com/watch?v=yymrcWKPAwQ") }
+  };
   return (
-    <Wrapper
+  
+
+    <Wrapper 
       className="animate pointer radius8"
-      onClick={action ? () => action() : null}
+      onClick={btnclick}
       border={border}
     >
       {title}

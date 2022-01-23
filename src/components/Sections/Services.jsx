@@ -12,7 +12,7 @@ import AddImage4 from "../../assets/img/add/4.png";
 export default function Services() {
   return (
     <Wrapper id="services">
-      <div  style={{ padding: "50px 0" }}>
+      <div  style={{ padding: "20px 0" }}>
         <div className="container">
          
         </div>

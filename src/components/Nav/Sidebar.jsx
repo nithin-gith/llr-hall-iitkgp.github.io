@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-scroll";
+import {NavLink} from "react-router-dom";
 // Assets
 import CloseIcon from "../../assets/svg/CloseIcon";
 import LogoIcon from "../../assets/svg/Logo";
@@ -10,7 +10,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
     <Wrapper className="animate darkBg" sidebarOpen={sidebarOpen}>
       <SidebarHeader className="flexSpaceCenter">
         <div className="flexNullCenter">
-          <LogoIcon />
+         <NavLink to="/"> <LogoIcon /></NavLink>
           <h1 className="whiteColor font20" style={{ marginLeft: "15px" }}>
             Lala Lajpat Rai Hall of Residence
           </h1>
@@ -22,60 +22,60 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
 
       <UlStyle className="flexNullCenter flexColumn">
         <li className="semiBold font15 pointer">
-          <Link
+          <NavLink
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" , color:"white"}}
-            to="home"
+            to="/"
             spy={true}
             smooth={true}
             offset={-60}
           >
             Home
-          </Link>
+          </NavLink>
         </li>
         <li className="semiBold font15 pointer">
-          <Link
+          <NavLink
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" , color:"white"}}
-            to="services"
+            to="/gc"
             spy={true}
             smooth={true}
             offset={-60}
           >
             General Championship
-          </Link>
+          </NavLink>
         </li>
         <li className="semiBold font15 pointer">
-          <Link
+          <NavLink
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px", color:"white" }}
-            to="projects"
+            to="gallery"
             spy={true}
             smooth={true}
             offset={-60}
           >
             Gallery
-          </Link>
+          </NavLink>
         </li>
         <li className="semiBold font15 pointer">
-          <Link
+          <NavLink
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px", color:"white" }}
-            to="blog"
+            to="/hallcouncil"
             spy={true}
             smooth={true}
             offset={-60}
           >
             Hall Council
-          </Link>
+          </NavLink>
         </li>
 
         {/* <li className="semiBold font15 pointer">

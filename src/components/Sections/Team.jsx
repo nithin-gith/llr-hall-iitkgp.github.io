@@ -2,7 +2,7 @@
 
 import React from 'react';
 import contact from '../../assets/img/contact-1.png'
-
+import Fade from 'react-reveal/Fade'
 
 
 
@@ -21,7 +21,10 @@ const Team = () => {
           </div>
           <div id='row'>
 
-<div className="card-group">
+            <div className="card-group">
+            <Fade bottom>
+
+           
   <div className="card">
                 <img src={contact} className="card-img-top" alt="football"/>
     <div className="card-body">
@@ -33,7 +36,9 @@ const Team = () => {
     {/* <div className="card-footer">
       <small className="text-muted">My favourite player is the man in the pic, greatest of all time Cristiano Ronaldo</small>
     </div> */}
-  </div>
+                </div>
+                </Fade>
+                  <Fade bottom>
    <div className="card">
                 <img src={contact} className="card-img-top" alt="football"/>
     <div className="card-body">
@@ -45,7 +50,9 @@ const Team = () => {
     {/* <div className="card-footer">
       <small className="text-muted">I follow and Admire the very famous Indian Grandmasters Vishy Anand and Vidit Gujrathi</small>
     </div> */}
-  </div>
+              </div></Fade> 
+              
+<Fade bottom>
     <div className="card">
                 <img src={contact} className="card-img-top" alt="football"/>
     <div className="card-body">
@@ -57,7 +64,8 @@ const Team = () => {
     {/* <div className="card-footer">
       <small className="text-muted">P.S. : Not a Leftist or Rightist</small>
     </div> */}
-  </div></div>
+                </div>
+            </Fade></div>
 
            
 

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 // Components
-
+import Fade from 'react-reveal/Fade';
 import FullButton from "../Buttons/FullButton";
 // Assets
 import AddImage1 from "../../assets/img/add/1.png";
@@ -12,7 +12,7 @@ import AddImage4 from "../../assets/img/add/4.png";
 export default function Services() {
   return (
     <Wrapper id="services">
-      <div className="lightBg" style={{ padding: "50px 0" }}>
+      <div  style={{ padding: "50px 0" }}>
         <div className="container">
          
         </div>
@@ -23,7 +23,7 @@ export default function Services() {
           <div className="container">
             <Advertising className="flexSpaceCenter">
               <AddLeft>
-               
+               <Fade left>
                 <h2 className="font40 extraBold">Kite Festival</h2>
                 <p className="font12">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
@@ -31,14 +31,19 @@ export default function Services() {
                 </p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
-                    <FullButton title="Get Started" action={() => alert("clicked")} />
+                    <FullButton title="View Gallery" action={() => alert("clicked")} />
                   </div>
                   {/* <div style={{ width: "190px", marginLeft: "15px" }}>
                     <FullButton title="Contact Us" action={() => alert("clicked")} border />
                   </div> */}
-                </ButtonsRow>
+                  </ButtonsRow>
+                  </Fade>
               </AddLeft>
+
               <AddRight>
+                <Fade right>
+
+                
                 <AddRightInner>
                   <div className="flexNullCenter">
                     <AddImgWrapp1 className="flexCenter">
@@ -56,7 +61,8 @@ export default function Services() {
                       <img src={AddImage4} alt="office" />
                     </AddImgWrapp4>
                   </div>
-                </AddRightInner>
+                  </AddRightInner>
+                  </Fade>
               </AddRight>
             </Advertising>
           </div>

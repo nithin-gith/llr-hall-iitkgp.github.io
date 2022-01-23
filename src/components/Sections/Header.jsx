@@ -9,7 +9,7 @@ import Dots from "../../assets/svg/Dots";
 
 export default function Header() {
   return (
-    <Wrapper id="home" className="container flexSpaceCenter ">
+    <Wrapper id="home" className="container flexSpaceCenter  ">
       <LeftSide className="flexCenter ">
         <div>
           <h1 className="extraBold font60">Lala Lajpat Rai Hall of Residence</h1>

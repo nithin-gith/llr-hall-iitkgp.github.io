@@ -3,6 +3,7 @@ export const photos = [
     src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
     width: 4,
     height: 4,
+    href: "www.google.com",
   },
   {
     src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",

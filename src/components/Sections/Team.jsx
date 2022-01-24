@@ -1,7 +1,9 @@
 
 
 import React from 'react';
-import contact from '../../assets/img/contact-1.png'
+import warden3 from '../../assets/img/Wardens/Somjeet-Biswas.jpg'
+import warden2 from '../../assets/img/Wardens/Sourav Mondal.jpg'
+import warden1 from '../../assets/img/Wardens/Tapas Kumar Bandyopadhyay.jpg'
 import Fade from 'react-reveal/Fade'
 
 
@@ -26,7 +28,7 @@ const Team = () => {
 
            
   <div className="card">
-                <img src={contact} className="card-img-top" alt="football"/>
+                <img src={warden1} className="card-img-top" alt="football"/>
     <div className="card-body">
       <h5 className="card-title"><a href ="http://www.iitkgp.ac.in/department/MT/faculty/mt-tapas" target="_blank">Tapas Kumar Bandyopadhyay</a></h5>
       <p className = "card-text text-muted">Associate Professor</p>
@@ -40,7 +42,7 @@ const Team = () => {
                 </Fade>
                   <Fade bottom>
    <div className="card">
-                <img src={contact} className="card-img-top" alt="football"/>
+                <img src={warden2} className="card-img-top" alt="football"/>
     <div className="card-body">
       <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/CH/faculty/ch-smondal" target="_blank">Sourav Mondal</a></h5>
       <p className = "card-text text-muted">Assistant Professor Grade-i</p>
@@ -54,7 +56,7 @@ const Team = () => {
               
 <Fade bottom>
     <div className="card">
-                <img src={contact} className="card-img-top" alt="football"/>
+                <img src={warden3} className="card-img-top" alt="football"/>
     <div className="card-body">
       <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/MT/faculty/mt-somjeetbiswas" target ="_blank">Somjeet Biswas</a></h5>
       <p className = "card-text text-muted">Associate Professor</p>

@@ -13,11 +13,7 @@ export default function Landing() {
   return (
     <>
       <TopNavbar /> 
-     
-    <GeneralChamp/>
-      
-     
-      
+      <GeneralChamp/>
       <Footer />
     </>
   );

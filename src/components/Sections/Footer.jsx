@@ -14,11 +14,12 @@ export default function Contact() {
   }
 
 
+
   return (
     <Wrapper>
       <div className="darkBg">
         <div className="container" style={{padding:"0"}}>
-          <InnerWrapper  style={{ display:"flex",justifyContent:"space-between",padding: "30px 0" ,height:"150px"}}>
+          <InnerWrapper  style={{ display:"flex",justifyContent:"space-between",padding: "30px 0" }}>
             <Link className="flexCenter animate pointer"  to="home" smooth={true} offset={-80}>
               <LogoImg />
               <h1 className="font15 extraBold whiteColor" style={{ marginLeft: "15px" }}>
@@ -27,10 +28,15 @@ export default function Contact() {
             </Link>
             {/* <FacebookIcon/> */}
             <div className="flexColumn" style ={{display:"flex",justifyContent:"space-between"}}>
-              {/* <h1 className="whiteColor font20" style={{textDecoration:"under-lined"}}>Social Connect</h1> */}
-              <div style ={{display:"flex",paddingTop:"30px"}}>
+              <h1 className="purpleColor font20" style={{textDecoration:"under-lined",paddingBottom:"10px"}}>Contact Us</h1>
+              <p className="whiteColor font15">Address : Lala Lajpat Rai Hall of Residence, IIT Kharagpur</p>
+              <p className="whiteColor font15">Kharagpur,India - 721302</p>
+              <p className="whiteColor font15">Phone (Office) : +91 3222 2 81134</p>
+              <p className="whiteColor font15">Phone (Security) : +91 3222 2 81136</p>
+              <p className="whiteColor font15">Email : llrhall@iitkgp.ac.in</p>
 
-                <a href="https://www.facebook.com/Lajpatian/" target="_blank" rel="noreferrer" style= {{paddingRight:"10px"}}><FaFacebookSquare style ={{color:"white",height:"25px",width:"25px"}}/></a>
+              <div style ={{display:"flex",paddingTop:"20px"}}>
+                <a href="https://www.facebook.com/Lajpatian/" target="_blank" rel="noreferrer" style= {{paddingRight:"10px",paddingBottom:"20px"}}><FaFacebookSquare style ={{color:"white",height:"25px",width:"25px"}}/></a>
                 <a href ="https://www.linkedin.com/company/lala-lajpat-rai-hall-of-residence-iit-kharagpur/about/" target="_blank" rel="noreferrer"><FaLinkedin style ={{color:"white",height:"25px",width:"25px"}}/></a>
               </div>
               

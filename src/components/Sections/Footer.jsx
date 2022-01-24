@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 // Assets
 import LogoImg from "../../assets/svg/Logo";
-import FacebookIcon from '@mui/icons-material/FacebookSharp';
+
 import {FaFacebookSquare} from 'react-icons/fa';
 import {FaLinkedin} from 'react-icons/fa';
 

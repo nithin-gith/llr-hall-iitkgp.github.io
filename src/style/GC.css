@@ -1,5 +1,5 @@
 .wrap {
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
 
 .head {
@@ -75,6 +75,10 @@
   width: 100%;
   border-radius: 5%;
   box-shadow: 10px 10px 30px 0 rgba(0, 0, 0, 0.3);
+<<<<<<< HEAD
 } */
 
 
+=======
+}
+>>>>>>> 6825d4b3181a9fad013fc529b75566633515165b

@@ -14,11 +14,8 @@ export default function Landing() {
   return (
     <>
       <TopNavbar /> 
-     
-<HallCouncil/>
-      
-     
-      
+      <HallCouncil/>
+      <Footer />
      
     </>
   );

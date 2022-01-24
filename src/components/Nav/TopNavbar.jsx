@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { Link } from "react-scroll";
+import { Link, NavLink } from "react-router-dom";
 // Components
 import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
@@ -27,7 +27,7 @@ export default function TopNavbar() {
       {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
       <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "80px" } : { height: "80px" }}>
         <NavInner className="container flexSpaceCenter">
-          <Link className="pointer flexNullCenter" to="home" smooth={true}>
+          <Link className="pointer flexNullCenter" to="/" smooth={true}>
             <LogoIcon />
             <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
               Lala Lajpat Rai Hall of Residence
@@ -42,28 +42,28 @@ export default function TopNavbar() {
           <UlWrapper className="flexNullCenter">
 
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="home" spy={true} smooth={true} offset={-80}>
+              <NavLink activeClassName="is-active" style={{ padding: "10px 15px" }} to="/" spy={true} smooth={true} offset={-80}>
                 Home
-              </Link>
+              </NavLink>
             </li>
 
             <li className="semiBold font15 pointer">
-              <Link activeClass="active"  style={{ padding: "10px 15px" }} to="services" spy={true} smooth={true} offset={-80}>
+              <NavLink to="/gc"  activeClass="active"  style={{ padding: "10px 15px" }} spy={true} smooth={true} offset={-80}>
                 General Championship
-              </Link>
+              </NavLink>
             </li>
             
 
             <li className="semiBold font15 pointer">
-              <Link activeClass="active"  style={{ padding: "10px 15px" }} to="projects" spy={true} smooth={true} offset={-80}>
+              <NavLink activeClass="active"  style={{ padding: "10px 15px" }} to="/gallery" spy={true} smooth={true} offset={-80}>
                 Gallery
-              </Link>
+              </NavLink>
             </li>
 
             <li className="semiBold font15 pointer">
-              <Link activeClass="active"  style={{ padding: "10px 15px" }} to="blog" spy={true} smooth={true} offset={-80}>
+              <NavLink activeClass="active"  style={{ padding: "10px 15px" }} to="/hallcouncil" spy={true} smooth={true} offset={-80}>
                 Hall Council
-              </Link>
+              </NavLink>
             </li>
 
             {/* <li className="semiBold font15 pointer">

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/img/header-image.jpg'
+import logo from '../../assets/img/Hall.jfif'
 import '../../style/About.css'
 import Fade from 'react-reveal/Fade';
 const About = () => {

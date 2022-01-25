@@ -15,8 +15,8 @@ const Card = (props) => {
       <h5 className="card-title">{props.name}</h5>
       <p className = "card-text text-muted">{props.position}</p>
      
-    <a href={props.fb} target="_blank" rel="noreferrer" style={{ paddingRight: "10px" }}><FaFacebookSquare style={{ color: "blue", height: "25px", width: "25px" }} /></a>
-     <a href={props.linkedin} target="_blank" rel="noreferrer" style= {{paddingRight:"10px"}}><FaLinkedin style ={{color:"blue",height:"25px",width:"25px"}}/></a>
+    <a href={props.fb} target="_blank" rel="noreferrer" style={{ paddingRight: "10px" }}><FaFacebookSquare style={{ backgroundColor:"white", height: "25px", width: "25px" }} /></a>
+     <a href={props.linkedin} target="_blank" rel="noreferrer" style= {{paddingRight:"10px"}}><FaLinkedin style ={{backgroundColor:"white",height:"25px",width:"25px"}}/></a>
     </div>
   </div>
              

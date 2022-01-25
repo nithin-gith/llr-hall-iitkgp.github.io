@@ -6,7 +6,7 @@ import LogoImg from "../../assets/svg/Logo";
 
 import {FaFacebookSquare} from 'react-icons/fa';
 import {FaLinkedin} from 'react-icons/fa';
-
+import "../../style/footer.css";
 export default function Contact() {
 
   const getCurrentYear = () => {
@@ -19,8 +19,8 @@ export default function Contact() {
     <Wrapper>
       <div className="darkBg">
         <div className="container" style={{padding:"0"}}>
-          <InnerWrapper  style={{ display:"flex",justifyContent:"space-between",padding: "30px 0" }}>
-            <Link className="flexCenter animate pointer"  to="home" smooth={true} offset={-80}>
+          <InnerWrapper  style={{ display:"flex",justifyContent:"space-between",padding: "30px 20px" }}>
+            <Link className="flexCenter animate pointer flexCenter1"  to="home" smooth={true} offset={-80}>
               <LogoImg />
               <h1 className="font15 extraBold whiteColor" style={{ marginLeft: "15px" }}>
                 Lala Lajpat Rai Hall of Residence
@@ -35,8 +35,8 @@ export default function Contact() {
               <p className="whiteColor font15">Phone (Security) : +91 3222 2 81136</p>
               <p className="whiteColor font15">Email : llrhall@iitkgp.ac.in</p>
 
-              <div style ={{display:"flex",paddingTop:"20px"}}>
-                <a href="https://www.facebook.com/Lajpatian/" target="_blank" rel="noreferrer" style= {{paddingRight:"10px",paddingBottom:"20px"}}><FaFacebookSquare style ={{color:"white",height:"25px",width:"25px"}}/></a>
+              <div className="iconsDiv">
+                <a href="https://www.facebook.com/Lajpatian/" target="_blank" rel="noreferrer" style= {{paddingRight:"10px"}}><FaFacebookSquare style ={{color:"white",height:"25px",width:"25px"}}/></a>
                 <a href ="https://www.linkedin.com/company/lala-lajpat-rai-hall-of-residence-iit-kharagpur/about/" target="_blank" rel="noreferrer"><FaLinkedin style ={{color:"white",height:"25px",width:"25px"}}/></a>
               </div>
               

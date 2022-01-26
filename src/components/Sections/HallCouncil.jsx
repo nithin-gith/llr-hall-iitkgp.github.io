@@ -61,7 +61,7 @@ export default function HallCouncil() {
         <div className='box'>
                 <div>
                     <h2>
-                        <div className="text">Hall  Council </div>
+                        <div className="text" style ={{marginBottom:"2rem",marginTop:"6rem"}}>Hall  Council </div>
                     </h2>
   </div>
 

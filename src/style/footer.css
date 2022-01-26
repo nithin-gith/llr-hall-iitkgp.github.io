@@ -1,0 +1,16 @@
+.iconsDiv{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+@media (max-width:620px){
+    .flexColumn{
+        margin-top:20px;
+        margin-left:20px;
+    }
+}
+@media(max-width:550px){
+    .flexCenter1{
+        margin-right:auto;
+        margin-left:20px;
+    }
+}

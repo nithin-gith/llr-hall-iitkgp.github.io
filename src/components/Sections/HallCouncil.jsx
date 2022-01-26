@@ -61,16 +61,14 @@ export default function HallCouncil() {
       <>
       
         <div className='box'>
-                <div>
-                    <h2>
-                        <div className="text" style ={{marginBottom:"2rem",marginTop:"6rem"}}><h2>Hall  Council</h2> </div>
-                    </h2>
-  </div>
+          <div className="head">
+                <h2 className="text">Hall Council</h2>
+          </div>
 
       
     <Box  sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" centered>
+        <Tabs  style ={{marginTop:"2rem"}}value={value} onChange={handleChange} aria-label="basic tabs example" centered>
           <Tab label="2021-2022" {...a11yProps(0)} />
           <Tab label="2020-2021" {...a11yProps(1)} />
           <Tab label="2019-2020" {...a11yProps(2)} />

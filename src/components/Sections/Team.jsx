@@ -5,7 +5,7 @@ import warden3 from '../../assets/img/Wardens/Somjeet-Biswas.jpg'
 import warden2 from '../../assets/img/Wardens/Sourav Mondal.jpg'
 import warden1 from '../../assets/img/Wardens/Tapas Kumar Bandyopadhyay.jpg'
 import Fade from 'react-reveal/Fade'
-
+import '../../style/index.css'
 
 
 const Team = () => {

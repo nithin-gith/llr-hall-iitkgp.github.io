@@ -24,63 +24,45 @@ const Team = () => {
           <div id='row'>
 
             <div className="card-group">
-            <Fade bottom>
 
-           
-  <div className="card">
-                <img src={warden1} className="card-img-top" alt="football"/>
-    <div className="card-body">
-      <h5 className="card-title"><a href ="http://www.iitkgp.ac.in/department/MT/faculty/mt-tapas" target="_blank">Tapas Kumar Bandyopadhyay</a></h5>
-      <p className = "card-text text-muted">Associate Professor</p>
-      <p className = "card-text text-muted">Metallurgical And Materials Engineering</p>
-      {/* <p className="card-text">I like to Play as well  as Watch FootBall. I mainly follow the 'English Priemere League' , the favourite club being Manchester City,</p> */}
-    </div>
-    {/* <div className="card-footer">
-      <small className="text-muted">My favourite player is the man in the pic, greatest of all time Cristiano Ronaldo</small>
-    </div> */}
+              <Fade bottom>
+                <div className="card">
+                  <img src={warden1} className="card-img-top" alt="football"/>
+                  <div className="card-body">
+                    <h5 className="card-title"><a href ="http://www.iitkgp.ac.in/department/MT/faculty/mt-tapas" target="_blank" rel="noreferrer">Tapas Kumar Bandyopadhyay</a></h5>
+                    <p className = "card-text text-muted">Associate Professor</p>
+                    <p className = "card-text text-muted">Metallurgical And Materials Engineering</p>
+                  </div>
                 </div>
-                </Fade>
-                  <Fade bottom>
-   <div className="card">
-                <img src={warden2} className="card-img-top" alt="football"/>
-    <div className="card-body">
-      <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/CH/faculty/ch-smondal" target="_blank">Sourav Mondal</a></h5>
-      <p className = "card-text text-muted">Assistant Professor Grade-i</p>
-      <p className = "card-text text-muted">Chemical Engineering</p>
-      {/* <p className="card-text">I have been playing chess from a very early age. I have also participated in various competitions and tournaments. Nowdays, I regularly play Chess</p> */}
-    </div>
-    {/* <div className="card-footer">
-      <small className="text-muted">I follow and Admire the very famous Indian Grandmasters Vishy Anand and Vidit Gujrathi</small>
-    </div> */}
-              </div></Fade> 
+              </Fade>
+
+              <Fade bottom>
+                <div className="card">
+                  <img src={warden2} className="card-img-top" alt="football"/>
+                  <div className="card-body">
+                    <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/CH/faculty/ch-smondal" target="_blank" rel="noreferrer">Sourav Mondal</a></h5>
+                    <p className = "card-text text-muted">Assistant Professor Grade-i</p>
+                    <p className = "card-text text-muted">Chemical Engineering</p>
+                  </div>
+                </div>
+              </Fade> 
               
-<Fade bottom>
-    <div className="card">
-                <img src={warden3} className="card-img-top" alt="football"/>
-    <div className="card-body">
-      <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/MT/faculty/mt-somjeetbiswas" target ="_blank">Somjeet Biswas</a></h5>
-      <p className = "card-text text-muted">Associate Professor</p>
-      <p className = "card-text text-muted">Metallurgical And Materials Engineering</p>
-      {/* <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis dicta animi repudiandae, quia quas doloremque molestias aliquam tempora ad ab distinctio commodi reprehenderit tempore molestiae blanditiis consectetur soluta atque. Consectetur.</p> */}
-    </div>
-    {/* <div className="card-footer">
-      <small className="text-muted">P.S. : Not a Leftist or Rightist</small>
-    </div> */}
+              <Fade bottom>
+                <div className="card">
+                  <img src={warden3} className="card-img-top" alt="football"/>
+                  <div className="card-body">
+                    <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/MT/faculty/mt-somjeetbiswas" target ="_blank" rel="noreferrer">Somjeet Biswas</a></h5>
+                    <p className = "card-text text-muted">Associate Professor</p>
+                    <p className = "card-text text-muted">Metallurgical And Materials Engineering</p>
+                  </div>
                 </div>
-            </Fade></div>
-
-           
-
-             
+              </Fade>
+              
+            </div>
           </div>
         </div>
       </div>
-    
-
-
-
-
-    </div>
+  </div>
   )
 }
 

@@ -59,7 +59,7 @@ export default function BasicTabs() {
         <>
             
           <div className="head">
-                <h2 className="text">Best Performances in General ChampionShip</h2>
+                <h2 className="text">Best Performances in General Championship</h2>
           </div>
           <div className="box" style ={{marginTop:"2rem"}}>
             <Box sx={{ width: '100%',marginTop:"0px" }}>

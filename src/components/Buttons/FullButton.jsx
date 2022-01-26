@@ -1,18 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function FullButton({ title, action, border }) {
+
+export default function FullButton({ title, action, border,icon,link }) {
    function btnclick(){
-    { window.open("https://www.youtube.com/watch?v=yymrcWKPAwQ") }
+    { window.open(link) }
   };
   return (
-  
-
     <Wrapper 
       className="animate pointer radius8"
       onClick={btnclick}
       border={border}
     >
+      <span style = {{paddingRight:"5px"}}>{icon}</span>
       {title}
     </Wrapper>
   );

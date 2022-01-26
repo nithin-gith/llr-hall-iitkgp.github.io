@@ -62,6 +62,12 @@
   border-radius: 5%;
   box-shadow: 10px 10px 30px 0 rgba(0, 0, 0, 0.3);
 }
+@media(max-width:1200px){
+  .about{
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* img {
   width:50px;
 

@@ -15,10 +15,18 @@ export default function Landing() {
       <TopNavbar /> 
       <Header />
       <About/>
-      <Services />
-      
+      <Services 
+          eventname= "Kite Festival" 
+          content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
+                    labore et dolore magna aliquyam erat, seddiam voluptua. At vero eos et accusam et justo duo dolores et 
+                    ea rebum."/>
+      <Services 
+          eventname= "Award Ceremony" 
+          content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
+                    labore et dolore magna aliquyam erat, seddiam voluptua. At vero eos et accusam et justo duo dolores et 
+                    ea rebum."
+          />
       <Team />
-      
       <Footer />
     </>
   );

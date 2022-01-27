@@ -26,7 +26,7 @@ export default function Landing() {
           content="The National flag was unfurled and a series of enriching and melodious cultural programmes were conducted to induce a sense of patriotism in all the boarders on the 73rd Republic Day."
           />
       <Team />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

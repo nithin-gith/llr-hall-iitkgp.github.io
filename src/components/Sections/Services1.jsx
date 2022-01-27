@@ -10,6 +10,7 @@ import AddImage3 from "../../assets/img/Recent Events/Republic Day 2022/Cover6.j
 import AddImage4 from "../../assets/img/Recent Events/Republic Day 2022/Cover2.jpg";
 
 import {FaPhotoVideo} from 'react-icons/fa';
+import { Link } from "react-router-dom";
 
 export default function Services(props) {
   return (
@@ -27,11 +28,11 @@ export default function Services(props) {
               <AddLeft>
                <Fade left>
                 <h2 className="font40 extraBold">{props.eventname}</h2>
-                <p className="font16">{props.content}</p>
+                <p className="font20">{props.content}</p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
-                  <FullButton title="View Gallery" icon ={<FaPhotoVideo />} action={() => alert("clicked")} />
-                  </div>
+                  <Link to="gallery/republicday22"><FullButton title="View Gallery" icon ={<FaPhotoVideo />} action={() => alert("clicked")} />
+                  </Link></div>
                   {/* <div style={{ width: "190px", marginLeft: "15px" }}>
                     <FullButton title="Contact Us" action={() => alert("clicked")} border />
                   </div> */}

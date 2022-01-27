@@ -8,8 +8,12 @@ import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 import {FaPlayCircle} from 'react-icons/fa';
 import {FaPhotoVideo} from 'react-icons/fa';
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
+   function btnclick(youtube){
+    { window.open(youtube) }
+  };
   return (
     <Wrapper id="home" className="container flexSpaceCenter  ">
       <LeftSide className="flexCenter ">
@@ -19,10 +23,10 @@ export default function Header() {
             "Once a Lajpatian, ever a Lajpatian."
           </HeaderP>
           <BtnWrapper>
-            <FullButton  
+         <FullButton  
                 title="Watch Video" 
                 icon = {<FaPlayCircle/>} 
-                link ="https://www.youtube.com/watch?v=yymrcWKPAwQ"
+                onClick={btnclick("https://www.youtube.com/watch?v=yymrcWKPAwQ")}
             />
           </BtnWrapper>
         </div>

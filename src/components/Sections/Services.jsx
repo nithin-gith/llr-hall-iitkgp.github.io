@@ -4,10 +4,12 @@ import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
 import FullButton from "../Buttons/FullButton";
 // Assets
-import AddImage1 from "../../assets/img/add/1.png";
+import AddImage1 from "../../assets/img/Recent Events/Kite Festival 2022/Cover.jpg";
 import AddImage2 from "../../assets/img/add/2.png";
 import AddImage3 from "../../assets/img/add/3.png";
 import AddImage4 from "../../assets/img/add/4.png";
+
+
 import {FaPhotoVideo} from 'react-icons/fa';
 
 export default function Services(props) {
@@ -26,7 +28,7 @@ export default function Services(props) {
               <AddLeft>
                <Fade left>
                 <h2 className="font40 extraBold">{props.eventname}</h2>
-                <p className="font12">{props.content}</p>
+                <p className="font16">{props.content}</p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
                   <FullButton title="View Gallery" icon ={<FaPhotoVideo />} action={() => alert("clicked")} />
@@ -45,7 +47,7 @@ export default function Services(props) {
                 <AddRightInner>
                   <div className="flexNullCenter">
                     <AddImgWrapp1 className="flexCenter">
-                      <img src={AddImage1} alt="office" />
+                      <img src={AddImage1} alt="office"/>
                     </AddImgWrapp1>
                     <AddImgWrapp2>
                       <img src={AddImage2} alt="office" />

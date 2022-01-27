@@ -66,11 +66,13 @@ export default function BasicTabs() {
               value={value}
               onChange={handleChange}
               aria-label="basic tabs example"
+              textColor="dark" 
+              indicatorColor="secondary" 
               centered
             >
-              <Tab label="Technology" {...a11yProps(0)} />
-              <Tab label="Sports and Games" {...a11yProps(1)} />
-              <Tab label="Social and Cultural" {...a11yProps(2)} />
+              <Tab label="Technology" style ={{outline:"none"}} {...a11yProps(0)} />
+              <Tab label="Sports and Games" style ={{outline:"none"}} {...a11yProps(1)} />
+              <Tab label="Social and Cultural" style ={{outline:"none"}} {...a11yProps(2)} />
             </Tabs>
           </Box>
 

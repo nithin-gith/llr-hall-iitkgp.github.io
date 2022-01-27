@@ -27,9 +27,9 @@ export default function TopNavbar() {
       {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
       <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "80px" } : { height: "80px" }}>
         <NavInner className="container flexSpaceCenter">
-          <Link className="pointer flexNullCenter" to="/" smooth={true}>
+          <Link className="pointer flexNullCenter link-hall" to="/" smooth={true}>
             <LogoIcon />
-            <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
+            <h1 style={{ marginLeft: "15px"}} className="font20 extraBold">
               Lala Lajpat Rai Hall of Residence
             </h1>
           </Link>

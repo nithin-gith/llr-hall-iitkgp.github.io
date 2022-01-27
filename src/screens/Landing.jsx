@@ -29,7 +29,7 @@ export default function Landing() {
                     ea rebum."
           />
       <Team />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

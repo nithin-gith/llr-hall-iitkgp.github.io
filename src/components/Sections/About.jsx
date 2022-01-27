@@ -16,7 +16,7 @@ const About = () => {
         </Fade>
 <Fade right>
 
-        <div className="about-text">
+        <div className="about-text" style={{width:"90%"}}>
         <h1 className="heading-about">About Us</h1>
         <hr className="rule-about"/>
         <i>The hall was founded on March 18, 1967, and the name was given in honour of the great freedom fighter and leader of Indian Independence Movement, Lala Lajpat Rai.</i>

@@ -13,6 +13,7 @@ import product from "../assets/img/GC/product.jpg";
 import badminton from "../assets/img/GC/badminton.jpg";
 
 import play from "../assets/img/GC/play.jpg";
+import { width } from "@mui/system";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -53,8 +54,10 @@ export default function BasicTabs() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-
+ 
   return (
+
+   
     <>
       <div className="head">
         <h2 className="text">Best Performances in General Championship</h2>
@@ -62,17 +65,20 @@ export default function BasicTabs() {
       <div className="box" style={{ marginTop: "2rem" }}>
         <Box sx={{ width: "100%", marginTop: "0px" }}>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-            <Tabs
+            <Tabs 
               value={value}
+              
               onChange={handleChange}
               aria-label="basic tabs example"
               textColor="dark" 
               indicatorColor="secondary" 
               centered
+              
+              
             >
-              <Tab label="Technology" style ={{outline:"none"}} {...a11yProps(0)} />
-              <Tab label="Sports and Games" style ={{outline:"none"}} {...a11yProps(1)} />
-              <Tab label="Social and Cultural" style ={{outline:"none"}} {...a11yProps(2)} />
+              <Tab label="Technology" style ={{outline:"none" ,width:"30%"}} {...a11yProps(0)} />
+              <Tab label="Sports and Games" style ={{outline:"none" ,width:"30%" }} {...a11yProps(1)} />
+              <Tab label="Social and Cultural" style ={{outline:"none",width:"30%"}} {...a11yProps(2)} />
             </Tabs>
           </Box>
 

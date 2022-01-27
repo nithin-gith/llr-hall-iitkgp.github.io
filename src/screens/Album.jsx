@@ -23,14 +23,13 @@ const Album = () => (
           <Card xs={12} sm={6} md={4} sx={{
             maxWidth:
               475,
-            maxHeight : 400
+            
              
               }}  >
             <CardMedia component="img" image={album.thumbnail}
               sx={{
             
-            maxHeight : 400,
-             
+           
               }}
               style={{
                 marginTop : '2%',

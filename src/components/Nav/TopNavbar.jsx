@@ -29,7 +29,7 @@ export default function TopNavbar() {
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter link-hall" to="/" smooth={true}>
             <LogoIcon />
-            <h1 style={{ marginLeft: "15px"}} className="font20 extraBold">
+            <h1 className="font20 extraBold ">
               Lala Lajpat Rai Hall of Residence
             </h1>
           </Link>

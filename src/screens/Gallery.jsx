@@ -18,7 +18,7 @@ const GalleryPage = () => {
     return (
         <>
         <div className="head">
-          <h2 className="text"></h2>
+                <h2 className="text"> Photos</h2>
         </div>
        <Gallery photos={photos} /> </>
          

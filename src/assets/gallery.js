@@ -446,7 +446,7 @@ export const albums = {
       },
     ],
   },
-  sitoliya: {
+  Sitoliya: {
     title: "Sitoliya 2022",
     thumbnail: require("./img/Recent Events/Sitoliya/DSCF4683-71.JPG").default,
     photos: [
@@ -617,7 +617,7 @@ export const albums = {
       },
     ],
   },
-  illumination: {
+  Illumination: {
     title: "Illumination",
     thumbnail: require("./img/Recent Events/Illumination/2018.jpg").default,
     photos: [
@@ -645,17 +645,74 @@ export const albums = {
   },
   Rangoli: {
     title: "Rangoli",
-    thumbnail: require("./img/Recent Events/Rangoli/2013.jpg").default,
+    thumbnail: require("./img/Recent Events/Rangoli/2018.jpg").default,
     photos: [
       {
-        src: require("./img/Recent Events/Rangoli/2013.jpg").default,
-        width: 2,
+        src: require("./img/Recent Events/Rangoli/2019.jpg").default,
+        width: 2.5,
         height: 1,
       },
       {
-        src: require("./img/Recent Events/Rangoli/2013.jpg").default,
+        src: require("./img/Recent Events/Rangoli/2018.jpg").default,
+        width: 1.6,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Rangoli/2016 i.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Rangoli/2016 ii.jpg").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Rangoli/2016 iii.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Rangoli/2014.jpg").default,
         width: 1,
-        height: 1.5,
+        height: 1.05,
+      },
+      {
+        src: require("./img/Recent Events/Rangoli/2013.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+    ],
+  },
+  Firstbatch: {
+    title: "First Batch of LLR",
+    thumbnail:
+      require("./img/Recent Events/Founding Batch LLR/10521729_885724531479977_847789903585001942_o.jpg")
+        .default,
+    photos: [
+      {
+        src: require("./img/Recent Events/Founding Batch LLR/10521729_885724531479977_847789903585001942_o.jpg")
+          .default,
+        width: 1.34,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Founding Batch LLR/10865849_885724448146652_6858921659593434041_o.jpg")
+          .default,
+        width: 1.34,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Founding Batch LLR/10931708_885724348146662_6224512444498537201_o.jpg")
+          .default,
+        width: 1.34,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Founding Batch LLR/Group Photo.jpg")
+          .default,
+        width: 1.34,
+        height: 1,
       },
     ],
   },

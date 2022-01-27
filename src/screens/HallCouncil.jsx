@@ -108,7 +108,7 @@ export default function HallCouncil() {
           </Box>
           <TabPanel value={value} index={0}>
             <div className=" row justify-content-center">
-                <Card
+                <Card2
                   img={hp}
                   name="Divakar Chauhan"
                   position="Hall President"
@@ -116,7 +116,7 @@ export default function HallCouncil() {
                   linkedin="https://www.linkedin.com/in/aditya-verma-7236a2107/"
                 />
 
-                <Card
+                <Card2
                   img={ssm}
                   name="Dhruv Singhal"
                   position="Second Senate Member"
@@ -190,7 +190,7 @@ export default function HallCouncil() {
 
           <TabPanel value={value} index={1}>
             <div className=" row justify-content-center">
-              <Card
+              <Card2
                 img={hp2021}
                 name="Saurabh Gupta"
                 position="Hall President"
@@ -198,7 +198,7 @@ export default function HallCouncil() {
                 linkedin="https://www.linkedin.com/in/saurabh-gupta-1b334479/"
               />
 
-              <Card
+              <Card2
                 img={ssm2021}
                 name="Rupam Kumar Dubey"
                 position="Second Senate Member"
@@ -273,7 +273,7 @@ export default function HallCouncil() {
           </TabPanel>
           <TabPanel value={value} index={2}>
             <div className=" row justify-content-center">
-              <Card
+              <Card2
                 img={hp1920}
                 name="Sudhir Singh Bhadauria"
                 position="Hall President"
@@ -281,7 +281,7 @@ export default function HallCouncil() {
                 linkedin="https://www.linkedin.com/in/sudhir-singh-bhadauria-a72006129/"
               />
 
-              <Card
+              <Card2
                 img={ssm1920}
                 name="Devarakonda Vinay Kumar"
                 position="Second Senate Member"

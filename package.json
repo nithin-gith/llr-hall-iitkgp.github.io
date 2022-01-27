@@ -1,6 +1,6 @@
 {
-  "name": "website-new",
-  "homepage": "https://LLR-Hall-IITKGP.github.io/website-new",
+  "name": "llr-hall-iitkgp.github.io",
+  "homepage": "https://llr-hall-iitkgp.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

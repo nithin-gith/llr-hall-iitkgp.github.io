@@ -102,13 +102,13 @@ const BurderWrapper = styled.button`
   height: 100%;
   padding: 0 15px;
   display: none;
-  @media (max-width: 760px) {
+  @media (max-width: 970px) {
     display: block;
   }
 `;
 const UlWrapper = styled.ul`
   display: flex;
-  @media (max-width: 760px) {
+  @media (max-width: 970px) {
     display: none;
   }
 `;

@@ -6,6 +6,8 @@ import FullButton from "../Buttons/FullButton";
 import HeaderImage from "../../assets/img/header-image.jpg";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
+import {FaPlayCircle} from 'react-icons/fa';
+import {FaPhotoVideo} from 'react-icons/fa';
 
 export default function Header() {
   return (
@@ -17,7 +19,11 @@ export default function Header() {
             "Once a Lajpatian, ever a Lajpatian."
           </HeaderP>
           <BtnWrapper>
-            <FullButton  title="Watch Video" />
+            <FullButton  
+                title="Watch Video" 
+                icon = {<FaPlayCircle/>} 
+                link ="https://www.youtube.com/watch?v=yymrcWKPAwQ"
+            />
           </BtnWrapper>
         </div>
       </LeftSide>

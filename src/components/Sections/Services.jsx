@@ -8,8 +8,9 @@ import AddImage1 from "../../assets/img/add/1.png";
 import AddImage2 from "../../assets/img/add/2.png";
 import AddImage3 from "../../assets/img/add/3.png";
 import AddImage4 from "../../assets/img/add/4.png";
+import {FaPhotoVideo} from 'react-icons/fa';
 
-export default function Services() {
+export default function Services(props) {
   return (
     <Wrapper id="services">
       <div  style={{ padding: "20px 0" }}>
@@ -17,21 +18,18 @@ export default function Services() {
          
         </div>
       </div>
-      <div className="whiteBg" style={{ padding: "60px 0" }}>
+      <div className="whiteBg" style={{ padding: "20px 0" }}>
         
         <div className="lightBg">
           <div className="container">
             <Advertising className="flexSpaceCenter">
               <AddLeft>
                <Fade left>
-                <h2 className="font40 extraBold">Kite Festival</h2>
-                <p className="font12">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                  diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                </p>
+                <h2 className="font40 extraBold">{props.eventname}</h2>
+                <p className="font12">{props.content}</p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
-                    <FullButton title="View Gallery" action={() => alert("clicked")} />
+                  <FullButton title="View Gallery" icon ={<FaPhotoVideo />} action={() => alert("clicked")} />
                   </div>
                   {/* <div style={{ width: "190px", marginLeft: "15px" }}>
                     <FullButton title="Contact Us" action={() => alert("clicked")} border />
@@ -110,7 +108,7 @@ const Advertising = styled.div`
 `;
 const ButtonsRow = styled.div`
   @media (max-width: 860px) {
-    justify-content: space-between;
+    justify-content: center;
   }
 `;
 const AddLeft = styled.div`

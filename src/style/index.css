@@ -400,3 +400,8 @@ body {
 .card-img-top {
   height: 30vw;
 }
+@media(max-width:580px){
+  .card-img-top{
+    height:max-content;
+  }
+}

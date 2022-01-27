@@ -22,7 +22,9 @@ import studentswelfare2122 from '../../assets/img/Hall Council/current/Ashish Gu
 import { Fade } from '@mui/material';
 import Card from './Card';
 import Card2 from './Card2';
-import '../../style/Card.css'
+import '../../style/Card.css';
+import '../../style/index.css';
+
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -71,16 +73,14 @@ export default function HallCouncil() {
       <>
       
         <div className='box'>
-                <div>
-                    <h2>
-                        <div className="text" style ={{marginBottom:"2rem",marginTop:"6rem"}}>Hall  Council </div>
-                    </h2>
-  </div>
+          <div className="head">
+                <h2 className="text">Hall Council</h2>
+          </div>
 
       
     <Box  sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" centered>
+        <Tabs  style ={{marginTop:"2rem"}}value={value} onChange={handleChange} aria-label="basic tabs example" centered>
           <Tab label="2021-2022" {...a11yProps(0)} />
           <Tab label="2020-2021" {...a11yProps(1)} />
           <Tab label="2019-2020" {...a11yProps(2)} />
@@ -176,7 +176,10 @@ export default function HallCouncil() {
                   fb="https://www.facebook.com/ishan.goel.9889"
                   linkedin="https://www.linkedin.com/in/ishan-goel-6377811b9"
                 />
+<<<<<<< HEAD
            
+=======
+>>>>>>> 43784464c9ebed7f568bdaafce0c7dbd0d3d3c49
             </div>
       </TabPanel>
       <TabPanel value={value} index={1}>

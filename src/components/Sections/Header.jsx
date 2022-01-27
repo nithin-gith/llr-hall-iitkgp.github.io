@@ -11,7 +11,7 @@ import {FaPhotoVideo} from 'react-icons/fa';
 import { NavLink } from "react-router-dom";
 
 export default function Header() {
-   function btnclick(youtube){
+ function btnyclick(youtube){
     { window.open(youtube) }
   };
   return (
@@ -23,11 +23,12 @@ export default function Header() {
             "Once a Lajpatian, ever a Lajpatian."
           </HeaderP>
           <BtnWrapper>
-         <FullButton  
+            <a href="https://www.youtube.com/watch?v=yymrcWKPAwQ"><FullButton  
                 title="Watch Video" 
                 icon = {<FaPlayCircle/>} 
-                onClick={btnclick("https://www.youtube.com/watch?v=yymrcWKPAwQ")}
+              
             />
+            </a> 
           </BtnWrapper>
         </div>
       </LeftSide>

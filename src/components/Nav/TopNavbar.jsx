@@ -42,7 +42,7 @@ export default function TopNavbar() {
           <UlWrapper className="flexNullCenter">
 
             <li className="semiBold font15 pointer">
-              <NavLink activeClassName="is-active" style={{ padding: "10px 15px" }} to="/" spy={true} smooth={true} offset={-80}>
+              <NavLink activeClassName="is-active" style={{ padding: "10px 15px" }} to="/" spy={true} smooth={true} offset={-80} >
                 Home
               </NavLink>
             </li>

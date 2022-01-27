@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 
-export default function FullButton({ title, action, border,icon,link }) {
+export default function FullButton({ title, border,icon }) {
   
   return (
     <Wrapper 

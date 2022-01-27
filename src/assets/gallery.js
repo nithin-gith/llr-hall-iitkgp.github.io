@@ -446,4 +446,175 @@ export const albums = {
       },
     ],
   },
+  sitoliya: {
+    title: "Sitoliya 2022",
+    thumbnail: require("./img/Recent Events/Sitoliya/DSCF4683-71.JPG").default,
+    photos: [
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4683-71.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4237-3.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4240-6.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4245-9.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4250-11.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4286-20.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4295-23.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4304-27.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4393-36.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4424-40.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4450-42.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4517-52.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4564-57.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4683-71.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4686-73.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4703-76.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4714-86.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4790-102.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4792-104.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4864-117.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4901-121.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4933-137.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4941-141.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4985-150.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF4989-153.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF5064-172.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF5071-174.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF5076-176.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF5125-196.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF5132-200.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF5135-201.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF5161-212.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Sitoliya/DSCF5177-218.JPG").default,
+        width: 1.33,
+        height: 1,
+      },
+    ],
+  },
 };

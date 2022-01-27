@@ -3,13 +3,11 @@ import styled from "styled-components";
 
 
 export default function FullButton({ title, action, border,icon,link }) {
-   function btnclick(){
-    { window.open(link) }
-  };
+  
   return (
     <Wrapper 
       className="animate pointer radius8"
-      onClick={btnclick}
+      
       border={border}
     >
       <span style = {{paddingRight:"5px"}}>{icon}</span>

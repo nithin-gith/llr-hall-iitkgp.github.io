@@ -11,6 +11,7 @@ import AddImage4 from "../../assets/img/Recent Events/Kite Festival 2022/Cover3.
 
 
 import {FaPhotoVideo} from 'react-icons/fa';
+import { Link } from "react-router-dom";
 
 export default function Services(props) {
   return (
@@ -31,8 +32,10 @@ export default function Services(props) {
                 <p className="font20">{props.content}</p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
-                  <FullButton title="View Gallery" icon ={<FaPhotoVideo />} action={() => alert("clicked")} />
-                  </div>
+                  <Link to="gallery/kitefestival22"><FullButton title="View Gallery" icon ={<FaPhotoVideo />} action={() =>null} />
+                      </Link>
+                
+                    </div>
                   {/* <div style={{ width: "190px", marginLeft: "15px" }}>
                     <FullButton title="Contact Us" action={() => alert("clicked")} border />
                   </div> */}

@@ -5,16 +5,16 @@ import Fade from 'react-reveal/Fade';
 import FullButton from "../Buttons/FullButton";
 // Assets
 import AddImage1 from "../../assets/img/Recent Events/Republic Day 2022/Cover.jpg";
-import AddImage2 from "../../assets/img/add/2.png";
-import AddImage3 from "../../assets/img/add/3.png";
-import AddImage4 from "../../assets/img/add/4.png";
+import AddImage2 from "../../assets/img/Recent Events/Republic Day 2022/Cover4.jpg";
+import AddImage3 from "../../assets/img/Recent Events/Republic Day 2022/Cover6.jpg";
+import AddImage4 from "../../assets/img/Recent Events/Republic Day 2022/Cover2.jpg";
 
 import {FaPhotoVideo} from 'react-icons/fa';
 
 export default function Services(props) {
   return (
     <Wrapper id="services">
-      <div  style={{ padding: "20px 0" }}>
+      <div  style={{ padding: "5px 0" }}>
         <div className="container">
          
         </div>
@@ -182,7 +182,7 @@ const AddImgWrapp3 = styled.div`
   }
 `;
 const AddImgWrapp4 = styled.div`
-  width: 30%;
+  width: 50%;
   margin: 0 5%auto;
   img {
     width: 100%;

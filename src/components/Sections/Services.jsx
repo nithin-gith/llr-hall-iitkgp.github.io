@@ -5,9 +5,9 @@ import Fade from 'react-reveal/Fade';
 import FullButton from "../Buttons/FullButton";
 // Assets
 import AddImage1 from "../../assets/img/Recent Events/Kite Festival 2022/Cover.jpg";
-import AddImage2 from "../../assets/img/add/2.png";
-import AddImage3 from "../../assets/img/add/3.png";
-import AddImage4 from "../../assets/img/add/4.png";
+import AddImage2 from "../../assets/img/Recent Events/Kite Festival 2022/Cover5.jpg";
+import AddImage3 from "../../assets/img/Recent Events/Kite Festival 2022/Cover2.jpg";
+import AddImage4 from "../../assets/img/Recent Events/Kite Festival 2022/Cover3.jpg";
 
 
 import {FaPhotoVideo} from 'react-icons/fa';
@@ -15,12 +15,12 @@ import {FaPhotoVideo} from 'react-icons/fa';
 export default function Services(props) {
   return (
     <Wrapper id="services">
-      <div  style={{ padding: "20px 0" }}>
+      <div  style={{ padding: "5px 0" }}>
         <div className="container">
          
         </div>
       </div>
-      <div className="whiteBg" style={{ padding: "20px 0" }}>
+      <div className="whiteBg" style={{ padding: "10px 0" }}>
         
         <div className="lightBg">
           <div className="container">

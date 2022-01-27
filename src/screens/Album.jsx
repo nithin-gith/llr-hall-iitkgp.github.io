@@ -4,6 +4,7 @@ import { albums } from "../assets/gallery";
 
 import Card from "@mui/material/Card"
 import { CardMedia, Grid, Typography ,CardContent} from "@mui/material";
+import { height, maxHeight, minHeight, width } from "@mui/system";
 const Album = () => (
   <>
       <div className="head">
@@ -13,17 +14,32 @@ const Album = () => (
     {Object.entries(albums).map(([key, album]) => (
       <Link to={key}>
  
-     <Grid item style ={{paddingBottom:"20px"}}>
-      <Card  xs={12} sm={6} md={4} sx={{ maxWidth: 445 }} >
-            <CardMedia  component="img" image={album.thumbnail}
+        <Grid item style={{
+         
+          width : "100%",
+       
+        
+        }}>
+          <Card xs={12} sm={6} md={4} sx={{
+            maxWidth:
+              475,
+            maxHeight : 400
+             
+              }}  >
+            <CardMedia component="img" image={album.thumbnail}
+              sx={{
+            
+            maxHeight : 400,
+             
+              }}
               style={{
-                marginTop : '10%',
-                height : '20vw',
-                width: '100%',
-                minWidth :'200'
+                marginTop : '2%',
+            
+             
               }}
           />
-         <CardContent><Typography align="center"><h4>{album.title}</h4></Typography></CardContent> 
+            <CardContent><div className="card-title" align=
+         'center'>{album.title}</div></CardContent> 
           </Card>
             
          </Grid>   

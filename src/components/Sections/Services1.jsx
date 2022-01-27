@@ -4,11 +4,10 @@ import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
 import FullButton from "../Buttons/FullButton";
 // Assets
-import AddImage1 from "../../assets/img/Recent Events/Kite Festival 2022/Cover.jpg";
+import AddImage1 from "../../assets/img/Recent Events/Republic Day 2022/Cover.jpg";
 import AddImage2 from "../../assets/img/add/2.png";
 import AddImage3 from "../../assets/img/add/3.png";
 import AddImage4 from "../../assets/img/add/4.png";
-
 
 import {FaPhotoVideo} from 'react-icons/fa';
 

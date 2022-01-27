@@ -1,13 +1,27 @@
-.card-simple {
+/* .card-simple {
   width: 2rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
-/* On mouse-over, add a deeper shadow */
+/* On mouse-over, add a deeper shadow 
 .card-simple:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .container-2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+} */
+.album-thumbnail {
+  height: 300px;
+  width: 400px;
 }
+@media (max-width: 420px) {
+.album-thumbnail {
+  height: 240px;
+  width: 320px;
+}}
+@media (max-width: 320px) {
+.album-thumbnail {
+  height: 180px;
+  width: 240px;
+}}

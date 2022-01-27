@@ -94,12 +94,10 @@ export default function BasicTabs() {
 
                   <Fade right>
                     <div className="about-text">
-                      <h1 className="heading-about">Gold in Product Design</h1>
+                      <h1 className="heading-about"><strong>Gold in Product Design</strong></h1>
                       <hr className="rule-about" />
-                      <i>
-                        "After 10 years and a lot of hard work we got this GOLD
-                        in ProductDesign."
-                      </i>
+                        After 10 years and a lot of hard work we got this GOLD
+                        in ProductDesign.                      
                     </div>
                   </Fade>
                 </div>
@@ -119,12 +117,10 @@ export default function BasicTabs() {
                         <strong>Silver in Inter-Hall Case Study</strong>
                       </h1>
                       <hr className="rule-about" />
-                      <i>
-                        "The team consisted of Sidhant Agarwal, Sagar Gupta,
+                        The team consisted of Sidhant Agarwal, Sagar Gupta,
                         Anmol Thakkar, Bhavya Jain, Shashank Mishra, Suyash
-                        Sharma, Gaurav Katam, Puneet Pansari, Ayush Vajpeyi ,
-                        Aditya Neema, Agnimitra."
-                      </i>
+                        Sharma, Gaurav Katam, Puneet Pansari, Ayush Vajpeyi,
+                        Aditya Neema, Agnimitra.
                     </div>
                   </Fade>
                 </div>
@@ -148,9 +144,7 @@ export default function BasicTabs() {
                         <strong>Silver in Inter-Hall Badminton</strong>
                       </h1>
                       <hr className="rule-about" />
-                      <i>
                         The team consisted of Akhilesh Gundu, Abhishek Velugu and Sandeep.
-                      </i>
                     </div>
                   </Fade>
                 </div>
@@ -174,7 +168,6 @@ export default function BasicTabs() {
                         <strong>Gold in Inter-Hall Stage-Play</strong>
                       </h1>
                       <hr className="rule-about" />
-                      <i>
                         <p>The team consisted of: Atul Kumar, Shashi Kant,
                         Somesh Gupta, Rohit Saboo, Umang Agarwal, Saurabh
                         Pandey, Sayan Mandal, Rishabh Gupta, Shashank
@@ -188,7 +181,6 @@ export default function BasicTabs() {
                         <p>Along with these, there were some people who weren't 
                         in the team but always helped us in the event: Our Ex- Drama 
                         captains Abhay Daga and Shubham Singh.</p>
-                      </i>
                     </div>
                   </Fade>
                 </div>

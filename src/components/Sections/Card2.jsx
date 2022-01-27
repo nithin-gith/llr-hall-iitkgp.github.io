@@ -10,7 +10,7 @@ const Card = (props) => {
   <div class="col-md-3">
     
 <div className="card">
-                <img src={props.img} className="card-img-top" alt="football"/>
+                <img src={props.img} className="card-img-top" alt="football" style={{height:"300px", width:"300px"}}/>
     <div className="card-body">
       <h5 className="card-title">{props.name}</h5>
       <p className = "card-text text-muted">{props.position}</p>

@@ -13,7 +13,6 @@ import "../style/index.css";
 export default function Landing() {
   return (
     <>
-      <TopNavbar /> 
       <Header />
       <About/>
       <div className="section-title" style={{marginBottom:"0px"}} ><h2 className="text" >Recent Events</h2></div>
@@ -29,7 +28,6 @@ export default function Landing() {
                     ea rebum."
           />
       <Team />
-      <Footer />
     </>
   );
 }

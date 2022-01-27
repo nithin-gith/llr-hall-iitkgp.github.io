@@ -26,7 +26,7 @@ export default function Services(props) {
               <AddLeft>
                <Fade left>
                 <h2 className="font40 extraBold">{props.eventname}</h2>
-                <p className="font12">{props.content}</p>
+                <p className="font16">{props.content}</p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
                   <FullButton title="View Gallery" icon ={<FaPhotoVideo />} action={() => alert("clicked")} />

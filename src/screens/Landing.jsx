@@ -18,15 +18,12 @@ export default function Landing() {
       <About/>
       <div className="section-title" style={{marginBottom:"0px"}} ><h2 className="text" >Recent Events</h2></div>
       <Services 
-          eventname= "Kite Festival" 
-          content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
-                    labore et dolore magna aliquyam erat, seddiam voluptua. At vero eos et accusam et justo duo dolores et 
-                    ea rebum."/>
+          eventname= " Kite Festival " 
+          content="Flying kites is an unequivocal manifestation of freedom. All the boarders on the auspicious occasion of Makar Sankranti, came together in the ongoing unprecedented times to celebrate the festival of kites and get freed from all kinds of stress and rejuvenate themselves with full of good spirit and energy.
+          "/>
       <Services 
-          eventname= "Award Ceremony" 
-          content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
-                    labore et dolore magna aliquyam erat, seddiam voluptua. At vero eos et accusam et justo duo dolores et 
-                    ea rebum."
+          eventname= " Republic Day " 
+          content="The National flag was unfurled and a series of enriching and melodious cultural programmes were conducted to induce a sense of patriotism in all the boarders on the 73rd Republic Day."
           />
       <Team />
       <Footer />

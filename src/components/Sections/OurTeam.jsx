@@ -23,14 +23,8 @@ const OurTeam = () => {
             <div className="head">
               <h2 className="text">Our Team</h2>
             </div>
-            <div className=" row justify-content-center">
-                <Card2
-                  img={alumni2122}
-                  name="Aditya Agrawal"
-                  position="Advisor"
-                  fb="https://www.facebook.com/adityaagrawal.99/"
-                  linkedin="https://www.linkedin.com/in/adityaagrawal99/"
-                />
+            {/* <div className=" row justify-content-center">
+
 
                 <Card2
                   img={kaushik}
@@ -39,9 +33,23 @@ const OurTeam = () => {
                   fb="https://www.facebook.com/raghavendra.kaushik.3"
                   linkedin="https://www.linkedin.com/in/raghavendra-kaushik13/"
                 />
-              </div>
+              </div> */}
 
               <div className=" row justify-content-center" style ={{textAlign:"left"}}>
+                <Card2
+                  img={kaushik}
+                  name="Raghavendra Kaushik"
+                  position="Advisor"
+                  fb="https://www.facebook.com/raghavendra.kaushik.3"
+                  linkedin="https://www.linkedin.com/in/raghavendra-kaushik13/"
+                />
+                <Card2
+                    img={alumni2122}
+                    name="Aditya Agrawal"
+                    position="Coodinator"
+                    fb="https://www.facebook.com/adityaagrawal.99/"
+                    linkedin="https://www.linkedin.com/in/adityaagrawal99/"
+                  />
                 <Card2
                   img={tech2122}
                   name="Aditya Verma"

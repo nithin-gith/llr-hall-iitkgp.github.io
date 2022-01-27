@@ -17,13 +17,18 @@ const Album = () => (
       <Card  xs={12} sm={6} md={4} sx={{ maxWidth: 445 }} >
             <CardMedia  component="img" image={album.thumbnail}
               style={{
+<<<<<<< HEAD
                 marginTop : '10%',
                 height : '20vw',
+=======
+                
+               height : '20vw',
+>>>>>>> cd50f0b78a2bbf032ba84d287fb42f7ac40994c4
                 width: '100%',
                 minWidth :'200'
               }}
           />
-         <CardContent><Typography>{album.title}</Typography></CardContent> 
+         <CardContent><Typography align="center"><h4>{album.title}</h4></Typography></CardContent> 
           </Card>
             
          </Grid>   

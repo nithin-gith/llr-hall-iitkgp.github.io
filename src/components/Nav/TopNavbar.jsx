@@ -65,6 +65,12 @@ export default function TopNavbar() {
                 Hall Council
               </NavLink>
             </li>
+             <li className="semiBold font15 pointer">
+              <NavLink activeClass="active"  style={{ padding: "10px 15px" }} to="/ourteam" spy={true} smooth={true} offset={-80}>
+                Our Team
+              </NavLink>
+            </li>
+
 
             {/* <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="pricing" spy={true} smooth={true} offset={-80}>

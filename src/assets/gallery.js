@@ -229,7 +229,7 @@ export const albums = {
     ],
   },
   awardceremony: {
-    title: "Award Ceremony",
+    title: "67th Convocation Award Ceremony",
     thumbnail: require("./img/Recent Events/Award Ceremony/Cover.jpg").default,
     photos: [
       {

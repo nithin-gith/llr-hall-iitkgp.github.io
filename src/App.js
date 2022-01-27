@@ -10,7 +10,7 @@ import Gallery from "./screens/Gallery";
 import Album from "./screens/Album";
 import TopNavbar from "./components/Nav/TopNavbar";
 import Footer from "./components/Sections/Footer";
-
+import OurTeam from "./components/Sections/OurTeam";
 export default function App() {
   return (
     <>
@@ -22,6 +22,7 @@ export default function App() {
           <Route path="hallcouncil" element={<HallCouncil />} />
           <Route path="gallery" exact element={<Album />} />
           <Route path="gallery/:album" element={<Gallery />} />
+          <Route path="ourteam" element={<OurTeam />} />
         </Routes>
         <Footer />
       </ScrolltoTop>

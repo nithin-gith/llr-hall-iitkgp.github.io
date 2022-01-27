@@ -77,6 +77,20 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             Hall Council
           </NavLink>
         </li>
+        <li className="semiBold font15 pointer">
+          <NavLink
+            onClick={() => toggleSidebar(!sidebarOpen)}
+            activeClass="active"
+            className="whiteColor"
+            style={{ padding: "10px 15px", color:"white" }}
+            to="ourteam"
+            spy={true}
+            smooth={true}
+            offset={-60}
+          >
+            Our Team
+          </NavLink>
+        </li>
 
         {/* <li className="semiBold font15 pointer">
           <Link

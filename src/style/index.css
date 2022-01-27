@@ -1,5 +1,4 @@
 html,
-
 body,
 div,
 span,
@@ -352,7 +351,7 @@ body {
   background-color: #fff;
 }
 #team {
-  padding: 100px 0;
+  padding: 40px 0;
 }
 #team h4 {
   margin: 5px 0;
@@ -412,6 +411,6 @@ body {
 .card {
   margin: 0.5rem;
 }
-.card{
+.card {
   margin: 0.3rem;
 }

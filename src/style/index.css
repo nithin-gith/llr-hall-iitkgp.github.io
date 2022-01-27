@@ -133,7 +133,7 @@ input:-webkit-autofill {
 body {
   background: #fff;
   color: #0b093b;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   font-size: 16px;
   font-weight: 400;
@@ -400,11 +400,14 @@ body {
 .card-img-top {
   height: 30vw;
 }
-@media(max-width:580px){
-  .card-img-top{
-    height:max-content;
+@media (max-width: 580px) {
+  .card-img-top {
+    height: max-content;
   }
 }
-.link-hall:hover{
-  color:black;
+.link-hall:hover {
+  color: black;
+}
+.card {
+  margin: 0.5rem;
 }

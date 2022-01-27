@@ -23,7 +23,7 @@ const Album = () => (
                 minWidth :'200'
               }}
           />
-         <CardContent><Typography>{album.title}</Typography></CardContent> 
+         <CardContent><Typography align="center"><h4>{album.title}</h4></Typography></CardContent> 
           </Card>
             
          </Grid>   

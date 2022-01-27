@@ -716,4 +716,9 @@ export const albums = {
       },
     ],
   },
+  all: {
+    thumbnail: require("./img/lala.jpg").default,
+    title: "All Photos",
+    photos: [],
+  },
 };

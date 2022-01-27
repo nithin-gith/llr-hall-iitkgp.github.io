@@ -1,7 +1,6 @@
 import React from "react";
 
 import Gallery from "react-photo-gallery";
-import { photos } from "../components/Sections/Photos";
 import { albums } from "../assets/gallery";
 import { useParams } from "react-router-dom";
 
@@ -15,15 +14,14 @@ const GalleryPage = () => {
           []
         )
       : albums[album]?.photos;
-    return (
-        <>
-        <div className="head">
-                <h2 className="text"> Photos</h2>
-        </div>
-       <Gallery photos={photos} /> </>
-         
-    )
-   
+  return (
+    <>
+      <div className="head">
+        <h2 className="text">{albums[album].title}</h2>
+      </div>
+      <Gallery photos={photos} />
+    </>
+  );
 };
 
 export default GalleryPage;

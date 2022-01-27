@@ -64,7 +64,9 @@ export default function BasicTabs() {
           <div className="box" style ={{marginTop:"2rem"}}>
             <Box sx={{ width: '100%',marginTop:"0px" }}>
               <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" centered>
+              <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" centered
+                variant="scrollable"
+              scrollButtons="true"  allowScrollButtonsMobile >
                   <Tab label="Technology" style={{outline:"none"}}{...a11yProps(0)} />
                   <Tab label="Sports and Games" style={{outline:"none"}} {...a11yProps(1)} />
                   <Tab label="Social and Cultural" style={{outline:"none"}} {...a11yProps(2)} />

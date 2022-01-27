@@ -229,7 +229,7 @@ export const albums = {
     ],
   },
   awardceremony: {
-    title: "67th Convocation Award Ceremony",
+    title: "67th Convocation ",
     thumbnail: require("./img/Recent Events/Award Ceremony/Cover.jpg").default,
     photos: [
       {
@@ -614,6 +614,48 @@ export const albums = {
         src: require("./img/Recent Events/Sitoliya/DSCF5177-218.JPG").default,
         width: 1.33,
         height: 1,
+      },
+    ],
+  },
+  illumination: {
+    title: "Illumination",
+    thumbnail: require("./img/Recent Events/Illumination/2018.jpg").default,
+    photos: [
+      {
+        src: require("./img/Recent Events/Illumination/2013.jpg").default,
+        width: 2,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination/2014.jpg").default,
+        width: 1,
+        height: 1.5,
+      },
+      {
+        src: require("./img/Recent Events/Illumination/2016.jpg").default,
+        width: 1.33,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination/2018.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+    ],
+  },
+  Rangoli: {
+    title: "Rangoli",
+    thumbnail: require("./img/Recent Events/Rangoli/2013.jpg").default,
+    photos: [
+      {
+        src: require("./img/Recent Events/Rangoli/2013.jpg").default,
+        width: 2,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Rangoli/2013.jpg").default,
+        width: 1,
+        height: 1.5,
       },
     ],
   },

@@ -137,7 +137,7 @@ const AddRight = styled.div`
   top: -70px;
   right: 0;
   @media (max-width: 860px) {
-    width: 80%;
+    width: 95%;
     position: relative;
     order: 1;
     top: -40px;
@@ -171,8 +171,8 @@ const AddImgWrapp2 = styled.div`
   }
 `;
 const AddImgWrapp3 = styled.div`
-  width: 20%;
-  margin-left: 40%;
+  width: 30%;
+  margin-left: 30%;
   img {
     width: 100%;
     height: auto;

@@ -92,7 +92,7 @@ export default function BasicTabs() {
                       <hr className="rule-about" />
                       <i>
                         "After 10 years and a lot of hard work we got this GOLD
-                        in ProductDesign"
+                        in ProductDesign."
                       </i>
                     </div>
                   </Fade>
@@ -110,13 +110,13 @@ export default function BasicTabs() {
                   <Fade right>
                     <div className="about-text">
                       <h1 className="heading-about">
-                        Silver in Inter-Hall Case Study
+                        <strong>Silver in Inter-Hall Case Study</strong>
                       </h1>
                       <hr className="rule-about" />
                       <i>
-                        "The team consisted of Sidhant Agarwal , Sagar Gupta,
-                        Anmol Thakkar , Bhavya Jain, Shashank Mishra , Suyash
-                        Sharma , Gaurav Katam , Puneet Pansari , Ayush Vajpeyi ,
+                        "The team consisted of Sidhant Agarwal, Sagar Gupta,
+                        Anmol Thakkar, Bhavya Jain, Shashank Mishra, Suyash
+                        Sharma, Gaurav Katam, Puneet Pansari, Ayush Vajpeyi ,
                         Aditya Neema, Agnimitra."
                       </i>
                     </div>
@@ -139,12 +139,11 @@ export default function BasicTabs() {
                   <Fade right>
                     <div className="about-text">
                       <h1 className="heading-about">
-                        Silver in Inter-Hall Badminton
+                        <strong>Silver in Inter-Hall Badminton</strong>
                       </h1>
                       <hr className="rule-about" />
                       <i>
-                        "The team consisted of Akhilesh Gundu , Abhishek Velugu
-                        , Sandeep ."
+                        The team consisted of Akhilesh Gundu, Abhishek Velugu and Sandeep.
                       </i>
                     </div>
                   </Fade>
@@ -166,23 +165,23 @@ export default function BasicTabs() {
                   <Fade right>
                     <div className="about-text">
                       <h1 className="heading-about">
-                        Gold in Inter-Hall Stage-Play
+                        <strong>Gold in Inter-Hall Stage-Play</strong>
                       </h1>
                       <hr className="rule-about" />
                       <i>
-                        "The team consisted of : Atul Kumar , Shashi Kant ,
-                        Somesh Gupta , Rohit Saboo , Umang Agarwal , Saurabh
-                        Pandey , Sayan Mandal , Rishabh Gupta , Shashank
-                        Jaipuria , Shyam Dixit , Abhishek kumar,Karan,Neel
-                        Ghosh,Prem Shankar,Ayanava Das,Souranshu Ghosh. Suyash
-                        Sharma , Apurv Dave helped in Direction. General
-                        Secretary Social & Cultural - Shubham Kumar Abhishek
-                        Yadav , Sushil Bagate , Abhijeet Mahato , Chandraprakash
-                        Koshle , @Utkarsh kumar helped in Sets and Sound. Along
-                        with these, There were some people who weren't in the
-                        team. Not even in the campus. Our Ex - Drams Captains
-                        who always helped us in the event. Abhay Daga , Shubham
-                        Singh"
+                        <p>The team consisted of : Atul Kumar, Shashi Kant,
+                        Somesh Gupta, Rohit Saboo, Umang Agarwal, Saurabh
+                        Pandey, Sayan Mandal, Rishabh Gupta, Shashank
+                        Jaipuria, Shyam Dixit, Abhishek kumar, Karan,Neel
+                        Ghosh, Prem Shankar, Ayanava Das, Souranshu Ghosh.</p>
+                        <p>Suyash Sharma, Apurv Dave helped in Direction.</p>
+                        <p>General Secretary Social & Cultural: Shubham Kumar, 
+                        Abhishek Yadav, Sushil Bagate, Abhijeet Mahato, 
+                        Chandraprakash Koshle, Utkarsh kumar helped in Sets 
+                        and Sound.</p>
+                        <p>Along with these, there were some people who weren't 
+                        in the team but always helped us in the event: Our Ex- Drama 
+                        captains Abhay Daga and Shubham Singh.</p>
                       </i>
                     </div>
                   </Fade>

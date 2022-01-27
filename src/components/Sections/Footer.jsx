@@ -30,7 +30,7 @@ export default function Contact() {
             <div className="flexColumn" style ={{display:"flex",justifyContent:"space-between"}}>
               <h1 className="purpleColor font20" style={{textDecoration:"under-lined",paddingBottom:"10px"}}>Contact Us</h1>
               <p className="whiteColor font15">Address : Lala Lajpat Rai Hall of Residence, IIT Kharagpur</p>
-              <p className="whiteColor font15">Kharagpur,India - 721302</p>
+              <p className="whiteColor font15">Kharagpur, India - 721302</p>
               <p className="whiteColor font15">Phone (Office) : +91 3222 2 81134</p>
               <p className="whiteColor font15">Phone (Security) : +91 3222 2 81136</p>
               <p className="whiteColor font15">Email : llrhall@iitkgp.ac.in</p>

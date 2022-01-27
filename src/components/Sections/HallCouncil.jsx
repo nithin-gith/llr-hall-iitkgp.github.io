@@ -176,10 +176,7 @@ export default function HallCouncil() {
                   fb="https://www.facebook.com/ishan.goel.9889"
                   linkedin="https://www.linkedin.com/in/ishan-goel-6377811b9"
                 />
-<<<<<<< HEAD
            
-=======
->>>>>>> 43784464c9ebed7f568bdaafce0c7dbd0d3d3c49
             </div>
       </TabPanel>
       <TabPanel value={value} index={1}>

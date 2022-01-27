@@ -56,29 +56,36 @@ export default function BasicTabs() {
   };
  
   return (
-
-   
     <>
       <div className="head">
         <h2 className="text">Best Performances in General Championship</h2>
       </div>
-      <div className="box" style={{ marginTop: "2rem",overflowX:"hidden" }}>
+      <div className="box" style={{ marginTop: "2rem", overflowX: "hidden" }}>
         <Box sx={{ width: "100%", marginTop: "0px" }}>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-            <Tabs 
+            <Tabs
               value={value}
-              
               onChange={handleChange}
               aria-label="basic tabs example"
-              textColor="dark" 
-              indicatorColor="secondary" 
+              textColor="dark"
+              indicatorColor="secondary"
               centered
-              
-              
             >
-              <Tab label="Technology" style ={{outline:"none" ,width:"30%"}} {...a11yProps(0)} />
-              <Tab label="Sports and Games" style ={{outline:"none" ,width:"30%" }} {...a11yProps(1)} />
-              <Tab label="Social and Cultural" style ={{outline:"none",width:"30%"}} {...a11yProps(2)} />
+              <Tab
+                label="Technology"
+                style={{ outline: "none", width: "30%" }}
+                {...a11yProps(0)}
+              />
+              <Tab
+                label="Sports and Games"
+                style={{ outline: "none", width: "30%" }}
+                {...a11yProps(1)}
+              />
+              <Tab
+                label="Social and Cultural"
+                style={{ outline: "none", width: "30%" }}
+                {...a11yProps(2)}
+              />
             </Tabs>
           </Box>
 
@@ -94,10 +101,12 @@ export default function BasicTabs() {
 
                   <Fade right>
                     <div className="about-text">
-                      <h1 className="heading-about"><strong>Gold in Product Design</strong></h1>
+                      <h2 className="heading-about">
+                        <strong>Gold in Product Design</strong>
+                      </h2>
                       <hr className="rule-about" />
-                        After 10 years and a lot of hard work we got this GOLD
-                        in ProductDesign.                      
+                      After 10 years and a lot of hard work we got this GOLD in
+                      ProductDesign.
                     </div>
                   </Fade>
                 </div>
@@ -106,21 +115,21 @@ export default function BasicTabs() {
               <div className="about-wrapper">
                 <div className="about">
                   <Fade left>
-                    <div className="about-image">
-                      <img src={casestudy} alt="casestudy" />
+                    <div className="about-text">
+                      <h2 className="heading-about">
+                        <strong>Silver in Inter-Hall Case Study</strong>
+                      </h2>
+                      <hr className="rule-about" />
+                      The team consisted of Sidhant Agarwal, Sagar Gupta, Anmol
+                      Thakkar, Bhavya Jain, Shashank Mishra, Suyash Sharma,
+                      Gaurav Katam, Puneet Pansari, Ayush Vajpeyi, Aditya Neema,
+                      Agnimitra.
                     </div>
                   </Fade>
 
                   <Fade right>
-                    <div className="about-text">
-                      <h1 className="heading-about">
-                        <strong>Silver in Inter-Hall Case Study</strong>
-                      </h1>
-                      <hr className="rule-about" />
-                        The team consisted of Sidhant Agarwal, Sagar Gupta,
-                        Anmol Thakkar, Bhavya Jain, Shashank Mishra, Suyash
-                        Sharma, Gaurav Katam, Puneet Pansari, Ayush Vajpeyi,
-                        Aditya Neema, Agnimitra.
+                    <div className="about-image about-image-right">
+                      <img src={casestudy} alt="casestudy" />
                     </div>
                   </Fade>
                 </div>
@@ -140,11 +149,12 @@ export default function BasicTabs() {
 
                   <Fade right>
                     <div className="about-text">
-                      <h1 className="heading-about">
+                      <h2 className="heading-about">
                         <strong>Silver in Inter-Hall Badminton</strong>
-                      </h1>
+                      </h2>
                       <hr className="rule-about" />
-                        The team consisted of Akhilesh Gundu, Abhishek Velugu and Sandeep.
+                      The team consisted of Akhilesh Gundu, Abhishek Velugu and
+                      Sandeep.
                     </div>
                   </Fade>
                 </div>
@@ -164,23 +174,29 @@ export default function BasicTabs() {
 
                   <Fade right>
                     <div className="about-text">
-                      <h1 className="heading-about">
+                      <h2 className="heading-about">
                         <strong>Gold in Inter-Hall Stage-Play</strong>
-                      </h1>
+                      </h2>
                       <hr className="rule-about" />
-                        <p>The team consisted of: Atul Kumar, Shashi Kant,
-                        Somesh Gupta, Rohit Saboo, Umang Agarwal, Saurabh
-                        Pandey, Sayan Mandal, Rishabh Gupta, Shashank
-                        Jaipuria, Shyam Dixit, Abhishek kumar, Karan, Neel
-                        Ghosh, Prem Shankar, Ayanava Das, Souranshu Ghosh.</p>
-                        <p>Suyash Sharma, Apurv Dave helped in Direction.</p>
-                        <p>General Secretary Social & Cultural: Shubham Kumar, 
-                        Abhishek Yadav, Sushil Bagate, Abhijeet Mahato, 
-                        Chandraprakash Koshle, Utkarsh kumar helped in Sets 
-                        and Sound.</p>
-                        <p>Along with these, there were some people who weren't 
-                        in the team but always helped us in the event: Our Ex- Drama 
-                        captains Abhay Daga and Shubham Singh.</p>
+                      <p>
+                        The team consisted of: Atul Kumar, Shashi Kant, Somesh
+                        Gupta, Rohit Saboo, Umang Agarwal, Saurabh Pandey, Sayan
+                        Mandal, Rishabh Gupta, Shashank Jaipuria, Shyam Dixit,
+                        Abhishek kumar, Karan, Neel Ghosh, Prem Shankar, Ayanava
+                        Das, Souranshu Ghosh.
+                      </p>
+                      <p>Suyash Sharma, Apurv Dave helped in Direction.</p>
+                      <p>
+                        General Secretary Social & Cultural: Shubham Kumar,
+                        Abhishek Yadav, Sushil Bagate, Abhijeet Mahato,
+                        Chandraprakash Koshle, Utkarsh kumar helped in Sets and
+                        Sound.
+                      </p>
+                      <p>
+                        Along with these, there were some people who weren't in
+                        the team but always helped us in the event: Our Ex-
+                        Drama captains Abhay Daga and Shubham Singh.
+                      </p>
                     </div>
                   </Fade>
                 </div>

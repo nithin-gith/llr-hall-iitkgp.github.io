@@ -52,16 +52,17 @@
   font-family: "Poppins", sans-serif;
   color: #6b6f7d;
   margin: auto;
-  padding: 1.5rem;
   display: flex; 
   align-items: flex-start;
 }
 
 .about-image {
-  /* width: 50%; */
-  margin-right: 2rem;
-  border-radius: 5%;
-  width:50%;
+    margin-right: 2rem;
+    border-radius: 2%;
+}
+.about-image-right {
+  margin-right: 0;
+  margin-left: 2rem;
 }
 .about-text{
   width:90%;
@@ -71,10 +72,17 @@
 
 
 
-@media(max-width:1200px){
+@media(max-width: 768px){
   .about{
     display: flex;
     flex-direction: column;
+  }
+  .about-image{
+    margin-right: 0;
+  }
+  .about-image-right {
+    margin-left: 0;
+    order: -1;
   }
 }
 

@@ -125,29 +125,12 @@ export default function HallCouncil() {
 
             <div className="row justify-content-center">
               <Card2
-                img={tech2122}
-                name="Aditya Verma"
-                position="General Secretary Technology"
-                fb="https://www.facebook.com/profile.php?id=100005749835976"
-                linkedin="https://www.linkedin.com/in/aditya-verma-7236a2107/"
-              />
-
-              <Card2
-                img={alumni2122}
-                name="Aditya Agrawal"
-                position="General Secretary Alumni Affairs "
-                fb="https://www.facebook.com/adityaagrawal.99/"
-                linkedin="https://www.linkedin.com/in/adityaagrawal99/"
-              />
-
-              <Card2
                 img={socult2122}
                 name="Nishant Gahlaut"
                 position="General Secretary Social and Cultural"
                 fb="https://www.facebook.com/nishantgahlaut.nishantgahlaut.3"
                 linkedin="https://www.linkedin.com/in/nishant-gahlaut-28566818b/"
               />
-
               <Card2
                 img={sports2122}
                 name="Nitin Baghel"
@@ -155,6 +138,21 @@ export default function HallCouncil() {
                 fb="https://www.facebook.com/nitin.baghel.92372446"
                 linkedin="https://www.linkedin.com/in/nitin-baghel-b1b3361b1"
               />
+              <Card2
+                img={tech2122}
+                name="Aditya Verma"
+                position="General Secretary Technology"
+                fb="https://www.facebook.com/profile.php?id=100005749835976"
+                linkedin="https://www.linkedin.com/in/aditya-verma-7236a2107/"
+              />
+              <Card2
+                img={mess2122}
+                name="Sudhanwa Ganesh Kulkarni"
+                position="General Secretary Mess"
+                fb="https://www.facebook.com/Sudhanwa248330/"
+                linkedin="https://www.linkedin.com/in/sudhanwa-kulkarni-404b0421a/"
+              />           
+              
             </div>
             <div className="row justify-content-center">
               <Card2
@@ -164,23 +162,6 @@ export default function HallCouncil() {
                 fb="https://facebook.com/anuj.changed"
                 linkedin="https://www.linkedin.com/mwlite/in/anuj-singh-9371701b9"
               />
-
-              <Card2
-                img={studentswelfare2122}
-                name="Ashish Gupta"
-                position="General Secretary Students' Welfare "
-                fb="https://www.facebook.com/profile.php?id=100006281109857"
-                linkedin="https://www.linkedin.com/in/ashishgiitkgp"
-              />
-
-              <Card2
-                img={mess2122}
-                name="Sudhanwa Ganesh Kulkarni"
-                position="General Secretary Mess"
-                fb="https://www.facebook.com/Sudhanwa248330/"
-                linkedin="https://www.linkedin.com/in/sudhanwa-kulkarni-404b0421a/"
-              />
-
               <Card2
                 img={library2122}
                 name="Ishan Goel"
@@ -188,6 +169,21 @@ export default function HallCouncil() {
                 fb="https://www.facebook.com/ishan.goel.9889"
                 linkedin="https://www.linkedin.com/in/ishan-goel-6377811b9"
               />
+              <Card2
+                img={studentswelfare2122}
+                name="Ashish Gupta"
+                position="General Secretary Students' Welfare "
+                fb="https://www.facebook.com/profile.php?id=100006281109857"
+                linkedin="https://www.linkedin.com/in/ashishgiitkgp"
+              />
+              <Card2
+                img={alumni2122}
+                name="Aditya Agrawal"
+                position="General Secretary Alumni Affairs "
+                fb="https://www.facebook.com/adityaagrawal.99/"
+                linkedin="https://www.linkedin.com/in/adityaagrawal99/"
+              />
+
             </div>
           </TabPanel>
           <TabPanel value={value} index={1}>
@@ -211,29 +207,12 @@ export default function HallCouncil() {
 
             <div className="row justify-content-center">
               <Card2
-                img={tech2021}
-                name="Rajshekhar Mishra"
-                position="General Secretary Technology"
-                fb="https://www.facebook.com/rajshekhar.mishra.5811"
-                linkedin="https://www.linkedin.com/in/rajshekhar-mishra-/"
-              />
-
-              <Card2
-                img={alumni2021}
-                name="Digvijay Nath Tiwari"
-                position="General Secretary Alumni Affairs "
-                fb="https://www.facebook.com/profile.php?id=100017479114314"
-                linkedin="https://www.linkedin.com/in/digvijay-tiwari-588a07183/"
-              />
-
-              <Card2
                 img={socult2021}
                 name="Rohan Gundu"
                 position="General Secretary Social and Cultural"
                 fb="https://www.facebook.com/rohan.gundu.90"
                 linkedin="https://www.linkedin.com/in/rohan-gundu-4085b21aa/"
               />
-
               <Card2
                 img={sports2021}
                 name="Paras Malli"
@@ -241,6 +220,21 @@ export default function HallCouncil() {
                 fb="https://www.facebook.com/ParasMalli"
                 linkedin="https://www.linkedin.com/in/paras-malli-a93886186/"
               />
+              <Card2
+                img={tech2021}
+                name="Rajshekhar Mishra"
+                position="General Secretary Technology"
+                fb="https://www.facebook.com/rajshekhar.mishra.5811"
+                linkedin="https://www.linkedin.com/in/rajshekhar-mishra-/"
+              />
+              <Card2
+                img={mess2021}
+                name="Itta Rahul Roy"
+                position="General Secretary Mess"
+                fb="https://www.facebook.com/RahulRoy272"
+                linkedin="https://www.linkedin.com/in/rahul-roy-itta-089588195/"
+              />
+        
             </div>
             <div className="row justify-content-center">
               <Card2
@@ -250,7 +244,13 @@ export default function HallCouncil() {
                 fb="https://www.facebook.com/dhruv.singhal.161"
                 linkedin="https://www.linkedin.com/in/dhruv-singhal-709795118/"
               />
-
+              <Card2
+                img={library2021}
+                name="Uyyala Vijay Kumar"
+                position="General Secretary Library "
+                fb="https://www.facebook.com/uyyala.vijay30"
+                linkedin="https://www.linkedin.com/in/vijay-uyyala/"
+              />
               <Card2
                 img={studentswelfare2021}
                 name="Sumit Kumar"
@@ -258,21 +258,12 @@ export default function HallCouncil() {
                 fb="https://www.facebook.com/profile.php?id=100027529696204"
                 linkedin="https://www.linkedin.com/in/sumitk-99/"
               />
-
               <Card2
-                img={mess2021}
-                name="Itta Rahul Roy"
-                position="General Secretary Mess"
-                fb="https://www.facebook.com/RahulRoy272"
-                linkedin="https://www.linkedin.com/in/rahul-roy-itta-089588195/"
-              />
-
-              <Card2
-                img={library2021}
-                name="Uyyala Vijay Kumar"
-                position="General Secretary Library "
-                fb="https://www.facebook.com/uyyala.vijay30"
-                linkedin="https://www.linkedin.com/in/vijay-uyyala/"
+                img={alumni2021}
+                name="Digvijay Nath Tiwari"
+                position="General Secretary Alumni Affairs "
+                fb="https://www.facebook.com/profile.php?id=100017479114314"
+                linkedin="https://www.linkedin.com/in/digvijay-tiwari-588a07183/"
               />
             </div>
           </TabPanel>
@@ -297,29 +288,12 @@ export default function HallCouncil() {
 
             <div className="row justify-content-center">
               <Card2
-                img={tech1920}
-                name="Ankit Saini"
-                position="General Secretary Technology"
-                fb="https://www.facebook.com/ankit.sainiz"
-                linkedin="https://www.linkedin.com/in/ankit-saini-b79a4a163/"
-              />
-
-              <Card2
-                img={alumni1920}
-                name="Aakash Boda"
-                position="General Secretary Alumni Affairs "
-                fb="https://www.facebook.com/nethaaakash"
-                linkedin="https://www.linkedin.com/in/aakash-boda-32a05614b/"
-              />
-
-              <Card2
                 img={socult1920}
                 name="Abhishek Kumar"
                 position="General Secretary Social and Cultural"
                 fb="https://www.facebook.com/profile.php?id=100013978664458"
                 linkedin="https://www.linkedin.com/in/abhishek-kumar-5b33bb172/"
               />
-
               <Card2
                 img={sports1920}
                 name="Chandraprakash Koshle"
@@ -327,6 +301,21 @@ export default function HallCouncil() {
                 fb="https://www.facebook.com/chandraprakash.on"
                 linkedin="https://www.linkedin.com/in/chandraprakash-koshle-149546151/"
               />
+              <Card2
+                img={tech1920}
+                name="Ankit Saini"
+                position="General Secretary Technology"
+                fb="https://www.facebook.com/ankit.sainiz"
+                linkedin="https://www.linkedin.com/in/ankit-saini-b79a4a163/"
+              />
+              <Card2
+                img={mess1920}
+                name="Nishith Garg"
+                position="General Secretary Mess"
+                fb="https://www.facebook.com/nishith.garg.46"
+                linkedin="https://www.linkedin.com/in/nishithgarg/"
+              />      
+
             </div>
             <div className="row justify-content-center">
               <Card2
@@ -336,7 +325,13 @@ export default function HallCouncil() {
                 fb="https://www.facebook.com/saurabhggg"
                 linkedin="https://www.linkedin.com/in/saurabh-gupta-1b334479/"
               />
-
+              <Card2
+                img={library1920}
+                name="Akshat Agrawal"
+                position="General Secretary Library "
+                fb="https://www.facebook.com/akshat.agrawal.7140"
+                linkedin="https://www.linkedin.com/in/akshat-agrawal-6a5822161/"
+              />
               <Card2
                 img={studentswelfare1920}
                 name="Abhijeet Sharma"
@@ -344,21 +339,12 @@ export default function HallCouncil() {
                 fb="https://www.facebook.com/abhi.jeet.5245"
                 linkedin="https://www.linkedin.com/in/abhijeet-sharma-1bab70151/"
               />
-
               <Card2
-                img={mess1920}
-                name="Nishith Garg"
-                position="General Secretary Mess"
-                fb="https://www.facebook.com/nishith.garg.46"
-                linkedin="https://www.linkedin.com/in/nishithgarg/"
-              />
-
-              <Card2
-                img={library1920}
-                name="Akshat Agrawal"
-                position="General Secretary Library "
-                fb="https://www.facebook.com/akshat.agrawal.7140"
-                linkedin="https://www.linkedin.com/in/akshat-agrawal-6a5822161/"
+                img={alumni1920}
+                name="Aakash Boda"
+                position="General Secretary Alumni Affairs "
+                fb="https://www.facebook.com/nethaaakash"
+                linkedin="https://www.linkedin.com/in/aakash-boda-32a05614b/"
               />
             </div>
           </TabPanel>

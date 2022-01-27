@@ -9,7 +9,7 @@ import FacebookIcon from '@mui/icons-material/FacebookSharp';
 import hp from '../../assets/img/Hall Council/current/Divakar Chauhan.jpg'
 import ssm from '../../assets/img/Hall Council/current/Dhruv Singhal.jpg'
 import tech2122 from '../../assets/img/Hall Council/current/Aditya Verma.jpg'
-import socult2122 from '../../assets/img/Hall Council/current/Nishant gahlaut.jpg'
+import socult2122 from '../../assets/img/Hall Council/current/Nishant Gahlaut.jpg'
 import sports2122 from '../../assets/img/Hall Council/current/Nitin Baghel.jpg'
 import alumni2122 from '../../assets/img/Hall Council/current/Aditya Agrawal.jpg'
 import mess2122 from '../../assets/img/Hall Council/current/Sudhanwa Kulkarni.jpg'

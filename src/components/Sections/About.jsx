@@ -19,7 +19,7 @@ const About = () => {
         <div className="about-text">
         <h1 className="heading-about">About Us</h1>
         <hr className="rule-about"/>
-        <i>"A person should be courageous and honest in worshipping the truth, without being concerned about receiving worldly benefits"</i>
+        <i>The hall was founded on March 18, 1967, and the name was given in honour of the great freedom fighter and leader of Indian Independence Movement, Lala Lajpat Rai.</i>
         </div>
 </Fade>
 

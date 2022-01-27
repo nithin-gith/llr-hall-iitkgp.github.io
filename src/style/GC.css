@@ -43,6 +43,7 @@
   border: 0.2rem solid #7620ff;
   margin-bottom: 1rem;
   background-color: #7620ff;
+  font-family: "Poppins", sans-serif;
 }
 
 .about {
@@ -52,8 +53,7 @@
   color: #6b6f7d;
   margin: auto;
   padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
+  display: flex; 
   align-items: flex-start;
 }
 
@@ -61,6 +61,7 @@
   /* width: 50%; */
   margin-right: 2rem;
   border-radius: 5%;
+  width:50%
   /* box-shadow: 10px 10px 30px 0 rgba(0, 0, 0, 0.3); */
 }
 

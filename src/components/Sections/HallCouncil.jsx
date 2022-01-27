@@ -9,7 +9,7 @@ import FacebookIcon from '@mui/icons-material/FacebookSharp';
 import hp from '../../assets/img/Hall Council/current/Divakar Chauhan.jpg'
 import ssm from '../../assets/img/Hall Council/current/Dhruv Singhal.jpg'
 import tech2122 from '../../assets/img/Hall Council/current/Aditya Verma.jpg'
-import socult2122 from '../../assets/img/Hall Council/current/Nishant Gahlaut.jpg'
+import socult2122 from '../../assets/img/Hall Council/current/Nishant gahlaut.jpg'
 import sports2122 from '../../assets/img/Hall Council/current/Nitin Baghel.jpg'
 import alumni2122 from '../../assets/img/Hall Council/current/Aditya Agrawal.jpg'
 import mess2122 from '../../assets/img/Hall Council/current/Sudhanwa Kulkarni.jpg'
@@ -28,9 +28,9 @@ import studentswelfare2021 from '../../assets/img/Hall Council/20-21/Sumit Kumar
 import library2021 from '../../assets/img/Hall Council/20-21/Uyyala Vijay Kumar.jpg'
 import hp1920 from '../../assets/img/Hall Council/19-20/hp1920.jpg'
 import ssm1920 from '../../assets/img/Hall Council/19-20/ssm1920.jpg'
-import alumni1920 from '../../assets/img/Hall Council/19-20/alumni1920.jpg'
+import alumni1920 from '../../assets/img/Hall Council/19-20/Alumni1920.jpg'
 import library1920 from '../../assets/img/Hall Council/19-20/library1920.jpg'
-import maintenance1920 from '../../assets/img/Hall Council/19-20/maintenance1920.jpg'
+import maintenance1920 from '../../assets/img/Hall Council/19-20/Maintenance1920.jpg'
 import mess1920 from '../../assets/img/Hall Council/19-20/mess1920.jpg'
 import socult1920 from '../../assets/img/Hall Council/19-20/socult1920.jpg'
 import sports1920 from '../../assets/img/Hall Council/19-20/sports1920.jpg'
@@ -99,9 +99,9 @@ export default function HallCouncil() {
     <Box  sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs  style ={{marginTop:"2rem"}}value={value} onChange={handleChange} aria-label="basic tabs example" centered>
-          <Tab label="2021-2022" {...a11yProps(0)} />
-          <Tab label="2020-2021" {...a11yProps(1)} />
-          <Tab label="2019-2020" {...a11yProps(2)} />
+          <Tab style ={{outline:"none"}} label="2021-2022" {...a11yProps(0)} />
+          <Tab style ={{outline:"none"}} label="2020-2021" {...a11yProps(1)} />
+          <Tab style ={{outline:"none"}} label="2019-2020" {...a11yProps(2)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>

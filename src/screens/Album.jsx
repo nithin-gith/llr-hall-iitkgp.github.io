@@ -17,7 +17,7 @@ const Album = () => (
       <Card  xs={12} sm={6} md={4} sx={{ maxWidth: 445 }} >
             <CardMedia  component="img" image={album.thumbnail}
               style={{
-                marginTop : '10%',
+                
                height : '20vw',
                 width: '100%',
                 minWidth :'200'

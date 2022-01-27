@@ -15,7 +15,15 @@ const GalleryPage = () => {
           []
         )
       : albums[album]?.photos;
-  return <Gallery photos={photos} />;
+    return (
+        <>
+        <div className="head">
+          <h2 className="text"></h2>
+        </div>
+       <Gallery photos={photos} /> </>
+         
+    )
+   
 };
 
 export default GalleryPage;

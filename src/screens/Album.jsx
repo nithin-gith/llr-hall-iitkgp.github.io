@@ -2,17 +2,36 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { albums } from "../assets/gallery";
 
+import Card from "@mui/material/Card"
+import { CardMedia, Grid, Typography ,CardContent} from "@mui/material";
 const Album = () => (
-  <div>
+  <>
+      <div className="head">
+          <h2 className="text">Gallery</h2>
+        </div>
+    <Grid container columnGap={2} justifyContent="center">
     {Object.entries(albums).map(([key, album]) => (
       <Link to={key}>
-        <div>
-          <img src={album.thumbnail} />
-          {album.title}
-        </div>
+ 
+     <Grid item >
+      <Card  xs={12} sm={6} md={4} sx={{ maxWidth: 445 }} >
+            <CardMedia  component="img" image={album.thumbnail}
+              style={{
+                
+               height : '20vw',
+                width: '100%',
+                minWidth :'200'
+              }}
+          />
+         <CardContent><Typography>{album.title}</Typography></CardContent> 
+          </Card>
+            
+         </Grid>   
       </Link>
     ))}
-  </div>
+      
+      </Grid>
+  </>
 );
 
 export default Album;

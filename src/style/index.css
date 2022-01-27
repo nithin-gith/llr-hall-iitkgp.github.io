@@ -405,3 +405,6 @@ body {
     height:max-content;
   }
 }
+.link-hall:hover{
+  color:black;
+}

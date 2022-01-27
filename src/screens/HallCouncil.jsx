@@ -97,11 +97,13 @@ export default function HallCouncil() {
               value={value}
               onChange={handleChange}
               aria-label="basic tabs example"
+              textColor="dark" 
+              indicatorColor="secondary" 
               centered
             >
-              <Tab label="2021-2022" {...a11yProps(0)} />
-              <Tab label="2020-2021" {...a11yProps(1)} />
-              <Tab label="2019-2020" {...a11yProps(2)} />
+              <Tab label="2021-2022" style ={{outline:"none"}} {...a11yProps(0)} />
+              <Tab label="2020-2021" style ={{outline:"none"}} {...a11yProps(1)} />
+              <Tab label="2019-2020" style ={{outline:"none"}} {...a11yProps(2)} />
             </Tabs>
           </Box>
           <TabPanel value={value} index={0}>

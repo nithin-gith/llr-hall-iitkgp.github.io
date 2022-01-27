@@ -1,4 +1,5 @@
 html,
+
 body,
 div,
 span,
@@ -407,4 +408,7 @@ body {
 }
 .link-hall:hover{
   color:black;
+}
+.card{
+  margin: 0.3rem;
 }

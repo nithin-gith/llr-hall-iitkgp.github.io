@@ -25,7 +25,7 @@ const Team = () => {
                 <div className="card">
                   <img src={warden1} className="card-img-top" alt="football"/>
                   <div className="card-body">
-                    <h5 className="card-title"><a href ="http://www.iitkgp.ac.in/department/MT/faculty/mt-tapas" target="_blank" rel="noreferrer">Tapas Kumar Bandyopadhyay</a></h5>
+                    <h5 className="card-title"><a href ="http://www.iitkgp.ac.in/department/MT/faculty/mt-tapas" target="_blank" rel="noreferrer">Dr. Tapas Kumar Bandyopadhyay</a></h5>
                     <p className = "card-text text-muted">Associate Professor</p>
                     <p className = "card-text text-muted">Metallurgical And Materials Engineering</p>
                   </div>
@@ -36,7 +36,7 @@ const Team = () => {
                 <div className="card">
                   <img src={warden2} className="card-img-top" alt="football"/>
                   <div className="card-body">
-                    <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/CH/faculty/ch-smondal" target="_blank" rel="noreferrer">Sourav Mondal</a></h5>
+                    <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/CH/faculty/ch-smondal" target="_blank" rel="noreferrer">Dr. Sourav Mondal</a></h5>
                     <p className = "card-text text-muted">Assistant Professor Grade-i</p>
                     <p className = "card-text text-muted">Chemical Engineering</p>
                   </div>
@@ -47,7 +47,7 @@ const Team = () => {
                 <div className="card">
                   <img src={warden3} className="card-img-top" alt="football"/>
                   <div className="card-body">
-                    <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/MT/faculty/mt-somjeetbiswas" target ="_blank" rel="noreferrer">Somjeet Biswas</a></h5>
+                    <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/MT/faculty/mt-somjeetbiswas" target ="_blank" rel="noreferrer">Dr. Somjeet Biswas</a></h5>
                     <p className = "card-text text-muted">Associate Professor</p>
                     <p className = "card-text text-muted">Metallurgical And Materials Engineering</p>
                   </div>

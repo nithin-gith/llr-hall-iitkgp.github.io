@@ -175,10 +175,10 @@ export default function BasicTabs() {
                       </h1>
                       <hr className="rule-about" />
                       <i>
-                        <p>The team consisted of : Atul Kumar, Shashi Kant,
+                        <p>The team consisted of: Atul Kumar, Shashi Kant,
                         Somesh Gupta, Rohit Saboo, Umang Agarwal, Saurabh
                         Pandey, Sayan Mandal, Rishabh Gupta, Shashank
-                        Jaipuria, Shyam Dixit, Abhishek kumar, Karan,Neel
+                        Jaipuria, Shyam Dixit, Abhishek kumar, Karan, Neel
                         Ghosh, Prem Shankar, Ayanava Das, Souranshu Ghosh.</p>
                         <p>Suyash Sharma, Apurv Dave helped in Direction.</p>
                         <p>General Secretary Social & Cultural: Shubham Kumar, 

@@ -15,11 +15,7 @@ const Team = () => {
       <div id='team' className='text-center'>
         <div className='container'>
           <div className='col-md-8 col-md-offset-2 section-title' style ={{marginRight:"auto",marginLeft:"auto"}}>
-            <h2 className='text'>About the Wardens</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
-            </p>
+            <h2 className='text'>Wardens</h2>
           </div>
           <div id='row'>
 

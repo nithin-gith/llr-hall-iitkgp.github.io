@@ -1,30 +1,21 @@
-import React from 'react';
-import GalleryPage from '../components/Sections/Gallery/GalleryPage'
+import React from "react";
 
-import TopNavbar from '../components/Nav/TopNavbar';
-import Footer from '../components/Sections/Footer'
-const Gallery = () => {
-    return (
+import Gallery from "react-photo-gallery";
+import { photos } from "../components/Sections/Photos";
+import { albums } from "../assets/gallery";
+import { useParams } from "react-router-dom";
 
-<>
-
-    <TopNavbar /> 
-
-<GalleryPage/>
-
-<Footer />  
-
-</>
-            
-
-
-    ) 
-        
-        
-        
-        
-        
-  
+/* popout the browser and maximize to see more rows! -> */
+const GalleryPage = () => {
+  const { album } = useParams();
+  const photos =
+    album === "all"
+      ? Object.entries(albums).reduce(
+          (prev, curr) => prev.concat(curr[1].photos),
+          []
+        )
+      : albums[album]?.photos;
+  return <Gallery photos={photos} />;
 };
 
-export default Gallery;
+export default GalleryPage;

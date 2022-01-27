@@ -18,7 +18,7 @@ export default function Services(props) {
          
         </div>
       </div>
-      <div className="whiteBg" style={{ padding: "60px 0" }}>
+      <div className="whiteBg" style={{ padding: "20px 0" }}>
         
         <div className="lightBg">
           <div className="container">

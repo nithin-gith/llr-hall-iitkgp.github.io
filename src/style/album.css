@@ -13,15 +13,15 @@
 } */
 .album-thumbnail {
   height: 300px;
-  width: 400px;
+  width: 400px !important;
 }
 @media (max-width: 420px) {
 .album-thumbnail {
   height: 240px;
-  width: 320px;
+  width: 320px !important;
 }}
 @media (max-width: 320px) {
 .album-thumbnail {
   height: 180px;
-  width: 240px;
+  width: 240px !important;
 }}

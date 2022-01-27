@@ -32,11 +32,10 @@ const Album = () => (
               <CardMedia
                 component="img"
                 image={album.thumbnail}
-                sx={{}}
                 style={{
                   marginTop: "2%",
                 }}
-                classes={{ img: "album-thumbnail" }}
+                classes={{ root: "album-thumbnail" }}
               />
               <CardContent>
                 <div className="card-title" align="center">

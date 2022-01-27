@@ -7,9 +7,9 @@ const Card = (props) => {
     return (
 
     
-  <div class="col-md-3">
+  <div class="col-sm-4-md-4"style ={{padding:"10px"}}>
     
-<div className="card">
+<div className="card" style ={{alignItems:"center"}} >
                 <img src={props.img} className="card-img-top" alt="football" style={{height:"300px", width:"300px"}}/>
     <div className="card-body">
       <h5 className="card-title">{props.name}</h5>

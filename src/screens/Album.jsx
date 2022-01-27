@@ -13,12 +13,12 @@ const Album = () => (
     {Object.entries(albums).map(([key, album]) => (
       <Link to={key}>
  
-     <Grid item >
+     <Grid item style ={{paddingBottom:"20px"}}>
       <Card  xs={12} sm={6} md={4} sx={{ maxWidth: 445 }} >
             <CardMedia  component="img" image={album.thumbnail}
               style={{
                 marginTop : '10%',
-               height : '20vw',
+                height : '20vw',
                 width: '100%',
                 minWidth :'200'
               }}

@@ -21,13 +21,13 @@ export default function Landing() {
       
       
          <Services1 
-          eventname= " Republic Day " 
+          eventname= " Republic Day '22 " 
           content="The National flag was unfurled and a series of enriching and melodious cultural programmes were conducted to induce a sense of patriotism in all the boarders on the 73rd Republic Day."
           />
       
       
       <Services 
-          eventname= " Kite Festival " 
+          eventname= " Kite Festival '22" 
           content="Flying kites is an unequivocal manifestation of freedom. All the boarders on the auspicious occasion of Makar Sankranti, came together in the ongoing unprecedented times to celebrate the festival of kites and get freed from all kinds of stress and rejuvenate themselves with full of good spirit and energy.
           "/>
    

@@ -20,10 +20,10 @@ export default function Header() {
         <div>
           <h1 className="extraBold font60">Lala Lajpat Rai Hall of Residence</h1>
           <HeaderP className="font25 semiBold">
-            "Once a Lajpatian, ever a Lajpatian."
+            "Once a Lajpatian, Ever a Lajpatian."
           </HeaderP>
           <BtnWrapper>
-            <a href="https://www.youtube.com/watch?v=yymrcWKPAwQ"><FullButton  
+            <a href="https://www.youtube.com/watch?v=yymrcWKPAwQ" target="_blank" rel="noreferrer"><FullButton  
                 title="Watch Video" 
                 icon = {<FaPlayCircle/>} 
               
@@ -43,7 +43,7 @@ export default function Header() {
               <p className="font15 whiteColor">
                 <em>A person should be courageous and honest in worshipping the truth, without being concerned about receiving worldly benefits.</em>
               </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Lala Lajpat Rai</p>
+              <p className="font17 orangeColor textRight" style={{marginTop: '10px'}}>- Lala Lajpat Rai</p>
             </div>
           </QuoteWrapper>
           <DotsWrapper>

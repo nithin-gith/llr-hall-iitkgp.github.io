@@ -685,7 +685,7 @@ export const albums = {
     ],
   },
   Firstbatch: {
-    title: "First Batch of LLR",
+    title: "First Batch of our Hall",
     thumbnail:
       require("./img/Recent Events/Founding Batch LLR/10521729_885724531479977_847789903585001942_o.jpg")
         .default,

@@ -5,7 +5,7 @@ import { albums } from "../assets/gallery";
 import "../style/album.css";
 
 import Card from "@mui/material/Card";
-import { CardMedia, Grid, Typography, CardContent } from "@mui/material";
+import { CardMedia, Grid, Typography, CardContent, CardActionArea } from "@mui/material";
 import { height, maxHeight, minHeight, width } from "@mui/system";
 const Album = () => (
   <>
@@ -29,14 +29,14 @@ const Album = () => (
                 maxWidth: 475,
               }}
             >
-              <CardMedia
+             <CardActionArea><CardMedia
                 component="img"
                 image={album.thumbnail}
                 style={{
                   marginTop: "2%",
                 }}
                 classes={{ root: "album-thumbnail" }}
-              />
+              /></CardActionArea> 
               <CardContent>
                 <div className="card-title" align="center">
                   {album.title}

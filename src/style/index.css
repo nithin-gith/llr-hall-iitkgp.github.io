@@ -398,7 +398,7 @@ body {
   flex-direction: row;
 }
 .card-img-top {
-  height: 30vw;
+  height: 20vw;
 }
 @media (max-width: 580px) {
   .card-img-top {

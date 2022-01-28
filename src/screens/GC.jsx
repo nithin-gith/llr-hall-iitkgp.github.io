@@ -106,7 +106,7 @@ export default function BasicTabs() {
                       </h2>
                       <hr className="rule-about" />
                       After 10 years and a lot of hard work we got this GOLD in
-                      ProductDesign.
+                      Product Design.
                     </div>
                   </Fade>
                 </div>
@@ -122,7 +122,7 @@ export default function BasicTabs() {
                       <hr className="rule-about" />
                       The team consisted of Sidhant Agarwal, Sagar Gupta, Anmol
                       Thakkar, Bhavya Jain, Shashank Mishra, Suyash Sharma,
-                      Gaurav Katam, Puneet Pansari, Ayush Vajpeyi, Aditya Neema,
+                      Gaurav Katam, Puneet Pansari, Ayush Vajpeyi, Aditya Neema and 
                       Agnimitra.
                     </div>
                   </Fade>
@@ -183,11 +183,11 @@ export default function BasicTabs() {
                         Gupta, Rohit Saboo, Umang Agarwal, Saurabh Pandey, Sayan
                         Mandal, Rishabh Gupta, Shashank Jaipuria, Shyam Dixit,
                         Abhishek kumar, Karan, Neel Ghosh, Prem Shankar, Ayanava
-                        Das, Souranshu Ghosh.
+                        Das and Souranshu Ghosh.
                       </p>
-                      <p>Suyash Sharma, Apurv Dave helped in Direction.</p>
+                      <p>Suyash Sharma and Apurv Dave helped in Direction.</p>
                       <p>
-                        General Secretary Social & Cultural: Shubham Kumar,
+                        General Secretary Social & Cultural Shubham Kumar,
                         Abhishek Yadav, Sushil Bagate, Abhijeet Mahato,
                         Chandraprakash Koshle, Utkarsh kumar helped in Sets and
                         Sound.

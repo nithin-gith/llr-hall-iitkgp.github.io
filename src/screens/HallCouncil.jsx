@@ -160,7 +160,7 @@ export default function HallCouncil() {
                 name="Anuj Singh"
                 position="General Secretary Maintenance"
                 fb="https://facebook.com/anuj.changed"
-                linkedin="https://www.linkedin.com/mwlite/in/anuj-singh-9371701b9"
+                linkedin="https://www.linkedin.com/in/anuj-singh-9371701b9/"
               />
               <Card2
                 img={library2122}

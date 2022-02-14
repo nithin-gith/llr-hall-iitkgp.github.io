@@ -4,11 +4,10 @@ import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
 import FullButton from "../Buttons/FullButton";
 // Assets
-import AddImage1 from "../../assets/img/Recent Events/Cricket Tournament/11.jpg";
-import AddImage2 from "../../assets/img/Recent Events/Cricket Tournament/3.jpg";
-import AddImage3 from "../../assets/img/Recent Events/Cricket Tournament/2.jpg";
-import AddImage4 from "../../assets/img/Recent Events/Cricket Tournament/4.jpg";
-
+import AddImage1 from "../../assets/img/Recent Events/Republic Day 2022/Cover.jpg";
+import AddImage2 from "../../assets/img/Recent Events/Republic Day 2022/Cover4.jpg";
+import AddImage3 from "../../assets/img/Recent Events/Republic Day 2022/Cover6.jpg";
+import AddImage4 from "../../assets/img/Recent Events/Republic Day 2022/Cover2.jpg";
 
 import {FaPhotoVideo} from 'react-icons/fa';
 import { Link } from "react-router-dom";
@@ -21,7 +20,7 @@ export default function Services(props) {
          
         </div>
       </div>
-      <div className="whiteBg" style={{ padding: "10px 0" }}>
+      <div className="whiteBg" style={{ padding: "20px 0" }}>
         
         <div className="lightBg">
           <div className="container">
@@ -32,10 +31,8 @@ export default function Services(props) {
                 <p className="font20">{props.content}</p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
-                  <Link to="gallery/InterWingCricketTournament"><FullButton title="View Gallery" icon ={<FaPhotoVideo />} action={() =>null} />
-                      </Link>
-                
-                    </div>
+                  <Link to="gallery/republicday22"><FullButton title="View Gallery" icon ={<FaPhotoVideo />} action={() => alert("clicked")} />
+                  </Link></div>
                   {/* <div style={{ width: "190px", marginLeft: "15px" }}>
                     <FullButton title="Contact Us" action={() => alert("clicked")} border />
                   </div> */}
@@ -174,8 +171,8 @@ const AddImgWrapp2 = styled.div`
   }
 `;
 const AddImgWrapp3 = styled.div`
-  width: 40%;
-  margin-left: 20%;
+  width: 30%;
+  margin-left: 30%;
   img {
     width: 100%;
     height: auto;
@@ -186,7 +183,7 @@ const AddImgWrapp3 = styled.div`
   }
 `;
 const AddImgWrapp4 = styled.div`
-  width: 30%;
+  width: 50%;
   margin: 0 5%auto;
   img {
     width: 100%;

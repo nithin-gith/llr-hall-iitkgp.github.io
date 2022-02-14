@@ -1,11 +1,90 @@
 export const albums = {
   InterWingCricketTournament: {
-    thumbnail: require("./img/Recent Events/Cricket Tournament/cover.jfif")
-      .default,
-    title: "Inter-Wing Cricket Tournament '22",
+    thumbnail: require("./img/Recent Events/Cricket Tournament/2.jpg").default,
+    title: " Inter Wing Cricket Tournament  '22",
     photos: [
       {
-        src: require("./img/Recent Events/Cricket Tournament/1.jpg").default,
+        src: require("./img/Recent Events/Cricket Tournament/2.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/3.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/4.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/5.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/6.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/7.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/8.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/9.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/10.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/11.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/11.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/12.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/13.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/14.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/15.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/16.jpg").default,
+        width: 1,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Cricket Tournament/17.jpg").default,
         width: 1,
         height: 1,
       },

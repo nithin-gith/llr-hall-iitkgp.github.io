@@ -1,4 +1,77 @@
 export const albums = {
+  InterWingCricketTournament: {
+    thumbnail: require("./img/Recent Events/Cricket Tournament/cover.jfif")
+      .default,
+    title: "Inter-Wing Cricket Tournament '22",
+    photos: [
+      {
+        src: require("./img/Recent Events/Cricket Tournament/1.jpg").default,
+        width: 1,
+        height: 1,
+      },
+    ],
+  },
+  saraswatipuja: {
+    thumbnail: require("./img/Recent Events/Saraswati Puja/1.jpg").default,
+    title: "Saraswati Puja 2022",
+    photos: [
+      {
+        src: require("./img/Recent Events/Saraswati Puja/1.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Saraswati Puja/2.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Saraswati Puja/3.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Saraswati Puja/4.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Saraswati Puja/5.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Saraswati Puja/6.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Saraswati Puja/7.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Saraswati Puja/8.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Saraswati Puja/9.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Saraswati Puja/10.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Saraswati Puja/11.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+    ],
+  },
   republicday22: {
     title: "Republic Day 2022",
     thumbnail: require("./img/Recent Events/Republic Day 2022/Cover.jpg")
@@ -716,6 +789,7 @@ export const albums = {
       },
     ],
   },
+
   all: {
     thumbnail: require("./img/lala.jpg").default,
     title: "All Photos",

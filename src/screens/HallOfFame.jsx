@@ -7,6 +7,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import data from "../datapresidents.json";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -28,27 +29,29 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 
-function createData(name, calories) {
-  return { name, calories };
-}
+// function createData(name, calories) {
+//   return { name, calories };
+// }
 
-const rows = [
-  createData('Frozen yoghurt', 159),
-  createData('Ice cream sandwich', 237),
-  createData('Eclair', 262),
-  createData('Cupcake', 305),
-  createData('Gingerbread', 356),
-  createData('Gingerbread', 356),
-  createData('Gingerbread', 356),
-  createData('Gingerbread', 356),
-  createData('Gingerbread', 356),
-  createData('Eclair', 262),
-  createData('Eclair', 262),
-  createData('Eclair', 262),
-  createData('Eclair', 262),
-  createData('Frozen yoghurt', 159),
-  createData('Frozen yoghurt', 159)
-];
+
+
+// const rows = [
+//   createData('Frozen yoghurt', 159),
+//   createData('Ice cream sandwich', 237),
+//   createData('Eclair', 262),
+//   createData('Cupcake', 305),
+//   createData('Gingerbread', 356),
+//   createData('Gingerbread', 356),
+//   createData('Gingerbread', 356),
+//   createData('Gingerbread', 356),
+//   createData('Gingerbread', 356),
+//   createData('Eclair', 262),
+//   createData('Eclair', 262),
+//   createData('Eclair', 262),
+//   createData('Eclair', 262),
+//   createData('Frozen yoghurt', 159),
+//   createData('Frozen yoghurt', 159)
+// ];
 
 export default function CustomizedTables() {
   return (
@@ -66,12 +69,12 @@ export default function CustomizedTables() {
         </TableHead>
 
         <TableBody>
-          {rows.map((row) => (
-            <StyledTableRow key={row.name}>
+          {data.map((president) => (
+            <StyledTableRow >
               <StyledTableCell align="center" component="th" scope="row">
-                {row.name}
+                {president.name}
               </StyledTableCell>
-              <StyledTableCell align="center">{row.calories}</StyledTableCell>
+              <StyledTableCell align="center">{president.year}</StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>

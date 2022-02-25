@@ -1,50 +1,142 @@
 [
     {
-        "name":"nithin",
-        "year":"1991-92"
+        "name":"Rahul Chaturvedi",
+        "year":"2002 - 2003"
     },
     {
-        "name":"chaitanya",
-        "year":"1992-93"
+        "name":"Manish Kumar",
+        "year":"2001-2002"
     },
     {
-        "name":"ayashkanth",
-        "year":"1993-94"
+        "name":"Pratyush Prasanna",
+        "year":""
     },
     {
-        "name":"nithin",
-        "year":"1994-95"
+        "name":"S Ravishankar",
+        "year":""
     },
     {
-        "name":"chaitanya",
-        "year":"1991-92"
+        "name":"Soumen Hazra",
+        "year":""
     },
     {
-        "name":"ayashkanth",
-        "year":"1991-92"
+        "name":"B V Ramana Reddy",
+        "year":""
     },
     {
-        "name":"nithin",
-        "year":"1991-92"
+        "name":"Muni Malhotra",
+        "year":""
     },
     {
-        "name":"chaitanya",
-        "year":"1991-92"
+        "name":"Abhishek Bagaria",
+        "year":""
     },
     {
-        "name":"ayashkanth",
-        "year":"1991-92"
+        "name":"Ajoy Kumar Singh",
+        "year":""
     },
     {
-        "name":"nithin",
-        "year":"1991-92"
+        "name":"Chittaranjan Jena",
+        "year":""
     },
     {
-        "name":"chaitanya",
-        "year":"1991-92"
+        "name":"Koushik Ghosh",
+        "year":""
     },
     {
-        "name":"ayashkanth",
-        "year":"1991-92"
+        "name":"Anindya Ghosh",
+        "year":""
+    },
+    {
+        "name":"Natraj Akella",
+        "year":""
+    },   
+    {
+        "name":"Avik Sarkar",
+        "year":""
+    },
+    {
+        "name":"Biswanath Chatterjee",
+        "year":""
+    },
+    {
+        "name":"Arun Misra",
+        "year":""
+    },
+    {
+        "name":"Indradeb Prasanta Pal",
+        "year":""
+    },
+    {
+        "name":"Prem Babu Goel",
+        "year":""
+    },
+    {
+        "name":"Koushik Sarkar",
+        "year":""
+    },
+    {
+        "name":"R Ranjan",
+        "year":""
+    },
+    {
+        "name":"Aniruddha Roy",
+        "year":""
+    },
+    {
+        "name":"Gautam Bose",
+        "year":""
+    },
+    {
+        "name":"Panbir Sinha",
+        "year":""
+    },
+    {
+        "name":"-",
+        "year":""
+    },
+    {
+        "name":"Sanjib Mullick",
+        "year":""
+    },
+    {
+        "name":"Nagendra Kumar Singh",
+        "year":""
+    },
+    {
+        "name":"Khan Ghalib",
+        "year":""
+    },
+    {
+        "name":"N G Desai",
+        "year":""
+    },
+    {
+        "name":"Anand Kapoor",
+        "year":""
+    },
+    {
+        "name":"R. S. V. Raman",
+        "year":""
+    },
+    {
+        "name":"-",
+        "year":""
+    },
+    {
+        "name":"Sushovan Motayed",
+        "year":""
+    },
+    {
+        "name":"L Jha",
+        "year":"1969-1970"
+    },
+    {
+        "name":"Soumen Choudhary",
+        "year":"1968-1969"
+    },
+    {
+        "name":"S V Singh",
+        "year":"1967-1968"
     }
 ]

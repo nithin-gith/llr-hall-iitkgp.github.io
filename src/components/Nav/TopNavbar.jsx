@@ -26,10 +26,10 @@ export default function TopNavbar() {
       <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
       {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
       <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "80px" } : { height: "80px" }}>
-        <NavInner className="container flexSpaceCenter">
+        <NavInner className="container flexSpaceCenter" style ={{paddingRight:"0px"}}>
           <Link className="pointer flexNullCenter link-hall" to="/" smooth={true}>
             <LogoIcon />
-            <h1 className="font20 extraBold ">
+            <h1 className="font20 extraBold " >
               Lala Lajpat Rai Hall of Residence
             </h1>
           </Link>
@@ -39,37 +39,45 @@ export default function TopNavbar() {
           </BurderWrapper>
 
 
-          <UlWrapper className="flexNullCenter">
+          <UlWrapper className="flexNullCenter" >
 
-            <li className="semiBold font15 pointer">
-              <NavLink activeClassName="is-active" style={{ padding: "10px 15px" }} to="/" spy={true} smooth={true} offset={-80} >
+            <li className="lessPadding semiBold font15 pointer " >
+              <NavLink activeClassName="is-active"  to="/" spy={true} smooth={true} offset={-80} >
                 Home
               </NavLink>
             </li>
 
-            <li className="semiBold font15 pointer">
-              <NavLink to="/gc"  activeClass="active"  style={{ padding: "10px 15px" }} spy={true} smooth={true} offset={-80}>
+            <li className="lessPadding semiBold font15 pointer">
+              <NavLink to="/gc"  activeClass="active"   spy={true} smooth={true} offset={-80}>
                 General Championship
               </NavLink>
             </li>
             
 
-            <li className="semiBold font15 pointer">
-              <NavLink activeClass="active"  style={{ padding: "10px 15px" }} to="/gallery" spy={true} smooth={true} offset={-80}>
+            <li className="lessPadding semiBold font15 pointer">
+              <NavLink activeClass="active"   to="/gallery" spy={true} smooth={true} offset={-80}>
                 Gallery
               </NavLink>
             </li>
 
-            <li className="semiBold font15 pointer">
-              <NavLink activeClass="active"  style={{ padding: "10px 15px" }} to="/hallcouncil" spy={true} smooth={true} offset={-80}>
+            <li className="lessPadding semiBold font15 pointer">
+              <NavLink activeClass="active"   to="/hallcouncil" spy={true} smooth={true} offset={-80}>
                 Hall Council
               </NavLink>
             </li>
-             <li className="semiBold font15 pointer">
-              <NavLink activeClass="active"  style={{ padding: "10px 15px" }} to="/ourteam" spy={true} smooth={true} offset={-80}>
+
+            <li className="lessPadding semiBold font15 pointer">
+              <NavLink activeClass="active"   to="/halloffame" spy={true} smooth={true} offset={-80}>
+                Hall of Fame
+              </NavLink>
+            </li>
+            
+             <li className="lessPadding semiBold font15 pointer">
+              <NavLink activeClass="active"   to="/ourteam" spy={true} smooth={true} offset={-80}>
                 Our Team
               </NavLink>
             </li>
+
 
 
             {/* <li className="semiBold font15 pointer">

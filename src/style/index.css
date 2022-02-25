@@ -416,3 +416,9 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+.lessPadding{
+  padding-left:10px;
+  padding-right:10px;
+  text-align: center;
+  
+}

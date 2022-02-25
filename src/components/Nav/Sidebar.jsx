@@ -83,7 +83,21 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px", color:"white" }}
-            to="ourteam"
+            to="/halloffame"
+            spy={true}
+            smooth={true}
+            offset={-60}
+          >
+            Hall of Fame
+          </NavLink>
+        </li>
+        <li className="semiBold font15 pointer">
+          <NavLink
+            onClick={() => toggleSidebar(!sidebarOpen)}
+            activeClass="active"
+            className="whiteColor"
+            style={{ padding: "10px 15px", color:"white" }}
+            to="/ourteam"
             spy={true}
             smooth={true}
             offset={-60}
@@ -91,6 +105,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             Our Team
           </NavLink>
         </li>
+        
 
         {/* <li className="semiBold font15 pointer">
           <Link

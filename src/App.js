@@ -30,14 +30,14 @@ export default function App() {
           <Route path="hallcouncil" element={<HallCouncil />} />
           <Route path="gallery" exact element={<Album />} />
           <Route path="gallery/:album" element={<Gallery />} />
-          <Route path="halloffame" element={<HallOfFame />}>
-            <Route path="presidents" element={<HallPresidents />} />
-            <Route path="bestgsec" element={<BestGsec />} />
-            <Route path="bestsecy" element={<BestSecy />} />
-            <Route path="bestlajpatian" element={<BestLajpatian />} />
-            <Route path="freedom" element={<Freedom />} />
-            <Route path="bestfresher" element={<BestFresher />} />
-          </Route>
+          <Route path="halloffame/presidents" element={<HallPresidents />} />
+
+          <Route path="halloffame/bestgsec" element={<BestGsec />} />
+          <Route path="halloffame/bestsecy" element={<BestSecy />} />
+          <Route path="halloffame/bestlajpatian" element={<BestLajpatian />} />
+          <Route path="halloffame/freedom" element={<Freedom />} />
+          <Route path="halloffame/bestfresher" element={<BestFresher />} />
+
           <Route path="ourteam" element={<OurTeam />} />
         </Routes>
         <Footer />

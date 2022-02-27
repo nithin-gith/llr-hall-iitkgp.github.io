@@ -67,7 +67,7 @@ export default function TopNavbar() {
             </li>
 
             <li className="lessPadding semiBold font15 pointer">
-              <NavLink activeClass="active"   to="/halloffame" spy={true} smooth={true} offset={-80}>
+              <NavLink activeClass="active"   to="/halloffame/presidents" spy={true} smooth={true} offset={-80}>
                 Hall of Fame
               </NavLink>
             </li>

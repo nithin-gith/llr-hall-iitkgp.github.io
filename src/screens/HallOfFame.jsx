@@ -85,42 +85,7 @@ export default function BasicMenu() {
 
    
 
-       <TableContainer component={Paper}>
-        <Table
-          style={{ width: "70%", margin: "32px auto 32px" }}
-          aria-label="customized table"
-        >
-          <TableHead>
-            <TableRow>
-              <StyledTableCell
-                align="center"
-                style={{ backgroundColor: "#7620ff" }}
-              >
-                Hall President
-              </StyledTableCell>
-              <StyledTableCell
-                align="center"
-                style={{ backgroundColor: "#7620ff" }}
-              >
-                Year
-              </StyledTableCell>
-            </TableRow>
-          </TableHead>
-
-          <TableBody>
-            {data.map((president) => (
-              <StyledTableRow>
-                <StyledTableCell align="center" component="th" scope="row">
-                  {president.name}
-                </StyledTableCell>
-                <StyledTableCell align="center">
-                  {president.year}
-                </StyledTableCell>
-              </StyledTableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
+      
      <Outlet/>
     </>
   );

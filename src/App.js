@@ -12,6 +12,7 @@ import TopNavbar from "./components/Nav/TopNavbar";
 import Footer from "./components/Sections/Footer";
 import OurTeam from "./components/Sections/OurTeam";
 import HallOfFame from "./screens/HallOfFame";
+import HallPresidents from "./components/Hall of Fame/Presidents";
 export default function App() {
   return (
     <>
@@ -23,7 +24,9 @@ export default function App() {
           <Route path="hallcouncil" element={<HallCouncil />} />
           <Route path="gallery" exact element={<Album />} />
           <Route path="gallery/:album" element={<Gallery />} />
-          <Route path="halloffame" element={<HallOfFame />} />
+          <Route path="halloffame" element={<HallOfFame />}>
+            <Route path="presidents" element={<HallPresidents />} />
+          </Route>
           <Route path="ourteam" element={<OurTeam />} />
         </Routes>
         <Footer />

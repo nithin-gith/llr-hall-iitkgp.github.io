@@ -95,13 +95,13 @@ export default function CustomizedTables() {
                 align="center"
                 style={{ backgroundColor: "#7620ff" }}
               >
-                Year
+                Best Secretaries
               </StyledTableCell>
               <StyledTableCell
                 align="center"
                 style={{ backgroundColor: "#7620ff" }}
               >
-                Hall President
+                Year
               </StyledTableCell>
             </TableRow>
           </TableHead>
@@ -113,6 +113,10 @@ export default function CustomizedTables() {
                   {secy.name}
                   <br />
                   {secy.name1}
+                  <br />
+                  {secy.name2}
+                  <br />
+                  {secy.name3}
                 </StyledTableCell>
                 <StyledTableCell align="center">{secy.year}</StyledTableCell>
               </StyledTableRow>

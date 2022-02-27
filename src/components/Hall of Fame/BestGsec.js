@@ -65,8 +65,8 @@ export default function CustomizedTables() {
             inputProps={{ "aria-label": "Without label" }}
             style={{ borderColor: "#7620ff", border: "solid" }}
           >
-            <MenuItem component={Link} to="/halloffame/presidents" value="1">
-              Previous Hall Presidents
+            <MenuItem component={Link} to="/halloffame/gsecs" value="1">
+              Previous Hall gsecs
             </MenuItem>
             <MenuItem component={Link} to="/halloffame/bestgsec" value="2">
               Best General Secretaries
@@ -97,26 +97,24 @@ export default function CustomizedTables() {
                 align="center"
                 style={{ backgroundColor: "#7620ff" }}
               >
-                Year
+                Best General Secretaries
               </StyledTableCell>
               <StyledTableCell
                 align="center"
                 style={{ backgroundColor: "#7620ff" }}
               >
-                Hall President
+                Year
               </StyledTableCell>
             </TableRow>
           </TableHead>
 
           <TableBody>
-            {data.map((president) => (
+            {data.map((gsec) => (
               <StyledTableRow>
                 <StyledTableCell align="center" component="th" scope="row">
-                  {president.name}
+                  {gsec.name}
                 </StyledTableCell>
-                <StyledTableCell align="center">
-                  {president.year}
-                </StyledTableCell>
+                <StyledTableCell align="center">{gsec.year}</StyledTableCell>
               </StyledTableRow>
             ))}
           </TableBody>

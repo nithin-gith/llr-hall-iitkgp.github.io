@@ -7,8 +7,15 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-import data from "../../datapresidents.json";
-import { Outlet } from "react-router-dom";
+import data from "../../databestlajpatian.json";
+import Select from "@mui/material/Select";
+
+import { Link } from "react-router-dom";
+
+import MenuItem from "@mui/material/MenuItem";
+import { Box } from "@mui/material";
+
+import FormControl from "@mui/material/FormControl";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -30,8 +37,52 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 export default function CustomizedTables() {
+  const [age, setAge] = React.useState("4");
+
+  const handleChange = (event) => {
+    setAge(event.target.value);
+  };
   return (
     <>
+      <div className="head">
+        <h2 className="text">Hall of Fame</h2>
+      </div>
+
+      <Box
+        textAlign="center"
+        style={{ width: "50%", margin: "20px 75% 0 25%" }}
+      >
+        <FormControl fullWidth>
+          <Select
+            labelId="demo-simple-select-label"
+            id="demo-simple-select"
+            value={age}
+            displayEmpty
+            onChange={handleChange}
+            inputProps={{ "aria-label": "Without label" }}
+            style={{ borderColor: "#7620ff", border: "solid" }}
+          >
+            <MenuItem component={Link} to="/halloffame/gsecs" value="1">
+              Previous Hall gsecs
+            </MenuItem>
+            <MenuItem component={Link} to="/halloffame/bestgsec" value="2">
+              Best General Secretaries
+            </MenuItem>
+            <MenuItem component={Link} to="/halloffame/bestsecy" value="3">
+              Best Secretaries
+            </MenuItem>
+            <MenuItem component={Link} to="/halloffame/bestlajpatian" value="4">
+              Best Lajpatian
+            </MenuItem>
+            <MenuItem component={Link} to="/halloffame/freedom" value="5">
+              Freedom Of the Hall
+            </MenuItem>
+            <MenuItem component={Link} to="/halloffame/bestfresher" value="6">
+              Best Fresher
+            </MenuItem>
+          </Select>
+        </FormControl>
+      </Box>
       <TableContainer component={Paper}>
         <Table
           style={{ width: "70%", margin: "32px auto 32px" }}
@@ -43,25 +94,27 @@ export default function CustomizedTables() {
                 align="center"
                 style={{ backgroundColor: "#7620ff" }}
               >
-                Year
+                Best Lajpatian
               </StyledTableCell>
               <StyledTableCell
                 align="center"
                 style={{ backgroundColor: "#7620ff" }}
               >
-                Best Lajpatian
+                Year
               </StyledTableCell>
             </TableRow>
           </TableHead>
 
           <TableBody>
-            {data.map((president) => (
+            {data.map((lajpatian) => (
               <StyledTableRow>
                 <StyledTableCell align="center" component="th" scope="row">
-                  {president.name}
+                  {lajpatian.name}
+                  <br />
+                  {lajpatian.name1}
                 </StyledTableCell>
                 <StyledTableCell align="center">
-                  {president.year}
+                  {lajpatian.year}
                 </StyledTableCell>
               </StyledTableRow>
             ))}

@@ -55,7 +55,7 @@ export default function CustomizedTables() {
         textAlign="center"
         style={{ width: "50%", margin: "20px 75% 0 25%" }}
       >
-        <FormControl style={{ borderColor: "#7620ff" }} fullWidth>
+        <FormControl fullWidth>
           <Select
             labelId="demo-simple-select-label"
             id="demo-simple-select"
@@ -63,6 +63,7 @@ export default function CustomizedTables() {
             displayEmpty
             onChange={handleChange}
             inputProps={{ "aria-label": "Without label" }}
+            style={{ borderColor: "#7620ff", border: "solid" }}
           >
             <MenuItem component={Link} to="/halloffame/presidents" value="1">
               Previous Hall Presidents

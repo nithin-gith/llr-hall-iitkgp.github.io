@@ -26,10 +26,10 @@ export default function SelectVariants() {
         </div>
       
       </TableContainer>
-     
-      <FormControl sx={{ m: 1, minWidth: 120 }}
+      <div style ={{margin:"20px auto 20px", width:"250px"}}>
+      <FormControl sx={{ m: 1 }}
        style={
-          { margin: "20px 55% 0 45%" }
+          { width:"250px" }
           
       }>
        <Select
@@ -37,7 +37,7 @@ export default function SelectVariants() {
           id="demo-simple-select"
           displayEmpty
     value={age}
-    label="Age"
+    label=""
     onChange={handleChange}
   >
           <Link to="presidents"><MenuItem style={{ textDecoration: 'none' }}  value="">Previous Hall Presidents</MenuItem></Link> 
@@ -48,6 +48,7 @@ export default function SelectVariants() {
           <Link to="bestfresher"> <MenuItem  value={6}>Best Fresher</MenuItem></Link>
         </Select>
       </FormControl>
+      </div>
       <Outlet />
     </div>
   );

@@ -13,6 +13,12 @@ import Footer from "./components/Sections/Footer";
 import OurTeam from "./components/Sections/OurTeam";
 import HallOfFame from "./screens/HallOfFame";
 import HallPresidents from "./components/Hall of Fame/Presidents";
+import BestGsec from "./components/Hall of Fame/BestGsec";
+import BestSecy from "./components/Hall of Fame/BestSecy";
+import BestLajpatian from "./components/Hall of Fame/BestLajpatian";
+import Freedom from "./components/Hall of Fame/Freedom";
+import BestFresher from "./components/Hall of Fame/BestFresher";
+
 export default function App() {
   return (
     <>
@@ -26,6 +32,11 @@ export default function App() {
           <Route path="gallery/:album" element={<Gallery />} />
           <Route path="halloffame" element={<HallOfFame />}>
             <Route path="presidents" element={<HallPresidents />} />
+            <Route path="bestgsec" element={<BestGsec />} />
+            <Route path="bestsecy" element={<BestSecy />} />
+            <Route path="bestlajpatian" element={<BestLajpatian />} />
+            <Route path="freedom" element={<Freedom />} />
+            <Route path="bestfresher" element={<BestFresher />} />
           </Route>
           <Route path="ourteam" element={<OurTeam />} />
         </Routes>

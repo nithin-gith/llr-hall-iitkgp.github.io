@@ -61,12 +61,13 @@ export default function CustomizedTables() {
             id="demo-simple-select"
             value={age}
             displayEmpty
+            color="secondary"
             onChange={handleChange}
             inputProps={{ "aria-label": "Without label" }}
             style={{ borderColor: "#7620ff", border: "solid" }}
           >
-            <MenuItem component={Link} to="/halloffame/gsecs" value="1">
-              Previous Hall gsecs
+            <MenuItem component={Link} to="/halloffame/presidents" value="1">
+              Previous Hall Presidents
             </MenuItem>
             <MenuItem component={Link} to="/halloffame/bestgsec" value="2">
               Best General Secretaries
@@ -75,7 +76,7 @@ export default function CustomizedTables() {
               Best Secretaries
             </MenuItem>
             <MenuItem component={Link} to="/halloffame/bestlajpatian" value="4">
-              Best Lajpatian
+              Best Lajpatian (Prof. Bhattacharya Cap)
             </MenuItem>
             <MenuItem component={Link} to="/halloffame/freedom" value="5">
               Freedom Of the Hall

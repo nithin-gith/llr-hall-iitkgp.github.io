@@ -52,7 +52,7 @@ export default function CustomizedTables() {
         textAlign="center"
         style={{ width: "50%", margin: "20px 75% 0 25%" }}
       >
-        <FormControl fullWidth>
+        <FormControl style={{ outline: "none" }} fullWidth>
           <Select
             labelId="demo-simple-select-label"
             id="demo-simple-select"
@@ -60,10 +60,13 @@ export default function CustomizedTables() {
             displayEmpty
             onChange={handleChange}
             inputProps={{ "aria-label": "Without label" }}
-            style={{ borderColor: "#7620ff", border: "solid" }}
+            style={{
+              borderColor: "#7620ff",
+              border: "solid black",
+            }}
           >
-            <MenuItem component={Link} to="/halloffame/gsecs" value="1">
-              Previous Hall gsecs
+            <MenuItem component={Link} to="/halloffame/presidents" value="1">
+              Previous Hall Presidents
             </MenuItem>
             <MenuItem component={Link} to="/halloffame/bestgsec" value="2">
               Best General Secretaries
@@ -72,7 +75,7 @@ export default function CustomizedTables() {
               Best Secretaries
             </MenuItem>
             <MenuItem component={Link} to="/halloffame/bestlajpatian" value="4">
-              Best Lajpatian
+              Best Lajpatian (Prof. Bhattacharya Cap)
             </MenuItem>
             <MenuItem component={Link} to="/halloffame/freedom" value="5">
               Freedom Of the Hall

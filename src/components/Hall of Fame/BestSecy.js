@@ -73,7 +73,7 @@ export default function CustomizedTables() {
               Best Secretaries
             </MenuItem>
             <MenuItem component={Link} to="/halloffame/bestlajpatian" value="4">
-              Best Lajpatian
+              Best Lajpatian (Prof. Bhattacharya Cap)
             </MenuItem>
             <MenuItem component={Link} to="/halloffame/freedom" value="5">
               Freedom Of the Hall

@@ -63,10 +63,11 @@ export default function BasicMenu({datas}) {
                             labelId="demo-simple-select-label"
                             id="demo-simple-select"
                             value={age}
-                            displayEmpty
+                     displayEmpty
+                     
                             onChange={handleChange}
                 inputProps={{ 'aria-label': 'Without label' }}
-                  style={{ borderColor: "#7620ff", border: "solid" }}
+                  style={{ borderColor: "#7620ff", border: "solid" , }}
                         >
                             <MenuItem component={Link} to='/halloffame/presidents' value="1">Previous Hall Presidents</MenuItem>
                             <MenuItem component={Link} to='/halloffame/bestgsec' value="2">Best General Secretaries</MenuItem>

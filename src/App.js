@@ -12,12 +12,6 @@ import TopNavbar from "./components/Nav/TopNavbar";
 import Footer from "./components/Sections/Footer";
 import OurTeam from "./components/Sections/OurTeam";
 import HallOfFame from "./screens/HallOfFame";
-import HallPresidents from "./components/Hall of Fame/Presidents";
-import BestGsec from "./components/Hall of Fame/BestGsec";
-import BestSecy from "./components/Hall of Fame/BestSecy";
-import BestLajpatian from "./components/Hall of Fame/BestLajpatian";
-import Freedom from "./components/Hall of Fame/Freedom";
-import BestFresher from "./components/Hall of Fame/BestFresher";
 
 export default function App() {
   return (
@@ -30,13 +24,9 @@ export default function App() {
           <Route path="hallcouncil" element={<HallCouncil />} />
           <Route path="gallery" exact element={<Album />} />
           <Route path="gallery/:album" element={<Gallery />} />
-          <Route path="halloffame/presidents" element={<HallPresidents />} />
 
-          <Route path="halloffame/bestgsec" element={<BestGsec />} />
-          <Route path="halloffame/bestsecy" element={<BestSecy />} />
-          <Route path="halloffame/bestlajpatian" element={<BestLajpatian />} />
-          <Route path="halloffame/freedom" element={<Freedom />} />
-          <Route path="halloffame/bestfresher" element={<BestFresher />} />
+          <Route path="halloffame/*" exact element={<HallOfFame />} />
+          <Route path="halloffame/:name" element={<HallOfFame />} />
 
           <Route path="ourteam" element={<OurTeam />} />
         </Routes>

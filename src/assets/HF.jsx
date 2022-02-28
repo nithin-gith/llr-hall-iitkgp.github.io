@@ -15,7 +15,8 @@ import Paper from "@mui/material/Paper";
 import MenuItem from "@mui/material/MenuItem";
 import { Box } from "@mui/material";
 import { halloffame } from "../assets/halloffame";
-
+import presidents from "../datapresidents.json";
+import bestgsecs from "../datagsecs.json";
 
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
@@ -65,8 +66,7 @@ export default function BasicMenu({datas}) {
                             value={age}
                             displayEmpty
                             onChange={handleChange}
-                inputProps={{ 'aria-label': 'Without label' }}
-                  style={{ borderColor: "#7620ff", border: "solid" }}
+                            inputProps={{ 'aria-label': 'Without label' }}
                         >
                             <MenuItem component={Link} to='/halloffame/presidents' value="1">Previous Hall Presidents</MenuItem>
                             <MenuItem component={Link} to='/halloffame/bestgsec' value="2">Best General Secretaries</MenuItem>
@@ -111,11 +111,11 @@ export default function BasicMenu({datas}) {
               <StyledTableRow>
                 <StyledTableCell align="center" component="th" scope="row">
                   {secy.name}
-                 &nbsp; &nbsp;&nbsp;&nbsp;
+                  <br />
                   {secy.name1}
                   <br />
                   {secy.name2}
-                  &nbsp; &nbsp; &nbsp;&nbsp;
+                  <br />
                   {secy.name3}
                 </StyledTableCell>
                 <StyledTableCell align="center">{secy.year}</StyledTableCell>

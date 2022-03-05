@@ -77,7 +77,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             Hall Council
           </NavLink>
         </li>
-        <li className="semiBold font15 pointer">
+       {/* <li className="semiBold font15 pointer">
           <NavLink
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
@@ -90,7 +90,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           >
             Hall of Fame
           </NavLink>
-        </li>
+        </li>*/}
         <li className="semiBold font15 pointer">
           <NavLink
             onClick={() => toggleSidebar(!sidebarOpen)}

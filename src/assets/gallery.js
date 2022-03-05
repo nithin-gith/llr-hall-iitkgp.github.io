@@ -1,4 +1,52 @@
 export const albums = {
+  InterHallCricketTournament: {
+    thumbnail: require("./img/Recent Events/Inter Hall Cricket'22/cover.JPG")
+      .default,
+    title: " Inter Hall Cricket Tournament  '22",
+    photos: [
+      {
+        src: require("./img/Recent Events/Inter Hall Cricket'22/cover.JPG")
+          .default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Inter Hall Cricket'22/1.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Inter Hall Cricket'22/2.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Inter Hall Cricket'22/3.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Inter Hall Cricket'22/4.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Inter Hall Cricket'22/5.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Inter Hall Cricket'22/6.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Inter Hall Cricket'22/7.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+    ],
+  },
   InterWingCricketTournament: {
     thumbnail: require("./img/Recent Events/Cricket Tournament/2.jpg").default,
     title: " Inter Wing Cricket Tournament  '22",

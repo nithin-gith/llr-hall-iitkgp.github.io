@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams } from 'react-router-dom';
+import { Outlet, useParams } from 'react-router-dom';
 import { styled } from "@mui/material/styles";
 import FormControl from '@mui/material/FormControl';
 import Table from "@mui/material/Table";
@@ -40,7 +40,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 
 
 
-export default function BasicMenu({datas}) {
+export default function BasicMenu() {
 
     const [age, setAge] = React.useState("1");
 
@@ -48,7 +48,7 @@ export default function BasicMenu({datas}) {
         setAge(event.target.value);
     };
     const { name } = useParams();
-    let x ={name};
+    
       return (
             <>
                 <div className="head">
@@ -67,7 +67,7 @@ export default function BasicMenu({datas}) {
                      
                             onChange={handleChange}
                 inputProps={{ 'aria-label': 'Without label' }}
-                  style={{ borderColor: "#7620ff", border: "solid" , }}
+                  style={{  border: "solid" , }}
                         >
                             <MenuItem component={Link} to='/halloffame/presidents' value="1">Previous Hall Presidents</MenuItem>
                             <MenuItem component={Link} to='/halloffame/bestgsec' value="2">Best General Secretaries</MenuItem>
@@ -80,7 +80,7 @@ export default function BasicMenu({datas}) {
               </Box>
               
               {
-                  halloffame.filter((list) => list.id === name)
+                  halloffame.filter((list) => (list.id === name ))
                       .map((list) =>
                   
                      
@@ -126,11 +126,12 @@ export default function BasicMenu({datas}) {
         </Table>
       </TableContainer>
 
-              
+            
               
               
                   
-                  )
+            )
+              
 }                  
 
 

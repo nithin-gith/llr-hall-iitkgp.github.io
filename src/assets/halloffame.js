@@ -1,6 +1,7 @@
 export const halloffame = [
   {
     id: "presidents",
+    id1: "home",
     title: "Hall Presidents",
 
     data: [

@@ -25,8 +25,7 @@ export default function App() {
           <Route path="gallery" exact element={<Album />} />
           <Route path="gallery/:album" element={<Gallery />} />
 
-          {/*<Route path="halloffame" exact element={<HallOfFame />}></Route>
-          <Route path="halloffame/:name" element={<HallOfFame />} />*/}
+          {/*<Route path="halloffame" exact element={<HallOfFame />}></Route>*/}
 
           <Route path="ourteam" element={<OurTeam />} />
         </Routes>

@@ -42,7 +42,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 
 export default function BasicMenu() {
 
-    const [age, setAge] = React.useState("1");
+    const [age, setAge] = React.useState("presidents");
 
     const handleChange = (event) => {
         setAge(event.target.value);
@@ -69,18 +69,18 @@ export default function BasicMenu() {
                 inputProps={{ 'aria-label': 'Without label' }}
                   style={{  border: "solid" , }}
                         >
-                            <MenuItem component={Link} to='/halloffame/presidents' value="1">Previous Hall Presidents</MenuItem>
-                            <MenuItem component={Link} to='/halloffame/bestgsec' value="2">Best General Secretaries</MenuItem>
-                            <MenuItem component={Link} to='/halloffame/bestsecy' value="3">Best Secretaries</MenuItem>
-                            <MenuItem component={Link} to='/halloffame/bestlajpatian' value="4">Best Lajpatian</MenuItem>
-                            <MenuItem component={Link} to='/halloffame/freedom' value="5">Freedom Of the Hall</MenuItem>
-                            <MenuItem component={Link} to='/halloffame/bestfresher' value="6">Best Fresher</MenuItem>
+                            <MenuItem /*component={Link} to='/halloffame/presidents'*/ value="presidents">Previous Hall Presidents</MenuItem>
+                            <MenuItem /*component={Link} to='/halloffame/bestgsec'*/ value="bestgsec">Best General Secretaries</MenuItem>
+                            <MenuItem /*component={Link} to='/halloffame/bestsecy'*/ value="bestsecy">Best Secretaries</MenuItem>
+                            <MenuItem /*component={Link} to='/halloffame/bestlajpatian'*/value="4">Best Lajpatian</MenuItem>
+                            <MenuItem /*component={Link} to='/halloffame/freedom'*/ value="5">Freedom Of the Hall</MenuItem>
+                            <MenuItem /*component={Link} to='/halloffame/bestfresher'*/ value="6">Best Fresher</MenuItem>
                         </Select>
                     </FormControl>
               </Box>
               
               {
-                  halloffame.filter((list) => (list.id === name ))
+                  halloffame.filter((list) => (list.id === age ))
                       .map((list) =>
                   
                      
@@ -95,7 +95,7 @@ export default function BasicMenu() {
                 align="center"
                                       style={{ backgroundColor: "#7620ff" }}
                                   
-              >
+              > 
          {list.title}
               </StyledTableCell>
               <StyledTableCell

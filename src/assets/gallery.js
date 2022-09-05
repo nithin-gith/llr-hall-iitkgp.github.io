@@ -1,4 +1,135 @@
 export const albums = {
+  Janmashtmi: {
+    thumbnail: require("./img/Recent Events/Janmashtmi 2022/3.jpg").default,
+    title: " Janmashtmi",
+    photos: [
+      {
+        src: require("./img/Recent Events/Janmashtmi 2022/1.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Janmashtmi 2022/2.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Janmashtmi 2022/3.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+    ],
+  },
+
+  Homecoming: {
+    thumbnail: require("./img/Recent Events/Homecoming 2022/15.jpg").default,
+    title: " Homecoming",
+    photos: [
+      {
+        src: require("./img/Recent Events/Homecoming 2022/1.jpeg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/2.jpeg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/3.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/4.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/5.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/6.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/7.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/8.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/9.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/10.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/11.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/12.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/13.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/14.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/15.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/16.jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Homecoming 2022/17.jpeg").default,
+        width: 1.5,
+        height: 1,
+      },
+    ],
+  },
+
+  IndependenceDay2022: {
+    thumbnail: require("./img/Recent Events/Independence Day 2022/nature-wallpaper-forest2.png").default,
+    title: " Independence Day 2022",
+    photos: [
+      {
+        src: require("./img/Recent Events/Independence Day 2022/nature-wallpaper-forest2.png").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Independence Day 2022/WhatsApp Image 2022-08-07 at 7.30.39 PM (1).jpeg").default,
+        width: 1.5,
+        height: 1,
+      },
+    ],
+  },
+
   InterHallCricketTournament: {
     thumbnail: require("./img/Recent Events/Inter Hall Cricket'22/cover.JPG")
       .default,

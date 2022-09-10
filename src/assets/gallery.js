@@ -1,7 +1,7 @@
 export const albums = {
   Janmashtmi: {
     thumbnail: require("./img/Recent Events/Janmashtmi 2022/3.jpg").default,
-    title: " Janmashtmi",
+    title: " Janmashtmi 2022",
     photos: [
       {
         src: require("./img/Recent Events/Janmashtmi 2022/1.jpg").default,
@@ -23,7 +23,7 @@ export const albums = {
 
   Homecoming: {
     thumbnail: require("./img/Recent Events/Homecoming 2022/15.jpg").default,
-    title: " Homecoming",
+    title: " Homecoming 2022",
     photos: [
       {
         src: require("./img/Recent Events/Homecoming 2022/1.jpeg").default,
@@ -114,16 +114,66 @@ export const albums = {
   },
 
   IndependenceDay2022: {
-    thumbnail: require("./img/Recent Events/Independence Day 2022/nature-wallpaper-forest2.png").default,
+    thumbnail: require("./img/Recent Events/Independence Day 2022/8.JPG").default,
     title: " Independence Day 2022",
     photos: [
       {
-        src: require("./img/Recent Events/Independence Day 2022/nature-wallpaper-forest2.png").default,
+        src: require("./img/Recent Events/Independence Day 2022/1.JPG").default,
         width: 1.5,
         height: 1,
       },
       {
-        src: require("./img/Recent Events/Independence Day 2022/WhatsApp Image 2022-08-07 at 7.30.39 PM (1).jpeg").default,
+        src: require("./img/Recent Events/Independence Day 2022/2.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Independence Day 2022/3.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Independence Day 2022/4.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Independence Day 2022/11.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Independence Day 2022/6.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Independence Day 2022/7.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Independence Day 2022/8.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Independence Day 2022/9.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Independence Day 2022/10.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Independence Day 2022/5.JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Independence Day 2022/12.jpg").default,
         width: 1.5,
         height: 1,
       },

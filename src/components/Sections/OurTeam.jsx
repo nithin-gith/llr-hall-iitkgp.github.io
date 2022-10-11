@@ -36,13 +36,20 @@ const OurTeam = () => {
               </div> */}
 
               <div className=" row justify-content-center" style ={{textAlign:"left"}}>
-                <Card2
+            /*    <Card2
                   img={kaushik}
                   name="Raghavendra Kaushik"
                   position="Advisor"
                   fb="https://www.facebook.com/raghavendra.kaushik.3"
                   linkedin="https://www.linkedin.com/in/raghavendra-kaushik13/"
-                />
+/>*/
+                <Card2
+                img={maintenance2122}
+                name="Anuj Singh"
+                position="Project Manager"
+                fb="https://facebook.com/anuj.changed"
+                linkedin="https://www.linkedin.com/in/anuj-singh-9371701b9/"
+              />
                 <Card2
                     img={alumni2122}
                     name="Aditya Agrawal"

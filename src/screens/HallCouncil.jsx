@@ -12,7 +12,7 @@ import tech2122 from "../assets/img/Hall Council/current/Aditya Verma.jpg";
 import socult2122 from "../assets/img/Hall Council/current/Nishant gahlaut.jpg";
 import sports2122 from "../assets/img/Hall Council/current/Nitin Baghel.jpg";
 import alumni2122 from "../assets/img/Hall Council/current/Aditya Agrawal.jpg";
-import mess2122 from "../assets/img/Hall Council/current/Sudhanwa Kulkarni.jpg";
+import mess2122 from "../assets/img/Hall Council/current/Akshat Sharma.jpg";
 import library2122 from "../assets/img/Hall Council/current/Ishan Goel.jpg";
 import maintenance2122 from "../assets/img/Hall Council/current/Anuj Singh.jpg";
 import studentswelfare2122 from "../assets/img/Hall Council/current/Ashish Gupta.jpg";
@@ -150,10 +150,10 @@ export default function HallCouncil() {
               />
               <Card2
                 img={mess2122}
-                name="Sudhanwa Ganesh Kulkarni"
+                name="Akshat Sharma"
                 position="General Secretary Mess"
-                fb="https://www.facebook.com/Sudhanwa248330/"
-                linkedin="https://www.linkedin.com/in/sudhanwa-kulkarni-404b0421a/"
+                fb="https://www.facebook.com/profile.php?id=100039538400553"
+                linkedin="https://www.linkedin.com/in/akshat-sharma-1004861b1"
               />   
                <Card2
                 img={maintenance2122}
@@ -209,7 +209,7 @@ export default function HallCouncil() {
             <div className="row justify-content-center">
               <Card2
                 img={socult2021}
-                name="Rohan Gundu"
+                name="Rohan Rajmohan Gundu"
                 position="General Secretary Social and Cultural"
                 fb="https://www.facebook.com/rohan.gundu.90"
                 linkedin="https://www.linkedin.com/in/rohan-gundu-4085b21aa/"

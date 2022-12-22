@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
 import FullButton from "../Buttons/FullButton";
 // Assets
-import AddImage1 from "../../assets/img/Recent Events/Cricket Tournament/11.jpg";
+import AddImage1 from "../../assets/img/Recent Events/Janmashtmi 2022/3.jpg";
 import AddImage2 from "../../assets/img/Recent Events/Cricket Tournament/3.jpg";
 import AddImage3 from "../../assets/img/Recent Events/Cricket Tournament/2.jpg";
 import AddImage4 from "../../assets/img/Recent Events/Cricket Tournament/4.jpg";

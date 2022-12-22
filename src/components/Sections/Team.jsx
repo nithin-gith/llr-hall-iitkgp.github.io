@@ -9,6 +9,13 @@ import '../../style/index.css'
 
 
 const Team = () => {
+  const cardStyle = {
+    marginLeft: '25px',
+    marginRight: '25px',
+    paddingLeft: '5px',
+    paddingRight: '5px',
+    border: '1px solid rgba(0,0,0,.125)',
+  }
   return (
     
     <div>
@@ -22,7 +29,7 @@ const Team = () => {
             <div className="card-group">
 
               <Fade bottom>
-                <div className="card">
+                <div className="card" style={cardStyle}>
                   <img src={warden1} className="card-img-top" alt="football"/>
                   <div className="card-body">
                     <h5 className="card-title"><a href ="http://www.iitkgp.ac.in/department/MT/faculty/mt-tapas" target="_blank" rel="noreferrer">Dr. Tapas Kumar Bandyopadhyay</a></h5>
@@ -34,7 +41,7 @@ const Team = () => {
               </Fade>
 
               <Fade bottom>
-                <div className="card">
+                <div className="card" style={cardStyle}>
                   <img src={warden2} className="card-img-top" alt="football"/>
                   <div className="card-body">
                     <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/CH/faculty/ch-smondal" target="_blank" rel="noreferrer">Dr. Sourav Mondal</a></h5>
@@ -46,7 +53,7 @@ const Team = () => {
               </Fade> 
               
               <Fade bottom>
-                <div className="card">
+                <div className="card" style={cardStyle}>
                   <img src={warden3} className="card-img-top" alt="football"/>
                   <div className="card-body">
                     <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/MT/faculty/mt-somjeetbiswas" target ="_blank" rel="noreferrer">Dr. Somjeet Biswas</a></h5>

@@ -4,10 +4,10 @@ import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
 import FullButton from "../Buttons/FullButton";
 // Assets
-import AddImage1 from "../../assets/img/Recent Events/Republic Day 2022/Cover.jpg";
-import AddImage2 from "../../assets/img/Recent Events/Republic Day 2022/Cover4.jpg";
-import AddImage3 from "../../assets/img/Recent Events/Republic Day 2022/Cover6.jpg";
-import AddImage4 from "../../assets/img/Recent Events/Republic Day 2022/Cover2.jpg";
+import AddImage1 from "../../assets/img/Recent Events/Independence Day 2022/2.JPG";
+import AddImage2 from "../../assets/img/Recent Events/Independence Day 2022/3.JPG";
+import AddImage3 from "../../assets/img/Recent Events/Independence Day 2022/5.JPG";
+import AddImage4 from "../../assets/img/Recent Events/Independence Day 2022/6.JPG";
 
 import {FaPhotoVideo} from 'react-icons/fa';
 import { Link } from "react-router-dom";
@@ -31,7 +31,7 @@ export default function Services(props) {
                 <p className="font20">{props.content}</p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
-                  <Link to="gallery/republicday22"><FullButton title="View Gallery" icon ={<FaPhotoVideo />} action={() => alert("clicked")} />
+                  <Link to="gallery/IndependenceDay2022"><FullButton title="View Gallery" icon ={<FaPhotoVideo />} action={() => alert("clicked")} />
                   </Link></div>
                   {/* <div style={{ width: "190px", marginLeft: "15px" }}>
                     <FullButton title="Contact Us" action={() => alert("clicked")} border />

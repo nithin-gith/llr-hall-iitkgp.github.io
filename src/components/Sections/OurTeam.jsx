@@ -1,17 +1,13 @@
 import React from 'react';
-import Card from './Card';
 import Card2 from './Card2';
-import hp from "../../assets/img/Hall Council/current/Divakar Chauhan.jpg";
-import ssm from "../../assets/img/Hall Council/current/Dhruv Singhal.jpg";
 import tech2122 from "../../assets/img/Hall Council/current/Aditya Verma.jpg";
-import socult2122 from "../../assets/img/Hall Council/current/Nishant gahlaut.jpg";
-import sports2122 from "../../assets/img/Hall Council/current/Nitin Baghel.jpg";
+import maintenance2122 from "../../assets/img/Hall Council/current/Anuj Singh.jpg";
 import alumni2122 from "../../assets/img/Hall Council/current/Aditya Agrawal.jpg";
 import nithin from "../../assets/img/Hall Council/websecs/nithin.jpg"
 import chaitanya from "../../assets/img/Hall Council/websecs/chaitanya.jpg"
 import ayashkanta from "../../assets/img/Hall Council/websecs/ayashkanta.jpg"
 import praneeth from "../../assets/img/Hall Council/praneeth.jpg"
-import kaushik from "../../assets/img/Hall Council/kaushik.jpg"
+// import kaushik from "../../assets/img/Hall Council/kaushik.jpg"
 import "../../style/Card.css";
 import "../../style/index.css";
 
@@ -23,25 +19,20 @@ const OurTeam = () => {
             <div className="head">
               <h2 className="text">Our Team</h2>
             </div>
-            {/* <div className=" row justify-content-center">
-
-
-                <Card2
-                  img={kaushik}
-                  name="Raghavendra Kaushik"
-                  position="Advisor"
-                  fb="https://www.facebook.com/raghavendra.kaushik.3"
-                  linkedin="https://www.linkedin.com/in/raghavendra-kaushik13/"
-                />
-              </div> */}
-
               <div className=" row justify-content-center" style ={{textAlign:"left"}}>
-                <Card2
+                {/* <Card2
                   img={kaushik}
                   name="Raghavendra Kaushik"
                   position="Advisor"
                   fb="https://www.facebook.com/raghavendra.kaushik.3"
                   linkedin="https://www.linkedin.com/in/raghavendra-kaushik13/"
+                /> */}
+                <Card2
+                  img={maintenance2122}
+                  name="Anuj Singh"
+                  position="Project Manager"
+                  fb="https://facebook.com/anuj.changed"
+                  linkedin="https://www.linkedin.com/in/anuj-singh-9371701b9/"
                 />
                 <Card2
                     img={alumni2122}

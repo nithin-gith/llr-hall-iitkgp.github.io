@@ -1,9 +1,9 @@
 
 
 import React from 'react';
-import warden3 from '../../assets/img/Wardens/Somjeet-Biswas.jpg'
+import warden3 from '../../assets/img/Wardens/Husney Parvez.jpeg'
 import warden2 from '../../assets/img/Wardens/Sourav Mondal.jpg'
-import warden1 from '../../assets/img/Wardens/Tapas Kumar Bandyopadhyay.jpg'
+import warden1 from '../../assets/img/Wardens/Tapan-Nath.jpg'
 import Fade from 'react-reveal/Fade'
 import '../../style/index.css'
 
@@ -32,10 +32,10 @@ const Team = () => {
                 <div className="card" style={cardStyle}>
                   <img src={warden1} className="card-img-top" alt="football"/>
                   <div className="card-body">
-                    <h5 className="card-title"><a href ="http://www.iitkgp.ac.in/department/MT/faculty/mt-tapas" target="_blank" rel="noreferrer">Dr. Tapas Kumar Bandyopadhyay</a></h5>
+                    <h5 className="card-title"><a href ="http://www.iitkgp.ac.in/department/PH/faculty/ph-tnath" target="_blank" rel="noreferrer">Dr. Tapan Kumar Nath</a></h5>
                     <p className = "card-text text-muted"><strong>Warden</strong></p>
-                    <p className = "card-text text-muted">Associate Professor</p>
-                    <p className = "card-text text-muted">Metallurgical And Materials Engineering</p>
+                    <p className = "card-text text-muted">Professor</p>
+                    <p className = "card-text text-muted">Physics</p>
                   </div>
                 </div>
               </Fade>
@@ -56,10 +56,10 @@ const Team = () => {
                 <div className="card" style={cardStyle}>
                   <img src={warden3} className="card-img-top" alt="football"/>
                   <div className="card-body">
-                    <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/MT/faculty/mt-somjeetbiswas" target ="_blank" rel="noreferrer">Dr. Somjeet Biswas</a></h5>
+                    <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/MA/faculty/ma-parvez" target ="_blank" rel="noreferrer">Dr. Husney Parvez</a></h5>
                     <p className = "card-text text-muted"><strong>Assistant Warden</strong></p>
-                    <p className = "card-text text-muted">Associate Professor</p>
-                    <p className = "card-text text-muted">Metallurgical And Materials Engineering</p>
+                    <p className = "card-text text-muted">Assistant Professor</p>
+                    <p className = "card-text text-muted">Mathematics</p>
                   </div>
                 </div>
               </Fade>

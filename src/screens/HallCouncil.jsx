@@ -6,6 +6,20 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import "../style/HallCouncil.css";
 import FacebookIcon from "@mui/icons-material/FacebookSharp";
+import hp2022 from "../assets/img/Hall Council/22-23/Anuj Singh.jpg";
+import ssm2022 from "../assets/img/Hall Council/22-23/Sparsh Kumar Jha.jpg";
+import tech2223 from "../assets/img/Hall Council/22-23/Dhruv Rathi.jpg";
+import socult2223 from "../assets/img/Hall Council/22-23/Shriyam Pandey.jpg";
+import sports2223 from "../assets/img/Hall Council/22-23/Prathamesh Chaudhary.jpg";
+
+import mess2223 from "../assets/img/Hall Council/22-23/Jai Marothiya.jpg";
+import mess_22223 from "../assets/img/Hall Council/22-23/Akash Tripathi.jpg";
+
+import maintenance2223 from "../assets/img/Hall Council/22-23/Pavan Kumar Rathod.jpg";
+import maintenance_22223 from "../assets/img/Hall Council/22-23/Mithun K Singh.jpg";
+import library2223 from "../assets/img/Hall Council/22-23/Kunal Kumar.jpg";
+import studentswelfare2223 from "../assets/img/Hall Council/22-23/Amgoth Jithendra Kumar Naik.jpg";
+import coordinator2223 from "../assets/img/Hall Council/22-23/Amitava Roy.jpg";
 import hp from "../assets/img/Hall Council/current/Divakar Chauhan.jpg";
 import ssm from "../assets/img/Hall Council/current/Dhruv Singhal.jpg";
 import tech2122 from "../assets/img/Hall Council/current/Aditya Verma.jpg";
@@ -101,12 +115,107 @@ export default function HallCouncil() {
               indicatorColor="secondary" 
               centered
             >
-              <Tab label="2021-2022" style ={{outline:"none" ,width:"30%"}} {...a11yProps(0)} />
-              <Tab label="2020-2021" style ={{outline:"none" ,width:"30%"}} {...a11yProps(1)} />
-              <Tab label="2019-2020" style ={{outline:"none" ,width:"30%"}} {...a11yProps(2)} />
+               <Tab label="2022-2023" style ={{outline:"none" ,width:"30%"}} {...a11yProps(0)} />
+              <Tab label="2021-2022" style ={{outline:"none" ,width:"30%"}} {...a11yProps(1)} />
+              <Tab label="2020-2021" style ={{outline:"none" ,width:"30%"}} {...a11yProps(2)} />
+              {/* <Tab label="2019-2020" style ={{outline:"none" ,width:"30%"}} {...a11yProps(3)} /> */}
             </Tabs>
           </Box>
           <TabPanel value={value} index={0}>
+            <div className=" row justify-content-center">
+              <Card2
+                img={hp2022}
+                name="Anuj Singh"
+                position="Hall President"
+                fb="https://www.facebook.com/anuj.changed"
+                linkedin="https://www.linkedin.com/in/anuj-singh-sikarwar-9371701b9/"
+              />
+
+              <Card2
+                img={ssm2022}
+                name="Sparsh Kumar Jha"
+                position="Second Senate Member"
+                fb=""
+                linkedin=""
+              />
+            </div>
+
+            <div className="row justify-content-center">
+              <Card2
+                img={socult2223}
+                name="Shriyam Pandey"
+                position="General Secretary Social and Cultural"
+                fb="https://www.facebook.com/shriyam.pandey.33"
+                linkedin="https://www.linkedin.com/in/shriyam-pandey-kgp/"
+                style={{width:"20%"}}
+              />
+              <Card2
+                img={sports2223}
+                name="Prathamesh Chaudhary"
+                position="General Secretary Sports and Games "
+                fb="https://www.facebook.com/prathamesh.chaudhary.71"
+                linkedin="https://www.linkedin.com/in/prathamesh-chaudhary-a54a8a214/"
+              />
+              <Card2
+                img={tech2223}
+                name="Dhruv Rathi"
+                position="General Secretary Technology"
+                fb="https://www.facebook.com/dhruv.rathi.927980"
+                linkedin="https://www.linkedin.com/in/dhruv-rathi-7b828a211/"
+              />
+              <Card2
+                img={mess2223}
+                name="Jai Marothiya"
+                position="General Secretary Mess"
+                fb="https://www.facebook.com/jai.marothiya.1"
+                linkedin="https://www.linkedin.com/in/jai-marothiya-7aa9071ba/"
+              />   
+              <Card2
+                img={mess_22223}
+                name="Akash Tripahti"
+                position="General Secretary Mess"
+                fb="https://www.facebook.com/ashu.tripathi80"
+                linkedin="https://www.linkedin.com/in/akash-tripathi-032679207/"
+              />   
+               <Card2
+                img={maintenance2223}
+                name="Pavan Kumar Rathod"
+                position="General Secretary Maintenance"
+                fb="https://www.facebook.com/profile.php?id=100009603223226"
+                linkedin="https://www.linkedin.com/in/pavan-kumar-rathod-19a6701b9/"
+              />
+               <Card2
+                img={maintenance_22223}
+                name="Mithun Kumar Singh"
+                position="General Secretary Maintenance"
+                fb="https://www.facebook.com/profile.php?id=100077450100519"
+                linkedin=""
+              />
+              <Card2
+                img={library2223}
+                name="Kunal Kumar"
+                position="General Secretary Library and Alumni Affairs "
+                fb="https://www.facebook.com/profile.php?id=100008788572995"
+                linkedin="https://www.linkedin.com/in/kunal---kumar---/"
+              />
+              <Card2
+                img={studentswelfare2223}
+                name="Amgoth Jithendra Kumar Naik"
+                position="General Secretary Students' Welfare "
+                fb="https://www.facebook.com/profile.php?id=100007928808203"
+                linkedin="https://www.linkedin.com/in/amgoth-jithender-kumar-naik-766442225/"
+              />
+              <Card2
+                img={coordinator2223}
+                name="Amitava Roy"
+                position="General Secretary Coordinator "
+                fb="https://www.facebook.com/amitava.roy.33821"
+                linkedin="https://www.linkedin.com/in/amitava-roy/"
+              />  
+            </div>      
+              
+          </TabPanel>
+          <TabPanel value={value} index={1}>
             <div className=" row justify-content-center">
               <Card2
                 img={hp}
@@ -187,7 +296,7 @@ export default function HallCouncil() {
               
           </TabPanel>
 
-          <TabPanel value={value} index={1}>
+          <TabPanel value={value} index={2}>
             <div className=" row justify-content-center">
               <Card2
                 img={hp2021}
@@ -270,7 +379,7 @@ export default function HallCouncil() {
               
             </div> */}
           </TabPanel>
-          <TabPanel value={value} index={2}>
+          <TabPanel value={value} index={3}>
             <div className=" row justify-content-center">
               <Card2
                 img={hp1920}

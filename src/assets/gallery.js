@@ -1,4 +1,888 @@
 export const albums = {
+
+  RepublicDay23: {
+    thumbnail: require("./img/Recent Events/RepublicDay2023/1 (1).jpg").default,
+    title: " Republic Day 2023",
+    photos: [
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (1).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (2).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (3).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (4).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (5).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (6).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (7).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (8).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (9).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (10).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (11).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (12).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (13).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (14).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (15).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (16).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (17).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (18).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (19).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (20).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (21).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (22).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (23).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (24).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (25).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (26).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (27).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (28).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (29).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (30).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (31).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (32).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (33).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (34).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (35).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (36).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (37).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (38).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (39).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (40).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (41).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (42).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (43).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (44).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (45).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (46).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (47).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (48).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (49).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (50).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (51).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (52).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (53).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (54).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (55).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (56).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (57).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/RepublicDay2023/1 (58).jpg").default,
+        width: 1.5,
+        height: 1,
+      },
+      
+    ],
+  },
+
+  InterWingCricket23: {
+    thumbnail: require("./img/Recent Events/InterWingCricket2023/1 (49).JPG").default,
+    title: "Inter Wing Cricket Tournament 2023",
+    photos: [
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (1).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (2).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (3).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (4).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (5).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (6).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (7).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (8).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (9).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (10).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (11).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (12).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (13).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (14).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (15).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (16).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (17).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (18).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (19).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (20).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (21).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (22).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (23).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (24).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (25).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (26).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (27).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (28).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (29).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (30).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (31).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (32).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (33).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (34).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (35).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (36).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (37).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (38).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (39).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (40).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (41).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (42).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (43).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (44).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (45).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (46).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (47).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (48).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (49).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (50).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (51).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (52).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (53).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (54).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (55).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (56).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (57).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (58).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (59).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (60).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (61).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (62).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (63).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (64).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (65).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (66).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (67).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (68).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/InterWingCricket2023/1 (69).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+    ],
+  },
+
+  // RepublicDay23: {
+  //   thumbnail: require("./img/Recent Events/Janmashtmi 2022/3.jpg").default,
+  //   title: " Republic Day 2023",
+  //   photos: [
+  //     {
+  //       src: require("./img/Recent Events/Janmashtmi 2022/1.jpg").default,
+  //       width: 1.5,
+  //       height: 1,
+  //     },
+  //     {
+  //       src: require("./img/Recent Events/Janmashtmi 2022/2.jpg").default,
+  //       width: 1.5,
+  //       height: 1,
+  //     },
+  //     {
+  //       src: require("./img/Recent Events/Janmashtmi 2022/3.jpg").default,
+  //       width: 1.5,
+  //       height: 1,
+  //     },
+  //   ],
+  // },
+  Illumination22: {
+    thumbnail: require("./img/Recent Events/Illumination2022/1 (1).JPG").default,
+    title: " Illumination 2022",
+    photos: [
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (1).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (2).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (3).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (4).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (5).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (6).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (7).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (8).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (9).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (10).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (11).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (12).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (13).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (14).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (15).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (16).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (17).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (18).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (19).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (20).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (21).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (22).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (23).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (24).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (25).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (26).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (27).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (28).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (29).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (30).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (31).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (32).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (33).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (34).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (35).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (36).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (37).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (38).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (39).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+      {
+        src: require("./img/Recent Events/Illumination2022/1 (40).JPG").default,
+        width: 1.5,
+        height: 1,
+      },
+    ],
+  },
+
+
+
+
+
+
   Janmashtmi: {
     thumbnail: require("./img/Recent Events/Janmashtmi 2022/3.jpg").default,
     title: " Janmashtmi 2022",

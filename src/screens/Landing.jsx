@@ -25,17 +25,17 @@ export default function Landing() {
       
       
       <Services 
-          eventname= " Janmashtmi '22" 
+          eventname= " Inter Wing Cricket '23" 
           content="Late Prof. Joydeep Bhattacharya Inter Wing Cricket Tournament was successfully organized in our Hall.The event saw great enthusiasm and participation from all the boarders.
           We wish to continue this legacy and have many more exciting events like this in the future.Congratulations to all the winners.   
           "/>
       <Services1
-      eventname = " Homecoming '22"
-      content="Saraswati Puja is performed on the auspicious occasion of Basant Panchami. May goddess Saraswati illuminate the glow and strive for more knowledge in us forever."
+      eventname = "Republic Day '23"
+      content="The National flag was unfurled and a series of enriching and melodious cultural programmes were conducted to induce a sense of patriotism in all the boarders on the 74th Republic Day."
       />
                <Services2
-          eventname= " Independence Day '22" 
-          content="The National flag was unfurled and a series of enriching and melodious cultural programmes were conducted to induce a sense of patriotism in all the boarders on the 76th Independence Day."
+          eventname= "Illumination '22" 
+          content="On the auspicious occasion of Diwali, as a part of our culture we celebrated this eve with great joy and made the Illumination as the representation of our unity and strength."
           />
       <Team />
       {/* <Footer /> */}

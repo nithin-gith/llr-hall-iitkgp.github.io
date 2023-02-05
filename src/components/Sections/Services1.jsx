@@ -13,6 +13,7 @@ import AddImage2 from "../../assets/img/Recent Events/RepublicDay2023/1 (7).jpg"
 import AddImage3 from "../../assets/img/Recent Events/RepublicDay2023/1 (52).jpg";
 import AddImage4 from "../../assets/img/Recent Events/RepublicDay2023/1 (25).jpg";
 
+
 import {FaPhotoVideo} from 'react-icons/fa';
 import { Link } from "react-router-dom";
 
@@ -36,6 +37,7 @@ export default function Services(props) {
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
                   <Link to="gallery/RepublicDay23"><FullButton title="View Gallery" icon ={<FaPhotoVideo />} action={() => alert("clicked")} />
+
                   </Link></div>
                   {/* <div style={{ width: "190px", marginLeft: "15px" }}>
                     <FullButton title="Contact Us" action={() => alert("clicked")} border />

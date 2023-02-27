@@ -20,6 +20,8 @@ import maintenance_22223 from "../assets/img/Hall Council/22-23/Mithun K Singh.j
 import library2223 from "../assets/img/Hall Council/22-23/Kunal Kumar.jpg";
 import studentswelfare2223 from "../assets/img/Hall Council/22-23/Amgoth Jithendra Kumar Naik.jpg";
 import coordinator2223 from "../assets/img/Hall Council/22-23/Amitava Roy.jpg";
+import pgrepresentative from "../assets/img/Hall Council/22-23/Sarkar.jpg";
+import pgrepresentative2 from "../assets/img/Hall Council/22-23/Nazeer.jpg";
 import hp from "../assets/img/Hall Council/current/Divakar Chauhan.jpg";
 import ssm from "../assets/img/Hall Council/current/Dhruv Singhal.jpg";
 import tech2122 from "../assets/img/Hall Council/current/Aditya Verma.jpg";
@@ -211,6 +213,20 @@ export default function HallCouncil() {
                 position="General Secretary Coordinator "
                 fb="https://www.facebook.com/amitava.roy.33821"
                 linkedin="https://www.linkedin.com/in/amitava-roy/"
+              />  
+               <Card2
+                img={pgrepresentative}
+                name="Rajdeep Sarkar"
+                position="PG Representative "
+                fb=""
+                linkedin=""
+              />  
+               <Card2
+                img={pgrepresentative2}
+                name="Mohammed Nazeer"
+                position="PG Representative "
+                fb=""
+                linkedin=""
               />  
             </div>      
               

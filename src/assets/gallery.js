@@ -274,11 +274,11 @@ export const albums = {
         width: 1.5,
         height: 1,
       },
-      {
-        src: require("./img/Recent Events/RepublicDay2023/1 (55).jpg").default,
-        width: 1.5,
-        height: 1,
-      },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (55).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
       {
         src: require("./img/Recent Events/RepublicDay2023/1 (56).jpg").default,
         width: 1.5,

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import warden3 from '../../assets/img/Wardens/Husney Parvez.jpeg'
-import warden2 from '../../assets/img/Wardens/Sourav Mondal.jpg'
+import warden2 from '../../assets/img/Wardens/Koustuv Ray.jpg'
 import warden1 from '../../assets/img/Wardens/Tapan-Nath.jpg'
 import Fade from 'react-reveal/Fade'
 import '../../style/index.css'
@@ -44,9 +44,9 @@ const Team = () => {
                 <div className="card" style={cardStyle}>
                   <img src={warden2} className="card-img-top" alt="football"/>
                   <div className="card-body">
-                    <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/CH/faculty/ch-smondal" target="_blank" rel="noreferrer">Dr. Sourav Mondal</a></h5>
+                    <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/CH/faculty/ch-koustuv" target="_blank" rel="noreferrer">Prof. Koustuv Ray</a></h5>
                     <p className = "card-text text-muted"><strong>Assistant Warden</strong></p>
-                    <p className = "card-text text-muted">Assistant Professor Grade-I</p>
+                    <p className = "card-text text-muted">Professor</p>
                     <p className = "card-text text-muted">Chemical Engineering</p>
                   </div>
                 </div>

@@ -44,7 +44,7 @@ const Team = () => {
                 <div className="card" style={cardStyle}>
                   <img src={warden2} className="card-img-top" alt="football"/>
                   <div className="card-body">
-                    <h5 className="card-title"><a href="http://www.iitkgp.ac.in/department/CH/faculty/ch-smondal" target="_blank" rel="noreferrer">Prof. Koustuv Ray</a></h5>
+                    <h5 className="card-title"><a href="https://media.licdn.com/dms/image/C4E03AQEcyaA7qOrkPg/profile-displayphoto-shrink_800_800/0/1654894641595?e=2147483647&v=beta&t=f-AajPCYb80uJnxX9YYymmD1NKulcpcXLcaKVjgTgDE" target="_blank" rel="noreferrer">Prof. Koustuv Ray</a></h5>
                     <p className = "card-text text-muted"><strong>Assistant Warden</strong></p>
                     <p className = "card-text text-muted">Professor</p>
                     <p className = "card-text text-muted">Chemical Engineering</p>

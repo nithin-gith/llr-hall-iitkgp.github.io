@@ -134,11 +134,184 @@ export const albums = {
         width: 1.5,
         height: 1,
       },
-      {
-        src: require("./img/Recent Events/RepublicDay2023/1 (27).jpg").default,
-        width: 1.5,
-        height: 1,
-      },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (27).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (28).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (29).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (30).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (31).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (32).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // // {
+      // //   src: require("./img/Recent Events/RepublicDay2023/1 (33).jpg").default,
+      // //   width: 1.5,
+      // //   height: 1,
+      // // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (34).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (35).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // // {
+      // //   src: require("./img/Recent Events/RepublicDay2023/1 (36).jpg").default,
+      // //   width: 1.5,
+      // //   height: 1,
+      // // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (37).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (38).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (39).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (40).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (41).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (42).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (43).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (44).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (45).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (46).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (47).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (48).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (49).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (50).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (51).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (52).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (53).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (54).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // // {
+      // //   src: require("./img/Recent Events/RepublicDay2023/1 (55).jpg").default,
+      // //   width: 1.5,
+      // //   height: 1,
+      // // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (56).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (57).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (58).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      
+    ],
+  },
+
+  SaraswatiPuja23: {
+    thumbnail: require("./img/Recent Events/RepublicDay2023/1 (43).jpg").default,
+    title: " Sarawati Puja 2023",
+    photos: [
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (1).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
+      // {
+      //   src: require("./img/Recent Events/RepublicDay2023/1 (27).jpg").default,
+      //   width: 1.5,
+      //   height: 1,
+      // },
       {
         src: require("./img/Recent Events/RepublicDay2023/1 (28).jpg").default,
         width: 1.5,

@@ -174,7 +174,7 @@ export default function HallCouncil() {
               />   
               <Card2
                 img={mess_22223}
-                name="Akash Tripahti"
+                name="Akash Tripathi"
                 position="General Secretary Mess"
                 fb="https://www.facebook.com/ashu.tripathi80"
                 linkedin="https://www.linkedin.com/in/akash-tripathi-032679207/"

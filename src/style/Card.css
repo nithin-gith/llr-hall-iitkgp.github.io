@@ -1,3 +1,64 @@
 .row {
   margin: 2rem;
 }
+figure {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  margin: 0 10px;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 5px solid black;
+  
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.332), inset -10px -10px 30px rgba(0, 0, 0, 0.332);
+}
+
+figcaption {
+  background-color: rgba(48, 48, 48, 0.3);
+  color: #ffffff;
+  padding: 0px 15px;
+  margin: none;
+  margin-bottom: 10px;
+  /* align-items: center; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* text-justify: auto; */
+  text-align: center;
+  position: absolute;
+  bottom: 9px;
+  width: 94%;
+  height: 50px;
+  overflow: hidden;
+}
+
+.caption-title {
+  /* justify-content: center; */
+  font-size: 1rem;
+}
+
+.caption-full {
+  opacity: 0;
+  margin-top: 10px;
+}
+
+.expanded {
+  height: 100%;
+  transition: 0.5s ease-in-out;
+  background-color: rgba(48, 48, 48, 0.7);
+}
+
+.visible {
+  opacity: 100;
+}
+
+.image-filter {
+  filter: blur(5px) contrast(90%);
+}
+.hidetitle{
+  display: none;
+}

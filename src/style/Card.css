@@ -46,7 +46,7 @@ figcaption {
   margin-top: 10px;
 }
 
-.expanded {
+/* .expanded {
   height: 100%;
   transition: 0.5s ease-in-out;
   background-color: rgba(48, 48, 48, 0.7);
@@ -61,4 +61,23 @@ figcaption {
 }
 .hidetitle{
   display: none;
+} */
+/* ----------------------------------------------------------------------------- */
+                          /* --------CARD HOVER EFFECT------ */
+
+
+
+figure:hover figcaption{
+  height: 100%;
+  transition: 0.5s ease-in-out;
+  background-color: rgba(48, 48, 48, 0.7);
+}
+figure:hover .caption-title{
+  display: none;
+}
+figure:hover .caption-full{
+  opacity: 100;
+}
+figure:hover img {
+  filter: blur(5px) contrast(90%);
 }

@@ -1,90 +1,3 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-  box-sizing: border-box;
-}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -420,5 +333,54 @@ body {
   padding-left:10px;
   padding-right:10px;
   text-align: center;
+}
+
+.hovereffect {
+  /* color: #ef1414; */
+  /* text-transform: lowercase; */
+  text-decoration: none;
+  /* letter-spacing: 0.15em;      */
+  display: inline-block;
+  /* padding: 15px 20px; */
+  position: relative;
   
+}
+
+.hovereffect:after{
+  content: "";
+  display: block;
+  height: 4px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.hovereffect:hover:after { 
+  width: 100%; 
+  left: 0;
+  background-color:#7620ff;
+}
+
+
+/* HALL COUNCIL TABS SCROLLBAR */
+
+.css-jpln7h-MuiTabs-scroller{
+  overflow-x: scroll  !important ;
+}
+
+
+
+.css-1wf8b0h-MuiTabs-flexContainer{
+  min-width: 470px;
+}
+.css-1nuo49t-MuiButtonBase-root-MuiTab-root{
+  padding: 12px 6px;
+}
+
+nav ul li{
+  text-align: center;
+  align-items: center;
+  display: flex;
 }

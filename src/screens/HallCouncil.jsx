@@ -6,15 +6,14 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import "../style/HallCouncil.css";
 import FacebookIcon from "@mui/icons-material/FacebookSharp";
+
 import hp2022 from "../assets/img/Hall Council/22-23/Anuj Singh.jpg";
 import ssm2022 from "../assets/img/Hall Council/22-23/Sparsh Kumar Jha.jpg";
 import tech2223 from "../assets/img/Hall Council/22-23/Dhruv Rathi.jpg";
 import socult2223 from "../assets/img/Hall Council/22-23/Shriyam Pandey.jpg";
 import sports2223 from "../assets/img/Hall Council/22-23/Prathamesh Chaudhary.jpg";
-
 import mess2223 from "../assets/img/Hall Council/22-23/Jai Marothiya.jpg";
 import mess_22223 from "../assets/img/Hall Council/22-23/Akash Tripathi.jpg";
-
 import maintenance2223 from "../assets/img/Hall Council/22-23/Pavan Kumar Rathod.jpg";
 import maintenance_22223 from "../assets/img/Hall Council/22-23/Mithun K Singh.jpg";
 import library2223 from "../assets/img/Hall Council/22-23/Kunal Kumar.jpg";
@@ -22,6 +21,23 @@ import studentswelfare2223 from "../assets/img/Hall Council/22-23/Amgoth Jithend
 import coordinator2223 from "../assets/img/Hall Council/22-23/Amitava Roy.jpg";
 import pgrepresentative from "../assets/img/Hall Council/22-23/Sarkar.jpg";
 import pgrepresentative2 from "../assets/img/Hall Council/22-23/Nazeer.jpg";
+
+// import * as images from '../assets/img/Hall_Council/23-24'
+
+import hp2024 from "../assets/img/Hall Council/23-24/priyansh_shrivastava.jpeg"
+import ssm2024 from "../assets/img/Hall Council/23-24/yash_jadhav.jpeg";
+import tech2024 from "../assets/img/Hall Council/23-24/Avinash.jpg";
+import socult2024 from "../assets/img/Hall Council/23-24/sanjay_mali.jpg";
+import sports2024 from "../assets/img/Hall Council/23-24/akshat_shrivastava.jpeg";
+import mess2024 from "../assets/img/Hall Council/23-24/Rahul_mehra_1.jpg";
+import maintenance2024 from "../assets/img/Hall Council/23-24/mayank_kumar.jpeg";
+import library2024 from "../assets/img/Hall Council/23-24/sanidhya.jpeg";
+import studentswelfare2024 from "../assets/img/Hall Council/23-24/Bikash_montay.jpeg";
+import coordinator2024 from "../assets/img/Hall Council/23-24/keshav_patidar.jpeg";
+// import pgr2024 from "../assets/img/Hall Council/23-24/Sarkar.jpg";
+// import pgr22024 from "../assets/img/Hall Council/23-24/Nazeer.jpg";
+
+
 import hp from "../assets/img/Hall Council/current/Divakar Chauhan.jpg";
 import ssm from "../assets/img/Hall Council/current/Dhruv Singhal.jpg";
 import tech2122 from "../assets/img/Hall Council/current/Aditya Verma.jpg";
@@ -52,9 +68,9 @@ import socult1920 from "../assets/img/Hall Council/19-20/socult1920.jpg";
 import sports1920 from "../assets/img/Hall Council/19-20/sports1920.jpg";
 import studentswelfare1920 from "../assets/img/Hall Council/19-20/studentswelfare1920.jpg";
 import tech1920 from "../assets/img/Hall Council/19-20/tech1920.jpg";
-
+// import "../assets/img/Hall Council/23-24"
 import { Fade } from "@mui/material";
-import Card from "../components/Sections/Card";
+// import Card from "../components/Sections/Card";
 import Card2 from "../components/Sections/Card2";
 import "../style/Card.css";
 import "../style/index.css";
@@ -107,8 +123,9 @@ export default function HallCouncil() {
         </div>
 
         <Box sx={{ width: "100%" }}>
-          <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+          <Box  sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs
+              className="years-tabs"
               style={{ marginTop: "2rem" }}
               value={value}
               onChange={handleChange}
@@ -117,13 +134,111 @@ export default function HallCouncil() {
               indicatorColor="secondary" 
               centered
             >
-               <Tab label="2022-2023" style ={{outline:"none" ,width:"30%"}} {...a11yProps(0)} />
-              <Tab label="2021-2022" style ={{outline:"none" ,width:"30%"}} {...a11yProps(1)} />
-              <Tab label="2020-2021" style ={{outline:"none" ,width:"30%"}} {...a11yProps(2)} />
-              {/* <Tab label="2019-2020" style ={{outline:"none" ,width:"30%"}} {...a11yProps(3)} /> */}
+          
+                {/* <Tab label="2023-2024" style ={{outline:"none" ,width:"20%"}} {...a11yProps(0)} /> */}
+                <Tab label="2023-2024" style ={{outline:"none" ,width:"20%"}} {...a11yProps(0)} />
+                <Tab label="2022-2023" style ={{outline:"none" ,width:"20%"}} {...a11yProps(1)} />
+                <Tab label="2021-2022" style ={{outline:"none" ,width:"20%"}} {...a11yProps(2)} />
+                <Tab label="2020-2021" style ={{outline:"none" ,width:"20%"}} {...a11yProps(3)} />
+                <Tab label="2019-2020" style ={{outline:"none" ,width:"20%"}} {...a11yProps(4)} />
             </Tabs>
           </Box>
           <TabPanel value={value} index={0}>
+            <div className=" row justify-content-center">
+              <Card2
+                img={hp2024}
+                name="Priyansh Srivastava"
+                position="Hall President"
+                fb="https://www.facebook.com/profile.php?id=100065067784365"
+                linkedin=""
+              />
+
+            <Card2
+                img={ssm2024}
+                name="Yash Jadhav"
+                position="Second Senate Member"
+                fb="https://www.facebook.com/profile.php?id=100008659692398"
+                linkedin="https://www.linkedin.com/in/yash-jadhav-305711204/"
+              />
+            </div>
+
+            <div className="row justify-content-center">
+                 <Card2
+                img={socult2024}
+                name="Sanjay Mali"
+                position="General Secretary Social and Cultural"
+                fb="https://www.facebook.com/profile.php?id=100024642257170"
+                linkedin="https://www.linkedin.com/in/sanjaymali/"
+                // style={{width:"20%"}}
+              />
+              <Card2 
+                img={sports2024}
+                name="Akshat Srivastava"
+                position="General Secretary Sports and Games "
+                fb="https://www.facebook.com/profile.php?id=100078280280924"
+                linkedin="https://www.linkedin.com/in/akshat-srivastava-6182b4229/"
+              />
+              <Card2
+                img={tech2024}
+                name="Kalepu Avinash"
+                position="General Secretary Technology"
+                fb="https://www.facebook.com/avinash.kalepu.9"
+                linkedin="https://www.linkedin.com/in/kalepu-avinash-966b15229/"
+              />
+              <Card2
+                img={mess2024}
+                name="Rahul Mehra"
+                position="General Secretary Mess"
+                fb="https://www.facebook.com/profile.php?id=100075151239715"
+                linkedin="https://www.linkedin.com/in/rahul-mehra-34b8ab247/"
+              />   
+               <Card2
+                img={maintenance2024}
+                name="Mayank Kumar"
+                position="General Secretary Maintenance"
+                fb="https://www.facebook.com/profile.php?id=100075333348154"
+                linkedin="https://www.linkedin.com/in/mayank-kumar-b8693915a/"
+              />
+              <Card2
+                img={library2024}
+                name="Sanidhya Agarwal"
+                position="General Secretary Library and Alumni Affairs "
+                fb="https://www.facebook.com/profile.php?id=100074188981636"
+                linkedin="https://www.linkedin.com/in/sanidhya-agarwal-a57a71222/"
+              />
+              <Card2
+                img={studentswelfare2024}
+                name="Bikash Mohanty"
+                position="General Secretary Students' Welfare "
+                fb="https://www.facebook.com/bikash.mohanty.9279"
+                linkedin="https://www.linkedin.com/in/bikash-mohanty-a81178237/"
+              />
+              <Card2
+                img={coordinator2024}
+                name="Keshav Patidar"
+                position="General Secretary Coordinator "
+                fb="https://www.facebook.com/profile.php?id=100073259420475"
+                linkedin="https://www.linkedin.com/in/keshav-patidar-aa130224a/"
+              />  
+               {/* <Card2
+                img={pgrepresentative}
+                name="Ayan Gope"
+                position="PG Representative "
+                fb=""
+                linkedin=""
+              />  
+               <Card2
+                img={pgrepresentative2}
+                name="Pawan Johnson"
+                position="PG Representative "
+                fb=""
+                linkedin=""
+              />  */}
+            </div>       
+              
+          </TabPanel>
+
+          <TabPanel value={value} index={1}>
             <div className=" row justify-content-center">
               <Card2
                 img={hp2022}
@@ -149,7 +264,7 @@ export default function HallCouncil() {
                 position="General Secretary Social and Cultural"
                 fb="https://www.facebook.com/shriyam.pandey.33"
                 linkedin="https://www.linkedin.com/in/shriyam-pandey-kgp/"
-                style={{width:"20%"}}
+                // style={{width:"20%"}}
               />
               <Card2
                 img={sports2223}
@@ -231,7 +346,7 @@ export default function HallCouncil() {
             </div>      
               
           </TabPanel>
-          <TabPanel value={value} index={1}>
+          <TabPanel value={value} index={2}>
             <div className=" row justify-content-center">
               <Card2
                 img={hp}
@@ -312,7 +427,7 @@ export default function HallCouncil() {
               
           </TabPanel>
 
-          <TabPanel value={value} index={2}>
+          <TabPanel value={value} index={3}>
             <div className=" row justify-content-center">
               <Card2
                 img={hp2021}
@@ -395,7 +510,7 @@ export default function HallCouncil() {
               
             </div> */}
           </TabPanel>
-          <TabPanel value={value} index={3}>
+          <TabPanel value={value} index={4}>
             <div className=" row justify-content-center">
               <Card2
                 img={hp1920}

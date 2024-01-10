@@ -1,13 +1,15 @@
 import React from 'react';
 import Card2 from './Card2';
-import tech2122 from "../../assets/img/Hall Council/current/Aditya Verma.jpg";
-import maintenance2122 from "../../assets/img/Hall Council/current/Anuj Singh.jpg";
-import alumni2122 from "../../assets/img/Hall Council/current/Aditya Agrawal.jpg";
+import tech2024 from "../../assets/img/Hall Council/current/Avinash.jpg";
+import hp2024 from "../../assets/img/Hall Council/23-24/priyansh_shrivastava.jpeg"
+
 import nithin from "../../assets/img/Hall Council/websecs/nithin.jpg"
-import chaitanya from "../../assets/img/Hall Council/websecs/chaitanya.jpg"
-import ayashkanta from "../../assets/img/Hall Council/websecs/ayashkanta.jpg"
-import praneeth from "../../assets/img/Hall Council/praneeth.jpg"
-// import kaushik from "../../assets/img/Hall Council/kaushik.jpg"
+import krishna from "../../assets/img/Hall Council/websecs/krishna.jpeg"
+import aaditya from "../../assets/img/Hall Council/websecs/aaditya.jpeg"
+import akshat from "../../assets/img/Hall Council/websecs/akshat.jpeg"
+import revant from "../../assets/img/Hall Council/websecs/revant.jpg"
+import suryansh from "../../assets/img/Hall Council/websecs/suryansh.jpg"
+
 import "../../style/Card.css";
 import "../../style/index.css";
 
@@ -19,66 +21,71 @@ const OurTeam = () => {
             <div className="head">
               <h2 className="text">Our Team</h2>
             </div>
-              <div className=" row justify-content-center" style ={{textAlign:"left"}}>
-                {/* <Card2
-                  img={kaushik}
-                  name="Raghavendra Kaushik"
-                  position="Advisor"
-                  fb="https://www.facebook.com/raghavendra.kaushik.3"
-                  linkedin="https://www.linkedin.com/in/raghavendra-kaushik13/"
-                /> */}
-                <Card2
-                  img={maintenance2122}
-                  name="Anuj Singh"
+            <div className=" row justify-content-center" style ={{textAlign:"left"}}>
+            <Card2
+                  img={hp2024}
+                  name="Priyansh Srivastava"
                   position="Project Manager"
-                  fb="https://facebook.com/anuj.changed"
-                  linkedin="https://www.linkedin.com/in/anuj-singh-9371701b9/"
+                  fb="https://www.facebook.com/profile.php?id=100065067784365"
+                linkedin=""
                 />
-                <Card2
-                    img={alumni2122}
-                    name="Aditya Agrawal"
-                    position="Coodinator"
-                    fb="https://www.facebook.com/adityaagrawal.99/"
-                    linkedin="https://www.linkedin.com/in/adityaagrawal99/"
+              </div>
+              <div className=" row justify-content-center" style ={{textAlign:"left"}}>
+                
+                 
+                <br />
+                  <Card2
+                    img={nithin}
+                    name="Nithin Siriguppa"
+                    position="Coordinator"
+                    fb="https://www.facebook.com/nithin.siriguppa"
+                    linkedin="https://www.linkedin.com/in/siriguppa-naga-nithin-3a9bba211/"
                   />
                 <Card2
-                  img={tech2122}
-                  name="Aditya Verma"
+                  img={tech2024}
+                  name="Kalepu Avinash"
                   position="Coordinator"
-                  fb="https://www.facebook.com/profile.php?id=100005749835976"
-                  linkedin="https://www.linkedin.com/in/aditya-verma-7236a2107/"
-                />
-
-                <Card2
-                  img={praneeth}
-                  name="Praneeth Reddy"
-                  position="Coordinator"
-                  fb="https://www.facebook.com/praneeth.reddy.3557440/about_contact_and_basic_info"
-                  linkedin="https://www.linkedin.com/in/praneethrdy/"
+                  fb=""
+                  linkedin=""
                 />
               </div>
 
               <div className="row justify-content-center">
+             
               <Card2
-                img={nithin}
-                name="Nithin Siriguppa"
+                img={krishna}
+                name="Krishna Chaudhari"
                 position="Web Secretary"
-                fb="https://www.facebook.com/nithin.siriguppa"
-                linkedin="https://www.linkedin.com/in/siriguppa-naga-nithin-3a9bba211/"
+                fb="https://www.facebook.com/krishna.caudhari.5"
+                linkedin="https://www.linkedin.com/in/krishachaudhari/"
               />
               <Card2
-                img={chaitanya}
-                name="Chaitanya Dhuware"
+                img={akshat}
+                name="Akshat Verma"
                 position="Web Secretary"
-                fb="https://www.facebook.com/profile.php?id=100058376985398"
-                linkedin="https://www.linkedin.com/in/chaitanya-dhuware/"
+                fb="https://www.facebook.com/profile.php?id=100050080189979"
+                linkedin="https://www.linkedin.com/in/akshatvermaa/"
               />
               <Card2
-                img={ayashkanta}
-                name="Ayashkanta Mishra"
+                img={aaditya}
+                name="Aaditya Raj Kaushik"
                 position="Web Secretary"
-                fb="https://www.facebook.com/ayashkanta.mishra.7"
-                linkedin="https://www.linkedin.com/in/ayashkanta-mishra-15a368220/"
+                fb="https://www.facebook.com/profile.php?id=100086471603203"
+                linkedin="https://www.linkedin.com/in/aditya-raj-kaushik-28827b253/"
+              />
+              <Card2
+                img={revant}
+                name="Revant"
+                position="Web Secretary"
+                fb="https://www.facebook.com/profile.php?id=100009213304015"
+                linkedin="https://www.linkedin.com/in/revanth-suddala-118101252/"
+              />
+              <Card2
+                img={suryansh}
+                name="Suryansh Singh"
+                position="Web Secretary"
+                fb="https://www.facebook.com/profile.php?id=100035611026597"
+                linkedin="https://www.linkedin.com/in/suryansh-singh-131685263/"
               />
             </div>  
 

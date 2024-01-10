@@ -39,29 +39,29 @@ export default function TopNavbar() {
           </BurderWrapper>
 
 
-          <UlWrapper className="flexNullCenter" >
+          <UlWrapper className="flexNullCenter " >
 
             <li className="lessPadding semiBold font15 pointer " >
-              <NavLink activeClassName="is-active"  to="/" spy={true} smooth={true} offset={-80} >
+              <NavLink activeClassName="is-active" className="hovereffect" to="/" spy={true} smooth={true} offset={-80} >
                 Home
               </NavLink>
             </li>
 
             <li className="lessPadding semiBold font15 pointer">
-              <NavLink to="/gc"  activeClass="active"   spy={true} smooth={true} offset={-80}>
+              <NavLink to="/gc"  activeClass="active"  className="hovereffect" spy={true} smooth={true} offset={-80}>
                 General Championship
               </NavLink>
             </li>
             
 
             <li className="lessPadding semiBold font15 pointer">
-              <NavLink activeClass="active"   to="/gallery" spy={true} smooth={true} offset={-80}>
+              <NavLink activeClass="active" className="hovereffect"  to="/gallery" spy={true} smooth={true} offset={-80}>
                 Gallery
               </NavLink>
             </li>
 
             <li className="lessPadding semiBold font15 pointer">
-              <NavLink activeClass="active"   to="/hallcouncil" spy={true} smooth={true} offset={-80}>
+              <NavLink activeClass="active" className="hovereffect"  to="/hallcouncil" spy={true} smooth={true} offset={-80}>
                 Hall Council
               </NavLink>
             </li>
@@ -73,7 +73,7 @@ export default function TopNavbar() {
   </li>*/}
             
              <li className="lessPadding semiBold font15 pointer">
-              <NavLink activeClass="active"   to="/ourteam" spy={true} smooth={true} offset={-80}>
+              <NavLink activeClass="active" className="hovereffect"  to="/ourteam" spy={true} smooth={true} offset={-80}>
                 Our Team
               </NavLink>
             </li>

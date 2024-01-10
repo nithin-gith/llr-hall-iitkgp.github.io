@@ -1,3 +1,96 @@
 .row {
   margin: 2rem;
 }
+figure {
+  position: relative;
+  width: 270px !important;
+  height: 320px;
+  overflow: hidden;
+  margin: 0 10px;
+}
+.card-img-top{
+  width: 270px  !important;
+}
+
+
+figure img {
+  width: 95%  !important  ;
+  height: 100%;
+  object-fit: cover;
+  border: .1px solid rgba(97, 92, 92, 0.407);
+  
+  /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.332), inset -10px -10px 30px rgba(0, 0, 0, 0.332); */
+}
+
+figcaption {
+  /* background-color: rgba(48, 48, 48, 0.3); */
+  background-color: rgba(117, 32, 255);
+  /* background-color: rgba(117, 32, 255, 0.443); */
+  color: #ffffff;
+
+  margin: none;
+
+  margin-bottom: 10px;
+  font-family:Poppins,sans-serif;
+  text-align: center;
+  position: absolute;
+  bottom: 9px;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.caption-title {
+  /* justify-content: center; */
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.caption-full {
+  opacity: 0;
+  margin-top: 10px;
+}
+
+
+/* ----------------------------------------------------------------------------- */
+                          /* --------CARD HOVER EFFECT------ */
+
+figure:hover figcaption{
+  height: 100%;
+  /* margin: 1px; */
+  border: 2px solid black;
+
+  transition: 0.5s ease-in-out;
+  /* background-color: rgba(48, 48, 48, 0.7); */
+  /* background-color: rgba(117, 32, 255, 0.307); */
+  background-color: rgba(117, 32, 255);
+}
+figure:hover .caption-title{
+  display: none;
+}
+figure:hover .caption-full{
+  opacity: 100;
+}
+figure:hover img {
+  filter: blur(5px) contrast(90%);
+}
+
+
+
+@media (width < 310px){
+  figure{
+    width: 220px !important ;
+  }
+  .card-img-top{
+    width: 220px  !important;
+  }
+}
+
+

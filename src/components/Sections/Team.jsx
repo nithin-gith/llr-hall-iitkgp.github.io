@@ -75,7 +75,47 @@ const Team = () => {
 export default Team;
 
 
+// const Team = () => {
+//   return (
+    
 
+//       <>
+//           <div className="head">
+//             <h2 className="text">Our Team</h2>
+//           </div>
+//             <div className=" row justify-content-center" style ={{textAlign:"left"}}>
+              
+//               <Card2
+//                 img={praneeth}
+//                 name="Praneeth Reddy"
+//                 position="Warden"
+//                 fb="https://www.facebook.com/praneeth.reddy.3557440/about_contact_and_basic_info"
+//                 linkedin="https://www.linkedin.com/in/praneethrdy/"
+//               />
+//                 <Card2
+//                   img={nithin}
+//                   name="Nithin Siriguppa"
+//                   position="Assistan Warden"
+//                   fb="https://www.facebook.com/nithin.siriguppa"
+//                   linkedin="https://www.linkedin.com/in/siriguppa-naga-nithin-3a9bba211/"
+//                 />
+//               <Card2
+//                 img={tech2024}
+//                 name="Avinash"
+//                 position="Assistant Warden"
+//                 fb=""
+//                 linkedin=""
+//               />
+//             </div>
+
+//       </>
+//       )
+//   }
+ 
+
+
+
+// export default Team;
 
 
 

@@ -363,3 +363,24 @@ body {
   background-color:#7620ff;
 }
 
+
+/* HALL COUNCIL TABS SCROLLBAR */
+
+.css-jpln7h-MuiTabs-scroller{
+  overflow-x: scroll  !important ;
+}
+
+
+
+.css-1wf8b0h-MuiTabs-flexContainer{
+  min-width: 470px;
+}
+.css-1nuo49t-MuiButtonBase-root-MuiTab-root{
+  padding: 12px 6px;
+}
+
+nav ul li{
+  text-align: center;
+  align-items: center;
+  display: flex;
+}

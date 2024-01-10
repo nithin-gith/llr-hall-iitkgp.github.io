@@ -125,7 +125,7 @@ export default function HallCouncil() {
         <Box sx={{ width: "100%" }}>
           <Box  sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs
-            
+              className="years-tabs"
               style={{ marginTop: "2rem" }}
               value={value}
               onChange={handleChange}
@@ -134,12 +134,13 @@ export default function HallCouncil() {
               indicatorColor="secondary" 
               centered
             >
-              {/* <Tab label="2023-2024" style ={{outline:"none" ,width:"20%"}} {...a11yProps(0)} /> */}
-              <Tab label="2023-2024" style ={{outline:"none" ,width:"20%"}} {...a11yProps(0)} />
-              <Tab label="2022-2023" style ={{outline:"none" ,width:"20%"}} {...a11yProps(1)} />
-              <Tab label="2021-2022" style ={{outline:"none" ,width:"20%"}} {...a11yProps(2)} />
-              <Tab label="2020-2021" style ={{outline:"none" ,width:"20%"}} {...a11yProps(3)} />
-              <Tab label="2019-2020" style ={{outline:"none" ,width:"20%"}} {...a11yProps(4)} />
+          
+                {/* <Tab label="2023-2024" style ={{outline:"none" ,width:"20%"}} {...a11yProps(0)} /> */}
+                <Tab label="2023-2024" style ={{outline:"none" ,width:"20%"}} {...a11yProps(0)} />
+                <Tab label="2022-2023" style ={{outline:"none" ,width:"20%"}} {...a11yProps(1)} />
+                <Tab label="2021-2022" style ={{outline:"none" ,width:"20%"}} {...a11yProps(2)} />
+                <Tab label="2020-2021" style ={{outline:"none" ,width:"20%"}} {...a11yProps(3)} />
+                <Tab label="2019-2020" style ={{outline:"none" ,width:"20%"}} {...a11yProps(4)} />
             </Tabs>
           </Box>
           <TabPanel value={value} index={0}>
@@ -179,7 +180,7 @@ export default function HallCouncil() {
               />
               <Card2
                 img={tech2024}
-                name="Avinash Kalepu"
+                name="Kalepu Avinash"
                 position="General Secretary Technology"
                 fb="https://www.facebook.com/avinash.kalepu.9"
                 linkedin="https://www.linkedin.com/in/kalepu-avinash-966b15229/"
